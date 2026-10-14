@@ -9,9 +9,9 @@ checker: check.py
 baseline_snapshot: baseline_snapshot/real_point.json
 generator: how-we-built-it/
 preregistered_threshold: DIRECTIONAL — d >= 0.05, where d = max(|H1n_zipf − H1n_real|, |C_zipf − C_real|), MM estimator, base-592 logs, corrected order, post-orient dedup. Synthetic: iid draws p(k) ∝ k^−s over V=592 types at the same 1948 lengths, seed 260417831; s = own log-log OLS Zipf fit (no borrowed constants). d < 0.05 would mean the counterexample succeeds (Sproat-side indistinguishability) → gate-not-met negative, equally publishable. Fixed 2026-10-14 before any synthetic number was computed.
-result: TBD — pipeline not yet run at preregistration commit
+result: s=1.4236 own-fit; real (0.7561, 0.4167) vs synth (0.4816, 0.4189); d=0.2746 >= 0.05 — gate PASS (distinguishable); checker PASS 2026-10-14. Nuance: C alone matches (0.4189 vs 0.4167); separation is in H1n — exactly Rao's reply point, measured independently.
 skeptics: []
-status: draft
+status: under-skeptic-review
 limitations:
   - One counterexample family (iid Zipf) out of Sproat's broader Benedikt-casebook; a pass here does not close the rebuttal, only this instance.
   - MM estimator (not NSB); absolute points estimator-dependent (cf. skeptic-2 on L1-0001) — the DISTANCE comparison uses the same estimator both sides.
