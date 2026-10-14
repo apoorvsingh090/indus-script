@@ -9,9 +9,9 @@ checker: check.py
 baseline_snapshot: baseline_snapshot/nulls.json
 generator: how-we-built-it/
 preregistered_threshold: rep3_real > max(rep3 over B=200 token shuffles) AND rep4_real > max(rep4 over B=200 shuffles), seed 260417830, fixed lengths. repK = distinct length-K substrings occurring in >=2 distinct inscriptions. CORRECTED order (L-R rows reversed), exact-dedup after orienting. Counts are reversal-invariant, so orientation cannot favor the gate. Fixed 2026-10-14 before any phrase count was computed.
-result: TBD — pipeline not yet run at preregistration commit
+result: rep3 576 > null-max 111; rep4 189 > null-max 4 (B=200, seed 260417830) — gate PASS; checker PASS 2026-10-14. Cross-version: Nair 565/187. succ-cov 0.456 (Nair range 0.319-0.884).
 skeptics: []
-status: draft
+status: under-skeptic-review
 limitations:
   - Cross-version comparison to Nair len3/len4 (565/187 on ICIT 1916/584/11110): drift expected (dedup + tokenization differ).
   - Bigram top-3 successor coverage reported (own definition, not gated).
