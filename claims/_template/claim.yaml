@@ -1,0 +1,13 @@
+id: L0-0000
+title: <one line, no stretch of "solved">
+level: L0  # L0|L1|L2|L3|L4|L5
+corpus_snapshot_sha256: <hash from data/processed/SHA256SUMS>
+sign_scheme: ICIT  # ICIT | M77 | P82
+object: path/to/object
+checker: path/to/check.py
+baseline_snapshot: path/to/baseline
+generator: path/to/how-we-built-it/
+preregistered_threshold: <fixed before run; with timestamp/hash of commitment>
+result: <metric + interval, e.g. "acc 0.41 [0.37,0.45] vs baseline 0.33">
+skeptics: []  # skeptic run ids, each reproduced independently
+status: draft  # draft | under-skeptic-review | verified | failed-reproduction | withdrawn

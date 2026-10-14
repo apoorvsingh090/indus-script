@@ -1,0 +1,2 @@
+id,level,description,sha256,created_utc,reveal_status
+# example: L5-0001,L5,"predict sign X at site Y locus Z",<sha256>,2026-10-14T00:00:00Z,committed

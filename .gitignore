@@ -1,0 +1,13 @@
+# Python, OS, data droppings
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Frozen snapshots are checksummed; keep raw untouched
+# (do not ignore data/ — provenance matters)
+
+# Secrets / local access
+.env
+*_api_key*
+cookies.txt

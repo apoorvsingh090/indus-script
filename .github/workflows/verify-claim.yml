@@ -1,0 +1,43 @@
+name: verify-claim
+
+on:
+  pull_request:
+    paths:
+      - "claims/**/claim.yaml"
+      - "claims/**/check.py"
+  push:
+    branches: [main]
+    paths:
+      - "claims/**/claim.yaml"
+      - "claims/**/check.py"
+
+jobs:
+  lint-claims:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate claim.yaml files parse + required keys
+        run: |
+          python - <<'PY'
+          import glob, sys
+          try:
+              import yaml
+          except ImportError:
+              import subprocess
+              subprocess.check_call([sys.executable, "-m", "pip", "install", "pyyaml"])
+              import yaml
+          required = {"id","title","level","corpus_snapshot_sha256","sign_scheme","object","checker","baseline_snapshot","generator","preregistered_threshold","result","skeptics","status"}
+          bad = 0
+          for f in glob.glob("claims/L*/**/claim.yaml", recursive=True) + glob.glob("claims/_template/claim.yaml"):
+              doc = yaml.safe_load(open(f))
+              missing = required - set(doc or {})
+              if missing:
+                  print(f"FAIL {f}: missing {sorted(missing)}")
+                  bad += 1
+              else:
+                  print(f"OK {f}")
+          sys.exit(1 if bad else 0)
+          PY
