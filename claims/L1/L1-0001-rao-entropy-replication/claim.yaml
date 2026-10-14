@@ -9,9 +9,9 @@ checker: check.py
 baseline_snapshot: baseline_snapshot/nulls.json
 generator: how-we-built-it/
 preregistered_threshold: C_real < p0.5 percentile of C over B=200 corpus shuffles (seed 260417828) AND C_real < C_uniform; C = (H2-H1)/log2(L) with Miller-Madow correction, as-stored order, exact-deduped corpus. Fixed 2026-10-14 before any entropy was computed (see git history: this file committed before results).
-result: TBD — pipeline not yet run at preregistration commit
+result: C_real 0.4098 < null-min 0.5593 (mean 0.5633 sd 0.0016, B=200, seed 260417828) and < uniform 0.4642 — gate PASS; checker PASS 2026-10-14
 skeptics: []
-status: draft
+status: under-skeptic-review
 limitations:
   - Estimator is ML + Miller-Madow, NOT Rao's NSB estimator (no NSB implementation) — values not directly comparable to Rao Fig.1 numbers (which are figure-only anyway).
   - Sign scheme differs (G 592 vs M77 417); corpus differs (2543 texts/11280 tokens vs 1548/7000). Structural comparison only.
