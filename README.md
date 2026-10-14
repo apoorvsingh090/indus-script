@@ -71,6 +71,11 @@ No corpus files are vendored yet. See `data/raw/README.md` + `data/raw/provenanc
 3. Fix thresholds/splits *before* running; log timestamps/hashes.
 4. File negatives and partials — they go in `TROPHY_CASE.md` too.
 
+## Contributing
+
+Open to all via fork + PR — see `CONTRIBUTING.md`. No invite needed.
+Use [Discussions](https://github.com/apoorvsingh090/indus-script/discussions) for Q&A and target ideas, and the `claim` / `skeptic-report` issue templates for reviews. Epigraphers and linguists especially welcome as external reviewers (planner Phase 0).
+
 ## License
 
-Code: MIT (`LICENSE`). Data: per-file terms in `data/raw/provenance.csv` — verify before reuse, do not assume redistribution is allowed.
+Code: MIT (`LICENSE`). Data: per-file terms in `data/raw/provenance.csv` — see `DATA_NOTICE.md`; verify before reuse, do not assume redistribution is allowed.
