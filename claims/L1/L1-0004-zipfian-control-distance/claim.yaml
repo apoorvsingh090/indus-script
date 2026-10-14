@@ -1,0 +1,17 @@
+id: L1-0004
+title: Sproat-style Zipfian-iid counterexample is entropically distinguishable from Indus (supports Rao's reply)
+level: L1
+corpus_snapshot_sha256: 7258075509684e008aea3d9726417de86a135c1a4325e2e633e0cb98598392c8
+corpus_source: joyboseroy/indus_decipher indus_website_real_corpus.csv @ HF rev 47e8616dff4d1ff62343bd74f3eeefc4afbfd4d8 (NOT vendored; fetch via ../L1-0001-rao-entropy-replication/how-we-built-it/fetch_corpus.py)
+sign_scheme: G-indus-website
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/real_point.json
+generator: how-we-built-it/
+preregistered_threshold: DIRECTIONAL — d >= 0.05, where d = max(|H1n_zipf − H1n_real|, |C_zipf − C_real|), MM estimator, base-592 logs, corrected order, post-orient dedup. Synthetic: iid draws p(k) ∝ k^−s over V=592 types at the same 1948 lengths, seed 260417831; s = own log-log OLS Zipf fit (no borrowed constants). d < 0.05 would mean the counterexample succeeds (Sproat-side indistinguishability) → gate-not-met negative, equally publishable. Fixed 2026-10-14 before any synthetic number was computed.
+result: TBD — pipeline not yet run at preregistration commit
+skeptics: []
+status: draft
+limitations:
+  - One counterexample family (iid Zipf) out of Sproat's broader Benedikt-casebook; a pass here does not close the rebuttal, only this instance.
+  - MM estimator (not NSB); absolute points estimator-dependent (cf. skeptic-2 on L1-0001) — the DISTANCE comparison uses the same estimator both sides.
