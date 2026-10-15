@@ -9,3 +9,8 @@ Scope honesty: type-level grapheme sets only; G-scheme (our working corpus)
 unbridged; mayig judgments provisional vs Fuls authority. This table lets
 future claims convert P-side counts to M-side approximately — with the
 multi/unmapped rows forcing explicit contested-code handling.
+
+Status glossary: `clean-1:1` = exactly one W and one M per P; `multi` = split
+or merge on either side (contested); `unmapped-W` = has M but no W;
+`unmapped-M` = has W but no M; `unmapped-WM` = neither. Schema = CSV header
+`p,w_list,m_list,v_list,status` (pipe-joined, source order).

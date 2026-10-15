@@ -11,8 +11,8 @@ baseline_snapshot: baseline_snapshot/unigram.json
 generator: how-we-built-it/
 preregistered_threshold: "IDENTICAL gate and method to L2-0001 (frozen pipeline reused, no new modeling code): TEST paired-bootstrap 95% CI lower > 0 (B=2000, seed 260417833) AND point diff > 0.01; alpha grid + tie-break + pos-0 backoff unchanged. Rotation tests generality across sites. Fixed before any v2 accuracy was computed."
 result: "TEST acc unigram 0.1086 / bigram(a=0.001) 0.1979 / positional 0.1088; diff 0.0892 CI95 [0.0805, 0.0978] — gate PASS; frozen checker PASS 2026-10-15."
-skeptics: []
-status: under-skeptic-review
+skeptics: [skR-A, skR-B]
+status: verified  # 2/2 independent reproductions (token-exact gate numbers; log-loss/positional notes folded in)
 limitations:
   - "Single rotation only (2 sites); full leave-one-site-out is future work."
   - "Val sites reused from v1 (leakage-free vs new test, but val-seen design choice documented)."
