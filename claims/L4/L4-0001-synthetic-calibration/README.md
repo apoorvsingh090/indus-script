@@ -13,8 +13,11 @@ budgets reduced (B=100/1000) vs production — stated tradeoff.
 | 1000 | 0.334 < 0.367 PASS | 0.0363 [0.0196, 0.0538] PASS | 39/3 vs 6/1 PASS |
 | 1948 | 0.362 < 0.407 PASS | 0.0490 [0.0376, 0.0603] PASS | 110/7 vs 13/1 PASS |
 
-N_min (sensitivity floor): ENT ≤ 250, L2 = 500, full-panel = 1000.
+N_min (sensitivity floor): ENT ≤ 250, L2 = 500 on the fixed split, full-panel = 1000.
 The N=250 L2 miss (CI lower exactly 0.0000) marks the power cliff honestly.
+Skeptic robustness qualification: across split seeds and non-nested resampling,
+N=500 L2 flips — the ROBUST floor is 1000; 500 holds only on the fixed split.
+The preregistered @1948 gate is unaffected.
 
 ## Emblem-like profile (reported, not gated) — the discriminator finding
 
@@ -37,3 +40,19 @@ emblem family. One family only: no general non-linguistic exclusion claimed.
   random splits — the splits-v1 leakage rule working as designed.
 - Transparent-box (generator params committed); hidden-key runs on real scripts
   remain open future work.
+
+## Cross-implementation robustness (from skeptic review)
+
+- Exact numbers vary across independent rebuilds (different excerpt/tokenization
+  details); VERDICTS agree everywhere: ling@1948 all-pass, N_min ladder shape,
+  emblem L2-negative, N=250 cliff.
+- Authoritative generator behavior (mine): emblem@1948 ≈ 132 types
+  (8 OP + 40 CO + 6 CL + ~75 realized singletons); split rule = one
+  `Random(seed_base+1)` shuffle, 60/20/20. Skeptic variants with different
+  vocabs (298/471) still reproduce all verdicts — outcomes robust to
+  implementation drift.
+- P&P pin is the LF-normalized UTF-8 SHA256 (fetch decodes universal newlines
+  before hashing — self-consistent by construction; raw CRLF bytes differ).
+- Emblem L2-negative mechanism (skeptic-B): unigram wins via the CORE1 ~13%
+  mode; bigram loses even off position-0 (15.0% vs 16.0%) because core draws
+  are iid — no exploitable sequential structure beyond slots.
