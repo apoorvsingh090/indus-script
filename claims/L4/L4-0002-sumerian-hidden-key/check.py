@@ -14,7 +14,7 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 CLAIM = HERE
-ROOT = CLAIM.parents[3]
+ROOT = CLAIM.parents[2]
 sys.path.insert(0, str(HERE / "how-we-built-it"))
 sys.path.insert(0, str(ROOT / "benchmarks" / "baselines"))
 sys.path.insert(0, str(ROOT / "claims" / "L1" / "L1-0001-rao-entropy-replication" / "how-we-built-it"))
