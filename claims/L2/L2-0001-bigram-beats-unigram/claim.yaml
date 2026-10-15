@@ -1,0 +1,19 @@
+id: L2-0001
+title: Bigram beats unigram on site-held-out next-sign prediction (top-1 accuracy, paired bootstrap)
+level: L2
+corpus_snapshot_sha256: 7258075509684e008aea3d9726417de86a135c1a4325e2e633e0cb98598392c8
+splits_sha256: 0398a16b7f8eef648cd2df25cdb895983631ada11e339b29c60fce9ff01df6d9
+splits: benchmarks/splits/v1/ (train Mohenjo-daro+rest 1365/6527; val Lothal/Dholavira/Kalibangan 185/846; test Harappa 814/3400; train-overlapping seqs excluded from val/test; corrected order)
+sign_scheme: G-indus-website
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/unigram.json
+generator: how-we-built-it/
+preregistered_threshold: "On TEST: (bigram_acc − unigram_acc) paired-bootstrap 95% CI lower bound > 0 (B=2000, seed 260417833, texts weighted by length) AND point diff > 0.01. Bigram alpha from {0.001, 0.01, 0.1, 1.0} by VAL accuracy, ties to smallest alpha; position-0 backs off to unigram top. Metric: top-1 next-sign accuracy over ALL positions. Log-loss + positional model reported (not gated). Fixed before any accuracy was computed."
+result: TBD — pipeline not yet run at preregistration commit
+skeptics: []
+status: draft
+power_note: "Test ~3400 predictions; unpaired SE ~1pp, paired tighter — diffs of several pp well-powered; 1pp floor guards triviality."
+limitations:
+  - "Single test site (Harappa); cross-site generality untested — multi-site rotation is future work."
+  - "object_type uniformly unknown in this corpus: the object-level split is vacuous (documented in make_splits.py)."

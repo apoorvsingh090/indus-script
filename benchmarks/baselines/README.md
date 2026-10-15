@@ -1,4 +1,8 @@
-# baselines/ — unigram, n-gram, positional
+# baselines/ — L2 v1 reference models (fit on train only)
 
-Each baseline: code + frozen scores on the fixed splits (Phase 3).
-L2 claims must beat these on held-out data.
+- `models.py`: `Unigram`, `Bigram(alpha)`, `Positional`, plus `accuracy`
+  (top-1 next-sign, all positions), `mean_logloss` (bits), `paired_bootstrap_ci`.
+- Smoothing selection: bigram α from {0.001, 0.01, 0.1, 1.0} by VAL accuracy,
+  ties → smallest α. Position-0 prediction backs off to unigram top.
+- Frozen inputs: `../splits/v1/` (splits-sha `0398a16b…`).
+- L2-0001 (`claims/L2/L2-0001-bigram-beats-unigram`) is the first scored claim.
