@@ -10,7 +10,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[4]
+ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "benchmarks" / "baselines"))
 from models import ALPHAS, Bigram, Positional, Unigram, accuracy, load_split, paired_bootstrap_ci
 

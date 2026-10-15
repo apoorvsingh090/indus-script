@@ -62,7 +62,7 @@ class Bigram:
             return self.top
         tot = sum(self.bi[prev].values())
         best, bk = None, -1.0
-        for cand in self.vocab:
+        for cand in sorted(self.vocab):  # sorted: deterministic tie-break (never set order)
             p = (self.bi[prev].get(cand, 0) + self.alpha) / (tot + self.alpha * self.V)
             if p > bk:
                 best, bk = cand, p
