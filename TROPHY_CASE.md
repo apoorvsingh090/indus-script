@@ -15,6 +15,7 @@
 | [L0-0001](claims/L0/L0-0001-mayig-joy-xcheck/claim.yaml) | L0 | mayig→joy cisi derivation faithful 179/179 exact (bijection, no drops); info-loss inventoried | joy cisi (`431b42a4…`) + mayig @ad2f1e2 | P-codes | skL0-A, skL0-B | 2026-10-15 |
 | [L0-0002](claims/L0/L0-0002-concordance-v01/claim.yaml) | L0 | P/W/M/V v0.1 reconciles byte-exact (227 clean-1:1, 80 multi, 89 unmapped; 13 contested-M); G unbridged | mayig @ad2f1e2 | P/W/M/V | skC-A, skC-B | 2026-10-15 |
 | [L2-0003](claims/L2/L2-0003-bigram-beats-unigram-rotated/claim.yaml) | L2 | bigram 0.1979 beats unigram 0.1086 on Mohenjo-daro held-out (diff 0.0892, CI95 [0.0805, 0.0978]); log-loss disagrees as found | splits v2 (`6996368c…`) | G-592 | skR-A, skR-B | 2026-10-15 |
+| [L4-0002](claims/L4/L4-0002-sumerian-hidden-key/claim.yaml) | L4 | NEGATIVE (partial): Sumerian gates pass, exact-rank key recovery 5/10 < 7 (mid-rank shuffling; tolerance alone insufficient per review) | ETCSRI Sumerian windows | SUMER | skS-A, skS-B | 2026-10-15 |
 
 ## How entries get added
 

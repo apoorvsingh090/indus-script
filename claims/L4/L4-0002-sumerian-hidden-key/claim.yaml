@@ -10,8 +10,8 @@ baseline_snapshot: baseline_snapshot/sumer.json
 generator: how-we-built-it/
 preregistered_threshold: "At N=1948 Sumerian windows: ENT (MM-C < B=100 null min) AND L2 (bigram a=0.001 vs unigram on 974/974 halves, paired-bootstrap CI lower > 0 with B=1000, diff > 0.01) AND REP (rep3/rep4 > B=100 null maxima) all pass; hidden-key rank-recovery top-10 hits >= 7/10 (reference = plaintext half, cipher = other half). Alpha fixed (no val split on this cell — stated deviation). Fixed before any Sumerian number was computed; key sealed by hash above."
 result: "PARTIAL NEGATIVE — ENT+L2+REP pass on real Sumerian (sensitivity confirmed); hidden-key exact-rank recovery 5/10 < 7 (mid-rank shuffling defeats position-exact mapping); checker FAIL on key arm as designed; key reveal sha-verified. Published as negative with mechanism."
-skeptics: []
-status: draft  # negative awaiting skeptic confirmation before TROPHY_CASE entry
+skeptics: [skS-A, skS-B]
+status: verified  # partial negative confirmed 2/2 (gates pass, key arm fails; qualifications folded in)
 limitations:
   - "Windows protocol: contiguous excerpt windows (token-weighted text choice, modular wrap); royal-inscription genre only, not running prose."
   - "Transparent-box-adjacent: builder generated the key (procedural commitment, disclosed); recovery validity does not depend on builder blindness."

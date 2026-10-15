@@ -32,3 +32,11 @@ future work (L4-0003 candidate); this claim stands as a partial negative.
   seen; threshold text otherwise unchanged). Full disclosure, no peeking.
 - Alpha fixed at production 0.001 (no val split on this cell — stated deviation).
 - License caution kept: CC0 per file header; attribution + link; never vendored.
+- Skeptic-B qualifications (folded in, gate unaffected): (a) tolerance alone
+  (±2 ranks) clears 7/10 only 2/3 seeds — NOT a confirmed fix; bigram-assisted
+  recovery remains untested future work; (b) an alternative log-likelihood L2
+  formulation is seed-fragile, while the frozen accuracy formulation passes on
+  every seed/implementation tried — the calibration covers our method as
+  specified, not all formulations; (c) extraction drift exists (corpus V
+  569 vs 630 across implementations; windowed V 370 vs 395) with verdict-level
+  agreement throughout.
