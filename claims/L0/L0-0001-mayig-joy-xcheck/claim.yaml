@@ -9,9 +9,9 @@ checker: check.py
 baseline_snapshot: baseline_snapshot/counts.json
 generator: how-we-built-it/
 preregistered_threshold: "Exact side-sequence agreement on all 179 inscriptions (match rate == 1.0). Match rule: joy sign_sequence equals some side's grapheme-id list in the corresponding mayig JSON (sides tried in file order). Fixed before the checker run was committed."
-result: "TBD — checker not yet run at preregistration commit"
+result: "179/179 exact side-sequence matches — gate PASS; checker PASS 2026-10-15."
 skeptics: []
-status: draft
+status: under-skeptic-review
 limitations:
   - "Sequence identity only: says nothing about transcription correctness vs CISI plates (that check needs copyrighted scans, not redistributable)."
   - "Covers the 179-seal cisi subset, not the 2543-row indus_website corpus (different source chain: yajnadevam)."
