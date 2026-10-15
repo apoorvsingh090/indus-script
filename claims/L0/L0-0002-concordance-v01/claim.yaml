@@ -1,0 +1,17 @@
+id: L0-0002
+title: "Type-level P→W/M/V concordance v0.1 reconciles with mayig source (contested splits listed)"
+level: L0
+corpus_snapshot_sha256: "mayig @ ad2f1e218a34b8c33c57de0d6cb8d99272765bbb (source of mapping, not inscription data)"
+object_sha256: "5c487299eb9d1af7869925c8b50ca555a7febc10ae3f752b228439d25b885cc8 (data/concordance/pwm-v01.csv)"
+sign_scheme: "P/W/M/V type-level crosswalk (NOT inscription coding; G-scheme still unbridged)"
+object: data/concordance/pwm-v01.csv
+checker: check.py
+baseline_snapshot: baseline_snapshot/counts.json
+generator: ../../data/concordance/build_concordance.py
+preregistered_threshold: "Checker byte-rebuild from mayig clone matches object sha AND status counts equal {clean-1:1: 227, multi: 80, unmapped-WM: 38, unmapped-W: 27, unmapped-M: 24} AND ≥10 M-codes shared by >1 P listed contested. Fixed before the checker run was committed."
+result: "TBD — checker not yet run at preregistration commit"
+skeptics: []
+status: draft
+limitations:
+  - "Type-level only (grapheme sets, not inscription attestations); G-scheme (our main corpus) has NO bridge in v0.1."
+  - "mayig mappings are one editor's structural judgments, not Fuls Ch2.4/2.5 authority — provisional."
