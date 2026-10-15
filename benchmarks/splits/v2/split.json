@@ -1,0 +1,32 @@
+{
+  "design": "site-disjoint",
+  "test_sites": [
+    "Mohenjo-daro"
+  ],
+  "val_sites": [
+    "Dholavira",
+    "Kalibangan",
+    "Lothal"
+  ],
+  "train": "all other sites",
+  "order": "corrected (L-R reversed)",
+  "leakage_rule": "drop test/val seqs seen in train",
+  "excluded": {
+    "val": 14,
+    "test": 76
+  },
+  "counts": {
+    "train": {
+      "texts": 1133,
+      "tokens": 4533
+    },
+    "val": {
+      "texts": 194,
+      "tokens": 883
+    },
+    "test": {
+      "texts": 1126,
+      "tokens": 5625
+    }
+  }
+}

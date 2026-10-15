@@ -15,7 +15,8 @@ Design (fixed before any accuracy was computed):
 Writes train.jsonl / val.jsonl / test.jsonl (one record per line:
 {"id","site","signs"}) + split.json (design + counts + sha) — then the caller
 runs sha256sum into SHA256SUMS. Re-run is deterministic.
-Usage: python make_splits.py <corpus.csv> <out_dir>
+Usage: python make_splits.py <corpus.csv> <out_dir> [--test A,B] [--val C,D]
+Defaults reproduce splits v1 (test Harappa; val Lothal,Dholavira,Kalibangan).
 """
 import csv
 import hashlib
@@ -29,6 +30,12 @@ VAL_SITES = {"Lothal", "Dholavira", "Kalibangan"}
 
 def main() -> int:
     corpus, out = Path(sys.argv[1]), Path(sys.argv[2])
+    test_sites, val_sites = set(TEST_SITES), set(VAL_SITES)
+    args = sys.argv[3:]
+    if "--test" in args:
+        test_sites = set(args[args.index("--test") + 1].split(","))
+    if "--val" in args:
+        val_sites = set(args[args.index("--val") + 1].split(","))
     out.mkdir(parents=True, exist_ok=True)
     rows = []
     with open(corpus, newline="", encoding="utf-8") as f:
@@ -43,8 +50,8 @@ def main() -> int:
                          "signs": toks})
     buckets = {"train": [], "val": [], "test": []}
     for r in rows:
-        buckets["test" if r["site"] in TEST_SITES
-                else "val" if r["site"] in VAL_SITES else "train"].append(r)
+        buckets["test" if r["site"] in test_sites
+                else "val" if r["site"] in val_sites else "train"].append(r)
     train_seqs = {" ".join(r["signs"]) for r in buckets["train"]}
     excluded = {}
     for name in ("val", "test"):
@@ -56,8 +63,9 @@ def main() -> int:
                 keep.append(r)
         excluded[name] = drop
         buckets[name] = keep
-    info = {"design": "site-disjoint v1", "test_sites": sorted(TEST_SITES),
-            "val_sites": sorted(VAL_SITES), "train": "Mohenjo-daro + rest",
+    info = {"design": "site-disjoint", "test_sites": sorted(test_sites),
+            "val_sites": sorted(val_sites),
+            "train": "all other sites",
             "order": "corrected (L-R reversed)", "leakage_rule": "drop test/val seqs seen in train",
             "excluded": excluded,
             "counts": {k: {"texts": len(v), "tokens": sum(len(r["signs"]) for r in v)}
