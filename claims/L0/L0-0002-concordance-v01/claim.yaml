@@ -9,9 +9,9 @@ checker: check.py
 baseline_snapshot: baseline_snapshot/counts.json
 generator: ../../data/concordance/build_concordance.py
 preregistered_threshold: "Checker byte-rebuild from mayig clone matches object sha AND status counts equal {clean-1:1: 227, multi: 80, unmapped-WM: 38, unmapped-W: 27, unmapped-M: 24} AND ≥10 M-codes shared by >1 P listed contested. Fixed before the checker run was committed."
-result: "TBD — checker not yet run at preregistration commit"
+result: "Byte-rebuild sha match + counts match + 13 contested-M — gate PASS; checker PASS 2026-10-15."
 skeptics: []
-status: draft
+status: under-skeptic-review
 limitations:
   - "Type-level only (grapheme sets, not inscription attestations); G-scheme (our main corpus) has NO bridge in v0.1."
   - "mayig mappings are one editor's structural judgments, not Fuls Ch2.4/2.5 authority — provisional."
