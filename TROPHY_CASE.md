@@ -10,6 +10,7 @@
 | [L1-0002b](claims/L1/L1-0002b-positional-corrected-order/claim.yaml) | L1 | n80 107/32 beats null (min 67) — mirrors Adhikari 82/23; V 0.156, site-V, hapax, Zipf all match Nair-2026 neighborhood | indus_website @47e8616d | G-592 | sk2b-A, sk2b-B | 2026-10-14 |
 | [L1-0003](claims/L1/L1-0003-formulaic-ngrams/claim.yaml) | L1 | rep3 576 / rep4 189 beat nulls (111/4); match Nair 565/187 | indus_website @47e8616d | G-592 | sk3-A, sk3-B | 2026-10-14 |
 | [L1-0004](claims/L1/L1-0004-zipfian-control-distance/claim.yaml) | L1 | iid-Zipf distinguishable d=0.27 (C-alone matches; H1n separates — Rao's reply point, measured independently) | indus_website @47e8616d | G-592 | sk4-A, sk4-B | 2026-10-14 |
+| [L2-0001](claims/L2/L2-0001-bigram-beats-unigram/claim.yaml) | L2 | bigram 0.1738 beats unigram 0.1162 on Harappa held-out (diff 0.0576, CI95 [0.0453, 0.0698]); positional 0.1029 < unigram as found | splits v1 (`0398a16b…`) | G-592 | skL2-A, skL2-B | 2026-10-15 |
 
 ## How entries get added
 

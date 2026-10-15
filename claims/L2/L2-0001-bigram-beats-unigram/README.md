@@ -18,6 +18,12 @@ Diff bigram−unigram = **0.0576**, paired-bootstrap 95% CI **[0.0453, 0.0698]**
 
 ## Notes
 
+- Positional model spec (previously code-only — stated here after skeptic
+  feedback): slot(pos, len) = begin iff pos == 0; end iff pos == len−1 AND
+  len > 1; else middle. Length-1 inscriptions count as begin ONLY, never end.
+  Prediction = argmax P(sign|slot) fit on train; ties broken canonically
+  (count desc, sign asc), verified PYTHONHASHSEED-independent. Under this exact
+  rule the reported 0.1029 reproduces (skeptic-A confirmed).
 - Positional UNDERPERFORMS unigram (0.1029 < 0.1162): slot marginals alone are a
   weaker predictor than global frequency on unseen-site data, despite real
   positional rigidity (L1-0002b). Description ≠ prediction — recorded as found.

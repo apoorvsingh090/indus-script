@@ -2,6 +2,9 @@
 
 Conventions (fixed with splits v1): CORRECTED reading order in split files;
 slot(pos, length): 0 -> begin; pos == length-1 and length > 1 -> end; else middle.
+Length-1 inscriptions count as begin ONLY (never end). All argmax tie-breaks are
+canonical (count desc, sign asc) — never set/file order, reproducible under any
+PYTHONHASHSEED.
 """
 import math
 from collections import Counter, defaultdict
@@ -86,7 +89,9 @@ class Positional:
             L = len(r["signs"])
             for i, t in enumerate(r["signs"]):
                 self.c[slot(i, L)][t] += 1
-        self.top = {s: c.most_common(1)[0][0] for s, c in self.c.items()}
+        # canonical tie-break: count desc, sign asc (order-independent, never file order)
+        self.top = {s: sorted(c.items(), key=lambda kv: (-kv[1], kv[0]))[0][0]
+                    for s, c in self.c.items()}
 
     def predict(self, prefix, pos, length):
         return self.top[slot(pos, length)]

@@ -11,8 +11,8 @@ baseline_snapshot: baseline_snapshot/unigram.json
 generator: how-we-built-it/
 preregistered_threshold: "On TEST: (bigram_acc − unigram_acc) paired-bootstrap 95% CI lower bound > 0 (B=2000, seed 260417833, texts weighted by length) AND point diff > 0.01. Bigram alpha from {0.001, 0.01, 0.1, 1.0} by VAL accuracy, ties to smallest alpha; position-0 backs off to unigram top. Metric: top-1 next-sign accuracy over ALL positions. Log-loss + positional model reported (not gated). Fixed before any accuracy was computed."
 result: "TEST acc unigram 0.1162 / bigram(a=0.001) 0.1738 / positional 0.1029; diff 0.0576 CI95 [0.0453, 0.0698] — gate PASS; checker PASS incl. PYTHONHASHSEED=99. Positional < unigram recorded as found."
-skeptics: []
-status: under-skeptic-review
+skeptics: [skL2-A, skL2-B]
+status: verified  # 2/2 independent reproductions (gate numbers token-exact; positional spec clarified post-review, canonical tie-break)
 power_note: "Test ~3400 predictions; unpaired SE ~1pp, paired tighter — diffs of several pp well-powered; 1pp floor guards triviality."
 limitations:
   - "Single test site (Harappa); cross-site generality untested — multi-site rotation is future work."

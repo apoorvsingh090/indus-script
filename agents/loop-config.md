@@ -20,7 +20,7 @@
 - [x] L1: replicate Rao et al. 2009 conditional entropy + rebuttals → L1-0001 (verified), L1-0004 (verified)
 - [x] L1: positional / n-gram analyses from Adhikari repo → L1-0002 (confirmed negative: loader spec error), L1-0002b (verified), L1-0003 (verified)
 - [x] L1: synthetic-baseline scorecard (arXiv 2604.17828) → metrics compared (Nair 2026), generators cannot-rerun (code upon-request); see `benchmarks/phase2-scorecard.md`
-- [ ] L2: fixed site/object splits + unigram/n-gram/positional baselines + power analysis
+- [x] L2: fixed site/object splits + unigram/n-gram/positional baselines + power analysis → splits v1 frozen; L2-0001 bigram-beats-unigram (verified)
 - [ ] L4: synthetic + hidden-key calibration harness
 
 ## Open decisions (planner §10)
