@@ -1,0 +1,6 @@
+{
+  "gate": "linguistic@1948 passes ENT+L2+REP; N_min reported; emblem reported",
+  "ENT_B": 100,
+  "REP_B": 100,
+  "BOOT_B": 1000
+}

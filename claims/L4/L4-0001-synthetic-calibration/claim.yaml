@@ -9,9 +9,9 @@ checker: check.py
 baseline_snapshot: baseline_snapshot/gates.json
 generator: how-we-built-it/
 preregistered_threshold: "At N=1948, linguistic-like passes ALL THREE frozen-method gates: (ENT) MM-C < shuffled-null min (B=100); (L2) bigram-minus-unigram paired-bootstrap CI lower > 0 (B=1000) and diff > 0.01 on random 60/20/20 split; (REP) rep3 and rep4 > null maxima (B=100). N_min per method = smallest passing grid size (report-only). Emblem-like profile fully REPORTED, not gated. Fixed before any synthetic number was computed."
-result: "TBD — pipeline not yet run at preregistration commit"
+result: "ling@1948 passes ENT+L2+REP — gate PASS; checker PASS. N_min: ENT<=250, L2=500, full-panel=1000 (N=250 L2 CI touches 0.0000 = power cliff). Emblem: ENT+REP pass, L2 never passes (diff negative) — L2 bar discriminates in this setup."
 skeptics: []
-status: draft
+status: under-skeptic-review
 limitations:
   - "Transparent-box calibration (generator params committed), not hidden-key: planner hidden-key runs on real scripts (Linear B etc.) remain open future work."
   - "Null/bootstrap budgets reduced (B=100/1000) vs production (200/2000) — compute tradeoff, stated."
