@@ -8,10 +8,10 @@ object: object/results.json
 checker: check.py
 baseline_snapshot: baseline_snapshot/nulls.json
 generator: how-we-built-it/
-preregistered_threshold: n80_end < n80_begin (asymmetry, same direction as Adhikari et al. 23-vs-82) AND n80_end < min over B=200 token shuffles (seed 260417829, fixed lengths). Exact-deduped corpus, as-stored order. Position convention: begin = index 0; end = index len-1 with len>1; middle = rest (11 len-1 texts count as begin only). Fixed 2026-10-14 before any positional number was computed (git history proves order).
-result: GATE NOT MET — n80 begin/end = 27/103 as-stored; need end < 27 and < null-min 69; checker FAIL 2026-10-14. Cause: ignored documented loader convention (L-R rows must be reversed before use). Published as negative; corrected follow-up is L1-0002b.
-skeptics: []
-status: draft  # negative awaiting skeptic confirmation before TROPHY_CASE entry
+preregistered_threshold: "n80_end < n80_begin (asymmetry, same direction as Adhikari et al. 23-vs-82) AND n80_end < min over B=200 token shuffles (seed 260417829, fixed lengths). Exact-deduped corpus, as-stored order. Position convention: begin = index 0; end = index len-1 with len>1; middle = rest (11 len-1 texts count as begin only). Fixed 2026-10-14 before any positional number was computed (git history proves order)."
+result: "CONFIRMED NEGATIVE — gate not met as-stored (27/103 vs null-min 69), reproduced by 2 skeptics incl. corrected-order flip test (107/32 mirror image proves cause). Cause: ignored documented loader convention. See L1-0002b for corrected follow-up."
+skeptics: [skneg-01, skneg-02]
+status: verified  # negative finding reproduced 2/2; TROPHY_CASE negative entry
 limitations:
   - Sign IDs not comparable to M77 beginner/ender lists (267/391/293; 342/176/211) without a concordance — direction/count pattern only.
-  - Cramer's-V rigidity + cross-site V + Zipf slope + hapax are REPORTED (not gated), compared to Nair 2026 (ICIT 1916/584/11110): V 0.15, site V 0.160/0.153, Zipf -1.49, hapax 0.33.
+  - "Cramer's-V rigidity + cross-site V + Zipf slope + hapax are REPORTED (not gated), compared to Nair 2026 (ICIT 1916/584/11110): V 0.15, site V 0.160/0.153, Zipf -1.49, hapax 0.33."

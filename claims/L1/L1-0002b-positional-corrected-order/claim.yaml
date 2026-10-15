@@ -8,12 +8,12 @@ object: object/results.json
 checker: check.py
 baseline_snapshot: baseline_snapshot/nulls.json
 generator: how-we-built-it/
-preregistered_threshold: n80_end < n80_begin AND n80_end < min over B=200 token shuffles (seed 260417832, fixed lengths). CORRECTED order: reverse sign_sequence where reading_direction == "L-R", keep as stored where "R-L" (per dataset card loader convention); exact-dedup AFTER orienting. Position convention: begin = index 0; end = index len-1 with len>1; middle = rest. Fixed 2026-10-14 before any corrected-order number was computed.
+preregistered_threshold: 'n80_end < n80_begin AND n80_end < min over B=200 token shuffles (seed 260417832, fixed lengths). CORRECTED order: reverse sign_sequence where reading_direction == "L-R", keep as stored where "R-L" (per dataset card loader convention); exact-dedup AFTER orienting. Position convention: begin = index 0; end = index len-1 with len>1; middle = rest. Fixed 2026-10-14 before any corrected-order number was computed.'
 result: n80 begin/end = 107/32 corrected order (1948 texts post-orient dedup); null-min 67 → gate PASS; checker PASS 2026-10-14. V 0.156 (Nair 0.15); site-V M 0.168/H 0.132 (Nair 0.160/0.153); hapax 0.363 (0.33); zipf -1.42 (-1.49); mean-len 4.66 (4.42).
-skeptics: []
-status: under-skeptic-review
+skeptics: [sk2b-A, sk2b-B]
+status: verified  # 2/2 independent reproductions 2026-10-14
 supersedes_note: L1-0002 (as-stored order, gate not met due to loader-convention specification error)
 limitations:
   - Sign IDs not comparable to M77 lists without a concordance — direction/count pattern only.
-  - "Corrected" = loader convention only, not a claim about the script's true reading direction.
+  - Corrected means loader convention only, not a claim about the true reading direction.
   - Rigidity/V, cross-site V, hapax, Zipf reported (not gated) for Nair-2026 comparison.

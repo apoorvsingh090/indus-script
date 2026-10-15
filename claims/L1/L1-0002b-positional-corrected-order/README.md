@@ -19,13 +19,17 @@ for 80% coverage; we find **107 vs 32** — same direction, same magnitude ratio
 | Metric | Ours (G-592) | Nair ICIT | Note |
 |---|---|---|---|
 | Rigidity mean-V (top-10) | 0.1560 | 0.15 | near-exact |
-| Site V Mohenjo-daro / Harappa | 0.168 / 0.132 (n=970/660) | 0.160 / 0.153 | same direction ("same positional grammar") |
+| Site V Mohenjo-daro / Harappa | 0.168 / 0.132 (n=970/660, per-site top-10) | 0.160 / 0.153 | same direction ("same positional grammar") |
 | Hapax rate | 0.3632 | 0.33 | same ballpark |
 | Zipf slope (log-log OLS) | −1.4236 | −1.49 | same ballpark |
 | Mean length | 4.66 (9080/1948) | 4.42 | same ballpark; revision/dedup drift |
 
 Top beginners/enders (G-codes, scheme-specific — no M77 concordance yet):
 see `object/results.json` (`top_begin`, `top_end`).
+
+Skeptic notes (non-gate): site-V uses per-site top-10 (global top-10 gives
+0.164/0.143 — same M>H ordering); dedup-then-orient gives 1917 texts / 107/31
+vs orient-then-dedup 1948 / 107/32 — gate passes under both orders.
 
 ## Evidentiary note
 
