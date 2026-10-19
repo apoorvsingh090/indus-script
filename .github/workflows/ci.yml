@@ -1,0 +1,43 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  sanity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Python syntax check (all checkers, agents, benchmarks)
+        run: python -m compileall -q .
+
+      - name: Validate claim.yaml files parse + required keys
+        run: |
+          python - <<'PY'
+          import glob, sys
+          import subprocess
+          subprocess.check_call([sys.executable, "-m", "pip", "install", "-q", "pyyaml"])
+          import yaml
+          required = {"id","title","level","corpus_snapshot_sha256","sign_scheme","object","checker","baseline_snapshot","generator","preregistered_threshold","result","skeptics","status"}
+          bad = 0
+          for f in glob.glob("claims/L*/**/claim.yaml", recursive=True) + glob.glob("claims/_template/claim.yaml"):
+              doc = yaml.safe_load(open(f))
+              missing = required - set(doc or {})
+              if missing:
+                  print(f"FAIL {f}: missing {sorted(missing)}")
+                  bad += 1
+              else:
+                  print(f"OK {f}")
+          sys.exit(1 if bad else 0)
+          PY

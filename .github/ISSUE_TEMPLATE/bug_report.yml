@@ -1,0 +1,36 @@
+name: Bug report
+description: Something in the repo tooling, templates, or CI misbehaves
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the bug
+      description: Broken checker harness, workflow, template, path convention, or doc contradiction.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: This is not a claim submission (use the `claim` template) or skeptic report (use the `skeptic` template)
+          required: true
+        - label: I read `READ_BEFORE_CITING.md`
+          required: true
