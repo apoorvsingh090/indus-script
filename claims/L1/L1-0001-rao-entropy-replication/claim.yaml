@@ -17,4 +17,4 @@ limitations:
   - Sign scheme differs (G 592 vs M77 417); corpus differs (2543 texts/11280 tokens raw, 1918/9001 after exact dedup, vs Rao 1548/7000). Structural comparison only.
   - Bigrams heavily undersampled (592^2 bins vs ~9k transitions post-dedup).
   - ronojoy/indus contains papers only (MIT) — no code/data; this replication is an independent reimplementation from the papers, not a rerun.
-  - Skeptic-2 caveat: absolute C is estimator-dependent (ML 0.38 / MM 0.41 / Chao-Shen 0.62); uniform-control margin is thin under ML. Claim is structural (beats nulls), never numeric.
+  - "Skeptic-2 caveat: absolute C is estimator-dependent (ML 0.38 / MM 0.41 / Chao-Shen 0.62); uniform-control margin is thin under ML. Claim is structural (beats nulls), never numeric."

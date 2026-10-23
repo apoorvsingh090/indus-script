@@ -1,0 +1,814 @@
+{"id": "S162", "site": "Harappa", "signs": ["G0", "G0", "G33"]}
+{"id": "S170", "site": "Harappa", "signs": ["G914", "G740", "G527"]}
+{"id": "S173", "site": "Harappa", "signs": ["G16", "G220"]}
+{"id": "S176", "site": "Harappa", "signs": ["G33", "G235"]}
+{"id": "S181", "site": "Harappa", "signs": ["G142", "G740"]}
+{"id": "S198", "site": "Harappa", "signs": ["G692", "G60", "G240", "G603", "G740"]}
+{"id": "S199", "site": "Harappa", "signs": ["G692", "G60", "G798", "G240", "G220", "G520"]}
+{"id": "S205", "site": "Harappa", "signs": ["G806", "G55", "G740"]}
+{"id": "S212", "site": "Harappa", "signs": ["G0", "G0", "G0", "G0"]}
+{"id": "S217", "site": "Harappa", "signs": ["G220", "G240", "G740", "G90"]}
+{"id": "S218", "site": "Harappa", "signs": ["G519", "G740", "G0", "G0"]}
+{"id": "S220", "site": "Harappa", "signs": ["G400", "G154", "G440", "G220"]}
+{"id": "S222", "site": "Harappa", "signs": ["G34", "G700"]}
+{"id": "S225", "site": "Harappa", "signs": ["G219", "G740", "G804"]}
+{"id": "S229", "site": "Harappa", "signs": ["G32", "G1", "G904", "G31", "G740"]}
+{"id": "S232", "site": "Harappa", "signs": ["G390", "G35"]}
+{"id": "S233", "site": "Harappa", "signs": ["G905", "G745", "G4", "G405"]}
+{"id": "S234", "site": "Harappa", "signs": ["G400", "G156", "G435", "G255"]}
+{"id": "S236", "site": "Harappa", "signs": ["G550", "G60"]}
+{"id": "S237", "site": "Harappa", "signs": ["G3", "G220", "G740", "G90", "G400"]}
+{"id": "S240", "site": "Harappa", "signs": ["G231", "G151"]}
+{"id": "S244", "site": "Harappa", "signs": ["G400", "G31", "G384", "G156"]}
+{"id": "S246", "site": "Harappa", "signs": ["G820", "G2", "G5", "G900", "G740"]}
+{"id": "S248", "site": "Harappa", "signs": ["G554", "G740"]}
+{"id": "S249", "site": "Harappa", "signs": ["G831", "G892", "G400"]}
+{"id": "S255", "site": "Harappa", "signs": ["G678", "G400"]}
+{"id": "S257", "site": "Harappa", "signs": ["G156", "G176", "G741", "G60", "G920"]}
+{"id": "S258", "site": "Harappa", "signs": ["G700", "G33", "G711", "G817", "G0"]}
+{"id": "S259", "site": "Harappa", "signs": ["G861", "G2", "G798", "G320", "G920", "G17", "G575", "G740", "G400"]}
+{"id": "S261", "site": "Harappa", "signs": ["G240", "G233", "G503"]}
+{"id": "S264", "site": "Harappa", "signs": ["G32", "G140", "G156", "G400"]}
+{"id": "S266", "site": "Harappa", "signs": ["G400", "G740", "G760", "G605"]}
+{"id": "S268", "site": "Harappa", "signs": ["G0", "G869"]}
+{"id": "S273", "site": "Harappa", "signs": ["G382", "G740", "G400"]}
+{"id": "S274", "site": "Harappa", "signs": ["G255", "G435", "G154"]}
+{"id": "S280", "site": "Harappa", "signs": ["G817", "G2", "G240", "G904", "G740"]}
+{"id": "S281", "site": "Harappa", "signs": ["G98", "G400"]}
+{"id": "S284", "site": "Harappa", "signs": ["G861", "G2", "G103", "G740", "G90"]}
+{"id": "S288", "site": "Harappa", "signs": ["G820", "G798", "G740"]}
+{"id": "S290", "site": "Harappa", "signs": ["G255", "G0", "G520"]}
+{"id": "S291", "site": "Harappa", "signs": ["G803", "G415", "G220", "G318", "G920", "G255", "G436", "G690", "G590", "G407", "G740"]}
+{"id": "S293", "site": "Harappa", "signs": ["G32", "G862", "G2", "G520", "G500", "G220"]}
+{"id": "S294", "site": "Harappa", "signs": ["G233", "G315", "G921", "G70", "G760", "G740"]}
+{"id": "S295", "site": "Harappa", "signs": ["G924", "G740"]}
+{"id": "S297", "site": "Harappa", "signs": ["G455", "G740", "G400"]}
+{"id": "S300", "site": "Harappa", "signs": ["G413", "G575", "G335", "G711", "G33", "G700"]}
+{"id": "S303", "site": "Harappa", "signs": ["G861", "G2", "G3", "G220", "G760", "G151"]}
+{"id": "S306", "site": "Harappa", "signs": ["G176", "G100", "G740"]}
+{"id": "S308", "site": "Harappa", "signs": ["G220", "G0"]}
+{"id": "S309", "site": "Harappa", "signs": ["G740", "G785", "G4"]}
+{"id": "S310", "site": "Harappa", "signs": ["G33", "G590", "G416"]}
+{"id": "S311", "site": "Harappa", "signs": ["G416", "G220", "G767", "G740", "G400"]}
+{"id": "S313", "site": "Harappa", "signs": ["G220", "G550", "G525"]}
+{"id": "S315", "site": "Harappa", "signs": ["G2", "G5", "G405"]}
+{"id": "S316", "site": "Harappa", "signs": ["G240", "G904", "G740"]}
+{"id": "S317", "site": "Harappa", "signs": ["G32", "G226", "G400"]}
+{"id": "S318", "site": "Harappa", "signs": ["G16", "G220"]}
+{"id": "S319", "site": "Harappa", "signs": ["G1", "G900", "G165", "G400", "G255", "G400"]}
+{"id": "S322", "site": "Harappa", "signs": ["G803", "G415", "G231", "G706", "G33", "G520"]}
+{"id": "S370", "site": "Harappa", "signs": ["G413", "G575", "G335", "G740", "G32", "G700"]}
+{"id": "S371", "site": "Harappa", "signs": ["G740", "G31", "G1", "G140"]}
+{"id": "S373", "site": "Harappa", "signs": ["G435", "G3", "G550"]}
+{"id": "S375", "site": "Harappa", "signs": ["G171", "G33", "G700", "G415"]}
+{"id": "S378", "site": "Harappa", "signs": ["G550", "G60", "G590", "G390", "G740"]}
+{"id": "S382", "site": "Harappa", "signs": ["G140", "G61", "G740", "G400"]}
+{"id": "S383", "site": "Harappa", "signs": ["G740", "G31", "G1", "G140"]}
+{"id": "S386", "site": "Harappa", "signs": ["G829", "G617", "G400"]}
+{"id": "S388", "site": "Harappa", "signs": ["G0", "G455", "G220", "G2"]}
+{"id": "S390", "site": "Harappa", "signs": ["G255", "G435", "G156", "G400"]}
+{"id": "S392", "site": "Harappa", "signs": ["G137", "G400"]}
+{"id": "S393", "site": "Harappa", "signs": ["G590", "G745", "G4", "G0"]}
+{"id": "S394", "site": "Harappa", "signs": ["G590", "G741", "G371", "G455", "G4", "G390"]}
+{"id": "S396", "site": "Harappa", "signs": ["G516", "G775", "G400"]}
+{"id": "S397", "site": "Harappa", "signs": ["G231", "G176", "G740", "G565"]}
+{"id": "S400", "site": "Harappa", "signs": ["G140", "G1", "G31", "G740"]}
+{"id": "S403", "site": "Harappa", "signs": ["G126", "G515", "G740"]}
+{"id": "S405", "site": "Harappa", "signs": ["G171", "G33", "G240", "G630", "G740"]}
+{"id": "S406", "site": "Harappa", "signs": ["G400", "G740", "G100", "G240"]}
+{"id": "S407", "site": "Harappa", "signs": ["G799", "G840", "G760", "G740"]}
+{"id": "S409", "site": "Harappa", "signs": ["G861", "G2", "G35", "G405"]}
+{"id": "S410", "site": "Harappa", "signs": ["G240", "G904", "G740", "G400"]}
+{"id": "S411", "site": "Harappa", "signs": ["G0", "G2", "G61", "G702", "G740"]}
+{"id": "S414", "site": "Harappa", "signs": ["G491", "G920", "G32"]}
+{"id": "S415", "site": "Harappa", "signs": ["G176", "G740", "G590", "G892", "G352", "G297", "G400"]}
+{"id": "S416", "site": "Harappa", "signs": ["G233", "G220"]}
+{"id": "S417", "site": "Harappa", "signs": ["G90", "G400"]}
+{"id": "S418", "site": "Harappa", "signs": ["G231", "G176", "G740", "G565"]}
+{"id": "S419", "site": "Harappa", "signs": ["G741", "G368", "G400"]}
+{"id": "S420", "site": "Harappa", "signs": ["G717", "G415", "G100", "G90"]}
+{"id": "S422", "site": "Harappa", "signs": ["G31", "G384", "G740"]}
+{"id": "S423", "site": "Harappa", "signs": ["G235", "G176", "G740", "G400"]}
+{"id": "S424", "site": "Harappa", "signs": ["G692", "G60", "G240", "G636", "G740"]}
+{"id": "S425", "site": "Harappa", "signs": ["G67", "G143", "G740"]}
+{"id": "S426", "site": "Harappa", "signs": ["G32", "G790", "G407"]}
+{"id": "S427", "site": "Harappa", "signs": ["G717", "G740", "G400"]}
+{"id": "S430", "site": "Harappa", "signs": ["G104", "G4", "G405"]}
+{"id": "S433", "site": "Harappa", "signs": ["G700", "G33"]}
+{"id": "S434", "site": "Harappa", "signs": ["G1", "G34", "G700"]}
+{"id": "S437", "site": "Harappa", "signs": ["G520", "G240"]}
+{"id": "S448", "site": "Harappa", "signs": ["G820", "G2", "G382", "G760", "G382"]}
+{"id": "S453", "site": "Harappa", "signs": ["G491", "G817", "G740"]}
+{"id": "S454", "site": "Harappa", "signs": ["G491", "G817", "G740"]}
+{"id": "S455", "site": "Harappa", "signs": ["G740", "G760", "G240"]}
+{"id": "S458", "site": "Harappa", "signs": ["G400", "G740", "G67", "G100"]}
+{"id": "S461", "site": "Harappa", "signs": ["G892", "G740"]}
+{"id": "S466", "site": "Harappa", "signs": ["G3", "G861"]}
+{"id": "S467", "site": "Harappa", "signs": ["G740", "G176", "G220"]}
+{"id": "S468", "site": "Harappa", "signs": ["G516", "G775", "G400"]}
+{"id": "S469", "site": "Harappa", "signs": ["G740", "G760", "G240"]}
+{"id": "S470", "site": "Harappa", "signs": ["G0"]}
+{"id": "S472", "site": "Harappa", "signs": ["G413", "G892", "G824"]}
+{"id": "S476", "site": "Harappa", "signs": ["G416", "G861", "G2"]}
+{"id": "S479", "site": "Harappa", "signs": ["G920", "G60", "G415", "G220", "G520"]}
+{"id": "S480", "site": "Harappa", "signs": ["G382", "G760", "G740", "G400"]}
+{"id": "S481", "site": "Harappa", "signs": ["G110"]}
+{"id": "S484", "site": "Harappa", "signs": ["G799", "G840", "G760", "G740"]}
+{"id": "S485", "site": "Harappa", "signs": ["G803", "G240", "G415", "G220", "G520"]}
+{"id": "S488", "site": "Harappa", "signs": ["G416", "G861", "G2"]}
+{"id": "S490", "site": "Harappa", "signs": ["G15", "G32", "G740", "G400"]}
+{"id": "S491", "site": "Harappa", "signs": ["G920", "G60", "G741", "G350", "G504"]}
+{"id": "S494", "site": "Harappa", "signs": ["G175", "G176", "G100", "G740", "G400"]}
+{"id": "S497", "site": "Harappa", "signs": ["G792", "G0", "G740", "G400"]}
+{"id": "S498", "site": "Harappa", "signs": ["G240", "G233", "G740", "G0"]}
+{"id": "S499", "site": "Harappa", "signs": ["G700", "G33", "G400", "G740", "G388"]}
+{"id": "S501", "site": "Harappa", "signs": ["G556", "G534"]}
+{"id": "S502", "site": "Harappa", "signs": ["G3", "G405"]}
+{"id": "S504", "site": "Harappa", "signs": ["G0", "G832", "G0", "G740", "G400"]}
+{"id": "S506", "site": "Harappa", "signs": ["G221", "G740", "G151"]}
+{"id": "S508", "site": "Harappa", "signs": ["G222", "G740", "G151"]}
+{"id": "S509", "site": "Harappa", "signs": ["G222", "G740", "G151"]}
+{"id": "S510", "site": "Harappa", "signs": ["G832", "G255", "G70", "G520"]}
+{"id": "S513", "site": "Harappa", "signs": ["G32", "G420", "G455", "G2", "G61", "G740"]}
+{"id": "S518", "site": "Harappa", "signs": ["G416", "G861", "G2"]}
+{"id": "S519", "site": "Harappa", "signs": ["G390", "G155", "G4", "G390"]}
+{"id": "S520", "site": "Harappa", "signs": ["G98", "G400"]}
+{"id": "S526", "site": "Harappa", "signs": ["G233", "G520", "G400"]}
+{"id": "S530", "site": "Harappa", "signs": ["G140", "G156"]}
+{"id": "S532", "site": "Harappa", "signs": ["G550", "G525", "G400", "G34", "G700"]}
+{"id": "S533", "site": "Harappa", "signs": ["G31", "G101", "G740", "G90"]}
+{"id": "S534", "site": "Harappa", "signs": ["G637", "G740", "G400"]}
+{"id": "S537", "site": "Harappa", "signs": ["G861", "G2", "G590", "G390", "G740"]}
+{"id": "S542", "site": "Harappa", "signs": ["G33", "G111"]}
+{"id": "S544", "site": "Harappa", "signs": ["G28", "G32", "G740", "G400"]}
+{"id": "S548", "site": "Harappa", "signs": ["G791", "G176", "G740", "G400"]}
+{"id": "S549", "site": "Harappa", "signs": ["G27", "G32", "G740", "G400"]}
+{"id": "S550", "site": "Harappa", "signs": ["G519", "G176", "G740", "G400"]}
+{"id": "S554", "site": "Harappa", "signs": ["G90", "G400", "G740", "G90", "G400"]}
+{"id": "S556", "site": "Harappa", "signs": ["G141", "G740", "G400"]}
+{"id": "S557", "site": "Harappa", "signs": ["G118", "G153", "G400"]}
+{"id": "S559", "site": "Harappa", "signs": ["G590", "G892", "G350", "G298"]}
+{"id": "S560", "site": "Harappa", "signs": ["G233", "G236", "G400"]}
+{"id": "S567", "site": "Harappa", "signs": ["G840", "G32", "G740", "G400"]}
+{"id": "S569", "site": "Harappa", "signs": ["G798", "G240", "G235", "G320", "G275", "G740", "G400"]}
+{"id": "S570", "site": "Harappa", "signs": ["G740", "G690", "G435", "G255", "G55"]}
+{"id": "S574", "site": "Harappa", "signs": ["G235", "G240", "G740", "G90"]}
+{"id": "S578", "site": "Harappa", "signs": ["G231", "G390", "G100", "G740", "G90", "G400"]}
+{"id": "S581", "site": "Harappa", "signs": ["G413", "G575", "G335", "G711", "G33", "G700"]}
+{"id": "S589", "site": "Harappa", "signs": ["G920", "G60", "G741", "G350", "G504"]}
+{"id": "S592", "site": "Harappa", "signs": ["G467", "G806", "G154", "G400"]}
+{"id": "S593", "site": "Harappa", "signs": ["G705", "G630", "G175", "G100", "G740"]}
+{"id": "S594", "site": "Harappa", "signs": ["G861", "G2", "G175", "G752", "G740"]}
+{"id": "S596", "site": "Harappa", "signs": ["G235", "G705", "G33", "G176", "G740"]}
+{"id": "S597", "site": "Harappa", "signs": ["G255", "G436", "G690", "G740"]}
+{"id": "S598", "site": "Harappa", "signs": ["G137", "G400"]}
+{"id": "S599", "site": "Harappa", "signs": ["G817", "G2", "G62", "G142", "G740"]}
+{"id": "S601", "site": "Harappa", "signs": ["G415", "G240", "G495", "G460", "G752", "G740"]}
+{"id": "S603", "site": "Harappa", "signs": ["G480", "G805", "G158"]}
+{"id": "S609", "site": "Harappa", "signs": ["G705", "G34"]}
+{"id": "S613", "site": "Harappa", "signs": ["G235", "G520"]}
+{"id": "S621", "site": "Harappa", "signs": ["G34", "G700"]}
+{"id": "S622", "site": "Harappa", "signs": ["G470", "G838", "G158"]}
+{"id": "S623", "site": "Harappa", "signs": ["G360", "G293", "G2", "G3", "G405"]}
+{"id": "S624", "site": "Harappa", "signs": ["G554", "G525", "G400"]}
+{"id": "S625", "site": "Harappa", "signs": ["G408", "G3"]}
+{"id": "S626", "site": "Harappa", "signs": ["G546", "G2", "G140", "G61", "G142", "G740", "G0", "G33", "G33"]}
+{"id": "S627", "site": "Harappa", "signs": ["G97", "G151", "G400"]}
+{"id": "S628", "site": "Harappa", "signs": ["G33", "G33", "G520"]}
+{"id": "S630", "site": "Harappa", "signs": ["G27", "G32", "G740", "G400"]}
+{"id": "S631", "site": "Harappa", "signs": ["G803", "G233", "G176", "G435", "G690", "G740"]}
+{"id": "S632", "site": "Harappa", "signs": ["G235", "G242", "G740", "G0"]}
+{"id": "S635", "site": "Harappa", "signs": ["G413", "G575", "G335", "G711", "G33", "G740"]}
+{"id": "S638", "site": "Harappa", "signs": ["G25", "G32", "G740", "G400"]}
+{"id": "S640", "site": "Harappa", "signs": ["G14", "G32", "G740", "G400"]}
+{"id": "S644", "site": "Harappa", "signs": ["G137", "G400"]}
+{"id": "S646", "site": "Harappa", "signs": ["G201", "G60", "G31", "G176", "G740"]}
+{"id": "S647", "site": "Harappa", "signs": ["G590", "G705", "G868"]}
+{"id": "S649", "site": "Harappa", "signs": ["G1", "G415", "G365", "G798", "G740", "G400"]}
+{"id": "S652", "site": "Harappa", "signs": ["G255", "G204", "G540", "G740"]}
+{"id": "S653", "site": "Harappa", "signs": ["G413", "G575", "G335", "G711", "G33", "G700"]}
+{"id": "S654", "site": "Harappa", "signs": ["G368", "G91"]}
+{"id": "S658", "site": "Harappa", "signs": ["G125", "G700"]}
+{"id": "S659", "site": "Harappa", "signs": ["G27", "G32", "G740", "G400"]}
+{"id": "S662", "site": "Harappa", "signs": ["G790", "G3", "G550", "G617"]}
+{"id": "S664", "site": "Harappa", "signs": ["G692", "G60", "G61", "G760", "G740"]}
+{"id": "S665", "site": "Harappa", "signs": ["G416", "G861", "G2"]}
+{"id": "S666", "site": "Harappa", "signs": ["G235", "G240", "G740", "G90"]}
+{"id": "S668", "site": "Harappa", "signs": ["G33", "G61", "G142", "G400", "G740"]}
+{"id": "S670", "site": "Harappa", "signs": ["G3", "G700"]}
+{"id": "S671", "site": "Harappa", "signs": ["G255", "G435", "G156", "G400"]}
+{"id": "S672", "site": "Harappa", "signs": ["G415", "G578", "G32", "G876"]}
+{"id": "S675", "site": "Harappa", "signs": ["G235", "G923", "G740"]}
+{"id": "S677", "site": "Harappa", "signs": ["G347", "G741", "G176", "G740", "G90"]}
+{"id": "S679", "site": "Harappa", "signs": ["G360", "G257"]}
+{"id": "S681", "site": "Harappa", "signs": ["G820", "G60", "G869"]}
+{"id": "S682", "site": "Harappa", "signs": ["G820", "G2", "G554", "G526"]}
+{"id": "S686", "site": "Harappa", "signs": ["G692", "G60", "G240", "G603", "G740"]}
+{"id": "S687", "site": "Harappa", "signs": ["G413", "G575", "G335", "G711", "G33", "G700"]}
+{"id": "S688", "site": "Harappa", "signs": ["G61", "G740", "G0", "G840", "G413", "G682"]}
+{"id": "S689", "site": "Harappa", "signs": ["G413", "G575", "G335", "G711", "G33", "G700"]}
+{"id": "S690", "site": "Harappa", "signs": ["G0", "G742", "G0", "G390"]}
+{"id": "S701", "site": "Harappa", "signs": ["G700", "G33"]}
+{"id": "S703", "site": "Harappa", "signs": ["G852", "G400"]}
+{"id": "S715", "site": "Harappa", "signs": ["G382", "G220", "G16"]}
+{"id": "S718", "site": "Harappa", "signs": ["G1", "G33", "G415", "G175", "G740"]}
+{"id": "S729", "site": "Harappa", "signs": ["G861", "G2", "G240", "G482", "G740"]}
+{"id": "S730", "site": "Harappa", "signs": ["G503", "G17", "G740", "G400"]}
+{"id": "S731", "site": "Harappa", "signs": ["G824", "G2", "G240", "G33", "G33", "G760", "G740"]}
+{"id": "S732", "site": "Harappa", "signs": ["G900", "G368"]}
+{"id": "S737", "site": "Harappa", "signs": ["G503", "G16", "G740", "G400"]}
+{"id": "S740", "site": "Harappa", "signs": ["G34", "G700"]}
+{"id": "S742", "site": "Harappa", "signs": ["G413", "G575", "G335", "G711", "G33"]}
+{"id": "S743", "site": "Harappa", "signs": ["G34", "G700"]}
+{"id": "S744", "site": "Harappa", "signs": ["G95", "G390", "G2", "G4", "G220", "G0", "G740"]}
+{"id": "S745", "site": "Harappa", "signs": ["G475", "G806", "G158", "G400"]}
+{"id": "S746", "site": "Harappa", "signs": ["G240", "G176", "G740", "G400"]}
+{"id": "S749", "site": "Harappa", "signs": ["G798", "G17", "G575", "G740", "G400"]}
+{"id": "S751", "site": "Harappa", "signs": ["G220", "G236", "G400"]}
+{"id": "S752", "site": "Harappa", "signs": ["G792", "G740", "G90"]}
+{"id": "S753", "site": "Harappa", "signs": ["G240", "G176", "G740", "G400"]}
+{"id": "S755", "site": "Harappa", "signs": ["G0", "G630", "G740"]}
+{"id": "S760", "site": "Harappa", "signs": ["G550", "G60", "G803", "G740"]}
+{"id": "S765", "site": "Harappa", "signs": ["G511", "G32", "G142"]}
+{"id": "S768", "site": "Harappa", "signs": ["G893", "G31"]}
+{"id": "S771", "site": "Harappa", "signs": ["G861", "G2", "G920", "G817", "G408"]}
+{"id": "S774", "site": "Harappa", "signs": ["G91", "G368"]}
+{"id": "S775", "site": "Harappa", "signs": ["G140", "G741", "G97", "G161"]}
+{"id": "S776", "site": "Harappa", "signs": ["G440", "G740", "G400", "G840", "G712"]}
+{"id": "S780", "site": "Harappa", "signs": ["G690", "G154", "G400"]}
+{"id": "S784", "site": "Harappa", "signs": ["G235", "G740", "G151"]}
+{"id": "S786", "site": "Harappa", "signs": ["G33", "G590", "G416"]}
+{"id": "S787", "site": "Harappa", "signs": ["G817", "G2", "G1", "G4", "G405"]}
+{"id": "S788", "site": "Harappa", "signs": ["G317", "G272", "G637"]}
+{"id": "S790", "site": "Harappa", "signs": ["G440", "G740", "G400"]}
+{"id": "S794", "site": "Harappa", "signs": ["G3", "G154"]}
+{"id": "S797", "site": "Harappa", "signs": ["G98", "G400"]}
+{"id": "S800", "site": "Harappa", "signs": ["G347", "G741", "G176", "G740", "G90"]}
+{"id": "S801", "site": "Harappa", "signs": ["G491", "G817", "G740", "G400"]}
+{"id": "S805", "site": "Harappa", "signs": ["G861", "G2", "G470", "G806", "G154"]}
+{"id": "S806", "site": "Harappa", "signs": ["G240", "G152", "G740", "G400"]}
+{"id": "S807", "site": "Harappa", "signs": ["G347", "G741", "G176", "G740", "G90"]}
+{"id": "S810", "site": "Harappa", "signs": ["G33", "G617", "G3", "G154"]}
+{"id": "S811", "site": "Harappa", "signs": ["G415", "G100", "G740", "G90", "G400"]}
+{"id": "S812", "site": "Harappa", "signs": ["G236", "G400"]}
+{"id": "S815", "site": "Harappa", "signs": ["G226", "G400"]}
+{"id": "S816", "site": "Harappa", "signs": ["G575", "G869"]}
+{"id": "S823", "site": "Harappa", "signs": ["G900", "G365"]}
+{"id": "S824", "site": "Harappa", "signs": ["G33", "G700", "G0", "G220"]}
+{"id": "S825", "site": "Harappa", "signs": ["G892", "G590"]}
+{"id": "S829", "site": "Harappa", "signs": ["G741", "G32", "G840", "G700"]}
+{"id": "S830", "site": "Harappa", "signs": ["G400", "G137"]}
+{"id": "S831", "site": "Harappa", "signs": ["G33", "G33", "G520"]}
+{"id": "S834", "site": "Harappa", "signs": ["G690", "G158", "G400"]}
+{"id": "S838", "site": "Harappa", "signs": ["G3", "G861"]}
+{"id": "S840", "site": "Harappa", "signs": ["G861", "G3"]}
+{"id": "S842", "site": "Harappa", "signs": ["G347", "G741", "G176", "G740", "G90"]}
+{"id": "S843", "site": "Harappa", "signs": ["G681", "G740", "G400"]}
+{"id": "S848", "site": "Harappa", "signs": ["G3", "G645", "G32", "G590"]}
+{"id": "S862", "site": "Harappa", "signs": ["G276", "G817", "G740", "G400"]}
+{"id": "S863", "site": "Harappa", "signs": ["G831", "G892", "G400"]}
+{"id": "S867", "site": "Harappa", "signs": ["G413", "G575", "G335", "G711", "G33", "G700"]}
+{"id": "S869", "site": "Harappa", "signs": ["G142", "G151", "G400"]}
+{"id": "S871", "site": "Harappa", "signs": ["G25", "G32", "G740"]}
+{"id": "S876", "site": "Harappa", "signs": ["G33", "G33", "G520"]}
+{"id": "S880", "site": "Harappa", "signs": ["G347", "G741", "G176", "G740", "G90"]}
+{"id": "S882", "site": "Harappa", "signs": ["G347", "G741", "G176", "G740", "G90"]}
+{"id": "S884", "site": "Harappa", "signs": ["G347", "G741", "G176", "G740", "G90"]}
+{"id": "S885", "site": "Harappa", "signs": ["G370", "G31", "G745", "G13", "G840", "G740"]}
+{"id": "S886", "site": "Harappa", "signs": ["G347", "G741", "G176", "G740", "G90"]}
+{"id": "S890", "site": "Harappa", "signs": ["G34", "G700"]}
+{"id": "S894", "site": "Harappa", "signs": ["G692", "G700", "G318", "G920", "G740"]}
+{"id": "S895", "site": "Harappa", "signs": ["G34", "G700"]}
+{"id": "S897", "site": "Harappa", "signs": ["G820", "G1", "G60", "G869"]}
+{"id": "S901", "site": "Harappa", "signs": ["G221", "G158"]}
+{"id": "S902", "site": "Harappa", "signs": ["G220", "G32", "G590", "G690"]}
+{"id": "S904", "site": "Harappa", "signs": ["G220", "G32", "G590", "G690"]}
+{"id": "S905", "site": "Harappa", "signs": ["G717", "G740", "G400"]}
+{"id": "S907", "site": "Harappa", "signs": ["G440", "G740", "G400", "G840", "G712"]}
+{"id": "S916", "site": "Harappa", "signs": ["G413", "G575", "G335", "G711", "G33", "G700"]}
+{"id": "S917", "site": "Harappa", "signs": ["G352", "G400", "G520", "G400"]}
+{"id": "S920", "site": "Harappa", "signs": ["G32", "G220", "G240", "G233", "G520"]}
+{"id": "S921", "site": "Harappa", "signs": ["G140", "G61", "G740", "G400"]}
+{"id": "S922", "site": "Harappa", "signs": ["G494", "G3", "G158"]}
+{"id": "S923", "site": "Harappa", "signs": ["G705", "G717", "G388", "G740", "G400"]}
+{"id": "S927", "site": "Harappa", "signs": ["G220", "G236", "G400"]}
+{"id": "S930", "site": "Harappa", "signs": ["G32", "G790", "G740"]}
+{"id": "S932", "site": "Harappa", "signs": ["G140", "G920", "G55", "G1", "G125", "G920", "G700", "G326", "G90"]}
+{"id": "S937", "site": "Harappa", "signs": ["G861", "G2", "G240", "G482", "G740"]}
+{"id": "S939", "site": "Harappa", "signs": ["G692", "G60", "G798", "G240", "G233", "G904", "G740"]}
+{"id": "S943", "site": "Harappa", "signs": ["G817", "G2", "G540", "G740"]}
+{"id": "S945", "site": "Harappa", "signs": ["G526", "G550", "G233"]}
+{"id": "S1004", "site": "Harappa", "signs": ["G861", "G2", "G49", "G233", "G520"]}
+{"id": "S1007", "site": "Harappa", "signs": ["G817", "G2", "G491", "G692", "G100", "G740"]}
+{"id": "S1011", "site": "Harappa", "signs": ["G817", "G13", "G3", "G426"]}
+{"id": "S1017", "site": "Harappa", "signs": ["G33", "G220"]}
+{"id": "S1018", "site": "Harappa", "signs": ["G413", "G137"]}
+{"id": "S1020", "site": "Harappa", "signs": ["G921", "G690", "G2", "G32", "G220", "G235", "G806", "G3", "G900", "G32", "G590", "G405", "G740"]}
+{"id": "S1023", "site": "Harappa", "signs": ["G745", "G700"]}
+{"id": "S1024", "site": "Harappa", "signs": ["G861", "G2", "G31", "G892", "G803", "G740"]}
+{"id": "S1032", "site": "Harappa", "signs": ["G33", "G220"]}
+{"id": "S1034", "site": "Harappa", "signs": ["G467", "G806", "G158", "G740"]}
+{"id": "S1052", "site": "Harappa", "signs": ["G491", "G817", "G740", "G400"]}
+{"id": "S1054", "site": "Harappa", "signs": ["G0", "G165", "G32", "G740"]}
+{"id": "S1057", "site": "Harappa", "signs": ["G240", "G590", "G390", "G740"]}
+{"id": "S1058", "site": "Harappa", "signs": ["G740", "G690", "G636", "G240"]}
+{"id": "S1060", "site": "Harappa", "signs": ["G817", "G2", "G235", "G804"]}
+{"id": "S1061", "site": "Harappa", "signs": ["G233", "G550", "G527"]}
+{"id": "S1062", "site": "Harappa", "signs": ["G692", "G575", "G595", "G820"]}
+{"id": "S1063", "site": "Harappa", "signs": ["G617", "G440", "G745", "G176", "G740", "G232"]}
+{"id": "S1064", "site": "Harappa", "signs": ["G703", "G615", "G611", "G2", "G17", "G585", "G740"]}
+{"id": "S1065", "site": "Harappa", "signs": ["G51", "G63", "G220"]}
+{"id": "S1066", "site": "Harappa", "signs": ["G902", "G140", "G920", "G32", "G384", "G193", "G706", "G920"]}
+{"id": "S1067", "site": "Harappa", "signs": ["G625", "G776", "G32", "G1", "G890", "G317"]}
+{"id": "S1068", "site": "Harappa", "signs": ["G250", "G542", "G1", "G692", "G440", "G920"]}
+{"id": "S1069", "site": "Harappa", "signs": ["G921", "G690", "G2", "G706", "G33", "G590", "G405", "G740", "G1", "G354"]}
+{"id": "S1070", "site": "Harappa", "signs": ["G17", "G220"]}
+{"id": "S1071", "site": "Harappa", "signs": ["G381", "G125", "G18", "G596", "G302", "G820"]}
+{"id": "S1073", "site": "Harappa", "signs": ["G817", "G2", "G235", "G240", "G220", "G803", "G255", "G435", "G690", "G740"]}
+{"id": "S1074", "site": "Harappa", "signs": ["G817", "G2", "G503", "G615", "G760", "G740"]}
+{"id": "S1075", "site": "Harappa", "signs": ["G56", "G415", "G60", "G240", "G772", "G740"]}
+{"id": "S1077", "site": "Harappa", "signs": ["G201", "G60", "G240", "G233", "G520"]}
+{"id": "S1080", "site": "Harappa", "signs": ["G550", "G60", "G806", "G32", "G220", "G255", "G435", "G690", "G176", "G740"]}
+{"id": "S1081", "site": "Harappa", "signs": ["G817", "G2", "G806", "G235", "G233", "G555", "G527", "G61", "G405"]}
+{"id": "S1082", "site": "Harappa", "signs": ["G321", "G405", "G2", "G806", "G233", "G320", "G920", "G740"]}
+{"id": "S1084", "site": "Harappa", "signs": ["G233", "G705", "G33", "G176", "G626", "G740"]}
+{"id": "S1085", "site": "Harappa", "signs": ["G55", "G235", "G705", "G33", "G806", "G3", "G900", "G740"]}
+{"id": "S1086", "site": "Harappa", "signs": ["G820", "G1", "G798", "G240", "G231", "G388", "G740"]}
+{"id": "S1087", "site": "Harappa", "signs": ["G760", "G877", "G740", "G1", "G468", "G806", "G154"]}
+{"id": "S1089", "site": "Harappa", "signs": ["G640", "G140", "G595"]}
+{"id": "S1095", "site": "Harappa", "signs": ["G146", "G742", "G220", "G798", "G740"]}
+{"id": "S1096", "site": "Harappa", "signs": ["G531", "G740"]}
+{"id": "S1097", "site": "Harappa", "signs": ["G803", "G156"]}
+{"id": "S1098", "site": "Harappa", "signs": ["G920", "G60", "G745", "G235", "G240", "G231", "G590", "G390", "G740"]}
+{"id": "S1099", "site": "Harappa", "signs": ["G165", "G831", "G368", "G1", "G235", "G798", "G740"]}
+{"id": "S1101", "site": "Harappa", "signs": ["G817", "G2", "G235", "G380", "G740"]}
+{"id": "S1102", "site": "Harappa", "signs": ["G32", "G690", "G405"]}
+{"id": "S1103", "site": "Harappa", "signs": ["G892", "G31", "G2", "G803", "G798", "G235", "G706", "G33", "G520"]}
+{"id": "S1104", "site": "Harappa", "signs": ["G820", "G2", "G101", "G740", "G90"]}
+{"id": "S1105", "site": "Harappa", "signs": ["G235", "G320", "G920", "G740"]}
+{"id": "S1106", "site": "Harappa", "signs": ["G482", "G752", "G740"]}
+{"id": "S1107", "site": "Harappa", "signs": ["G3", "G430"]}
+{"id": "S1109", "site": "Harappa", "signs": ["G125", "G406", "G741", "G590", "G406", "G740"]}
+{"id": "S1110", "site": "Harappa", "signs": ["G861", "G2", "G240", "G639", "G740"]}
+{"id": "S1112", "site": "Harappa", "signs": ["G706", "G33", "G520"]}
+{"id": "S1113", "site": "Harappa", "signs": ["G817", "G368", "G3", "G390"]}
+{"id": "S1114", "site": "Harappa", "signs": ["G125", "G861", "G2", "G4", "G390"]}
+{"id": "S1115", "site": "Harappa", "signs": ["G692", "G60", "G176", "G740"]}
+{"id": "S1116", "site": "Harappa", "signs": ["G57", "G159"]}
+{"id": "S1117", "site": "Harappa", "signs": ["G235", "G231", "G752", "G740", "G468", "G806", "G158"]}
+{"id": "S1119", "site": "Harappa", "signs": ["G820", "G2", "G0", "G3", "G900", "G740", "G621"]}
+{"id": "S1120", "site": "Harappa", "signs": ["G201", "G60", "G1", "G255", "G435", "G690", "G740"]}
+{"id": "S1122", "site": "Harappa", "signs": ["G717", "G100", "G740"]}
+{"id": "S1123", "site": "Harappa", "signs": ["G240", "G921", "G70", "G520"]}
+{"id": "S1124", "site": "Harappa", "signs": ["G28", "G32", "G740"]}
+{"id": "S1125", "site": "Harappa", "signs": ["G950", "G243", "G617"]}
+{"id": "S1127", "site": "Harappa", "signs": ["G72", "G390", "G2", "G3", "G220", "G740", "G90"]}
+{"id": "S1129", "site": "Harappa", "signs": ["G491", "G3", "G390"]}
+{"id": "S1132", "site": "Harappa", "signs": ["G32", "G125", "G610", "G2"]}
+{"id": "S1133", "site": "Harappa", "signs": ["G590", "G390", "G740", "G400"]}
+{"id": "S1134", "site": "Harappa", "signs": ["G132", "G175", "G741", "G235", "G240", "G100", "G740"]}
+{"id": "S1137", "site": "Harappa", "signs": ["G850", "G315", "G741", "G415", "G100", "G820", "G595"]}
+{"id": "S1139", "site": "Harappa", "signs": ["G741", "G455", "G220", "G2", "G17", "G390"]}
+{"id": "S1141", "site": "Harappa", "signs": ["G817", "G2", "G219", "G520"]}
+{"id": "S1142", "site": "Harappa", "signs": ["G31", "G460", "G520"]}
+{"id": "S1144", "site": "Harappa", "signs": ["G820", "G840", "G32", "G740"]}
+{"id": "S1145", "site": "Harappa", "signs": ["G920", "G60", "G741", "G240", "G232"]}
+{"id": "S1146", "site": "Harappa", "signs": ["G440", "G192", "G280", "G368", "G521"]}
+{"id": "S1147", "site": "Harappa", "signs": ["G692", "G60", "G253", "G70", "G520"]}
+{"id": "S1148", "site": "Harappa", "signs": ["G615", "G2", "G416", "G220", "G518", "G176", "G156"]}
+{"id": "S1151", "site": "Harappa", "signs": ["G870", "G740", "G368"]}
+{"id": "S1153", "site": "Harappa", "signs": ["G16", "G220", "G520", "G0", "G920", "G861"]}
+{"id": "S1154", "site": "Harappa", "signs": ["G400", "G565"]}
+{"id": "S1158", "site": "Harappa", "signs": ["G316", "G323", "G530", "G748"]}
+{"id": "S1161", "site": "Harappa", "signs": ["G740", "G760", "G440"]}
+{"id": "S1164", "site": "Harappa", "signs": ["G861", "G2", "G1", "G16", "G407"]}
+{"id": "S1166", "site": "Harappa", "signs": ["G550", "G60", "G556"]}
+{"id": "S1168", "site": "Harappa", "signs": ["G861", "G741", "G240", "G630", "G740"]}
+{"id": "S1169", "site": "Harappa", "signs": ["G806", "G415", "G220", "G717", "G740", "G0", "G705", "G33", "G520", "G0", "G97", "G159"]}
+{"id": "S1170", "site": "Harappa", "signs": ["G165", "G244", "G861", "G2", "G31", "G220", "G235", "G740", "G61", "G409"]}
+{"id": "S1171", "site": "Harappa", "signs": ["G717", "G125", "G812", "G595", "G2", "G806", "G231", "G705", "G33", "G845", "G32", "G409"]}
+{"id": "S1173", "site": "Harappa", "signs": ["G798", "G231", "G233", "G740", "G845", "G407", "G471", "G806", "G154"]}
+{"id": "S1174", "site": "Harappa", "signs": ["G692", "G60", "G798", "G415", "G220", "G554", "G740"]}
+{"id": "S1175", "site": "Harappa", "signs": ["G861", "G2", "G3", "G220", "G590", "G405", "G740"]}
+{"id": "S1176", "site": "Harappa", "signs": ["G861", "G2", "G806", "G231", "G773", "G740"]}
+{"id": "S1178", "site": "Harappa", "signs": ["G817", "G2", "G233", "G705", "G33", "G388", "G443", "G740"]}
+{"id": "S1179", "site": "Harappa", "signs": ["G388", "G740"]}
+{"id": "S1180", "site": "Harappa", "signs": ["G503", "G861", "G368"]}
+{"id": "S1181", "site": "Harappa", "signs": ["G817", "G2", "G32", "G384", "G740"]}
+{"id": "S1182", "site": "Harappa", "signs": ["G235", "G233", "G2", "G70", "G3", "G900", "G32", "G405"]}
+{"id": "S1183", "site": "Harappa", "signs": ["G692", "G60", "G832", "G811", "G267", "G740"]}
+{"id": "S1184", "site": "Harappa", "signs": ["G32", "G877", "G740", "G1", "G469", "G806", "G154"]}
+{"id": "S1185", "site": "Harappa", "signs": ["G193", "G892", "G203"]}
+{"id": "S1187", "site": "Harappa", "signs": ["G31", "G467", "G806", "G154"]}
+{"id": "S1189", "site": "Harappa", "signs": ["G235", "G240", "G520"]}
+{"id": "S1190", "site": "Harappa", "signs": ["G820", "G2", "G220", "G630", "G794", "G706", "G33", "G61", "G405"]}
+{"id": "S1191", "site": "Harappa", "signs": ["G918", "G740", "G63"]}
+{"id": "S1192", "site": "Harappa", "signs": ["G193", "G60", "G17", "G407"]}
+{"id": "S1194", "site": "Harappa", "signs": ["G140", "G706", "G64"]}
+{"id": "S1195", "site": "Harappa", "signs": ["G817", "G2", "G1", "G467", "G806", "G154"]}
+{"id": "S1196", "site": "Harappa", "signs": ["G216", "G861", "G367", "G1", "G176", "G740"]}
+{"id": "S1198", "site": "Harappa", "signs": ["G503", "G615", "G154"]}
+{"id": "S1199", "site": "Harappa", "signs": ["G590", "G405", "G740", "G1", "G472", "G806", "G154"]}
+{"id": "S1201", "site": "Harappa", "signs": ["G468", "G806", "G154", "G400"]}
+{"id": "S1204", "site": "Harappa", "signs": ["G817", "G2", "G97", "G161"]}
+{"id": "S1206", "site": "Harappa", "signs": ["G231", "G798", "G176", "G740"]}
+{"id": "S1207", "site": "Harappa", "signs": ["G440", "G740", "G400", "G840", "G712"]}
+{"id": "S1208", "site": "Harappa", "signs": ["G503", "G17", "G740", "G400"]}
+{"id": "S1209", "site": "Harappa", "signs": ["G920", "G60", "G741", "G5", "G368", "G705", "G167"]}
+{"id": "S1211", "site": "Harappa", "signs": ["G817", "G2", "G31", "G706", "G151", "G33", "G700"]}
+{"id": "S1212", "site": "Harappa", "signs": ["G717", "G740", "G400"]}
+{"id": "S1213", "site": "Harappa", "signs": ["G176", "G100", "G740"]}
+{"id": "S1214", "site": "Harappa", "signs": ["G368", "G330", "G741", "G590", "G390", "G151"]}
+{"id": "S1216", "site": "Harappa", "signs": ["G920", "G220", "G892", "G202", "G400"]}
+{"id": "S1217", "site": "Harappa", "signs": ["G920", "G220", "G892", "G202", "G400"]}
+{"id": "S1219", "site": "Harappa", "signs": ["G840", "G32"]}
+{"id": "S1220", "site": "Harappa", "signs": ["G495", "G460", "G740", "G400"]}
+{"id": "S1221", "site": "Harappa", "signs": ["G415", "G100", "G740", "G90", "G400"]}
+{"id": "S1222", "site": "Harappa", "signs": ["G470", "G806", "G158", "G400"]}
+{"id": "S1223", "site": "Harappa", "signs": ["G465", "G806", "G158"]}
+{"id": "S1224", "site": "Harappa", "signs": ["G354", "G460", "G798", "G740"]}
+{"id": "S1226", "site": "Harappa", "signs": ["G240", "G590", "G390", "G740"]}
+{"id": "S1228", "site": "Harappa", "signs": ["G33", "G142"]}
+{"id": "S1229", "site": "Harappa", "signs": ["G33", "G142"]}
+{"id": "S1236", "site": "Harappa", "signs": ["G850", "G741", "G48", "G740"]}
+{"id": "S1237", "site": "Harappa", "signs": ["G621", "G705", "G204", "G240", "G636", "G740"]}
+{"id": "S1239", "site": "Harappa", "signs": ["G472", "G806", "G158", "G400"]}
+{"id": "S1240", "site": "Harappa", "signs": ["G55", "G255", "G435", "G690", "G921", "G400"]}
+{"id": "S1242", "site": "Harappa", "signs": ["G617", "G898", "G740", "G400"]}
+{"id": "S1243", "site": "Harappa", "signs": ["G118", "G156", "G400"]}
+{"id": "S1244", "site": "Harappa", "signs": ["G352", "G400", "G520", "G400"]}
+{"id": "S1245", "site": "Harappa", "signs": ["G400", "G520", "G400", "G353"]}
+{"id": "S1246", "site": "Harappa", "signs": ["G137", "G400"]}
+{"id": "S1247", "site": "Harappa", "signs": ["G740", "G337", "G484"]}
+{"id": "S1248", "site": "Harappa", "signs": ["G484", "G337", "G740"]}
+{"id": "S1249", "site": "Harappa", "signs": ["G176", "G336", "G740"]}
+{"id": "S1250", "site": "Harappa", "signs": ["G171", "G35", "G415"]}
+{"id": "S1253", "site": "Harappa", "signs": ["G736", "G904", "G158", "G400"]}
+{"id": "S1254", "site": "Harappa", "signs": ["G736", "G904", "G158", "G400"]}
+{"id": "S1255", "site": "Harappa", "signs": ["G736", "G904", "G158", "G400"]}
+{"id": "S1256", "site": "Harappa", "signs": ["G617", "G892", "G740", "G400"]}
+{"id": "S1257", "site": "Harappa", "signs": ["G219", "G72", "G520"]}
+{"id": "S1258", "site": "Harappa", "signs": ["G820", "G2", "G240", "G220", "G520"]}
+{"id": "S1259", "site": "Harappa", "signs": ["G519", "G177", "G740", "G400"]}
+{"id": "S1262", "site": "Harappa", "signs": ["G679", "G840", "G32", "G740"]}
+{"id": "S1263", "site": "Harappa", "signs": ["G740", "G636", "G240", "G60", "G692"]}
+{"id": "S1264", "site": "Harappa", "signs": ["G91", "G500", "G740", "G0", "G390"]}
+{"id": "S1265", "site": "Harappa", "signs": ["G803", "G233", "G32", "G904", "G740"]}
+{"id": "S1266", "site": "Harappa", "signs": ["G142", "G1"]}
+{"id": "S1268", "site": "Harappa", "signs": ["G233", "G520", "G400"]}
+{"id": "S1271", "site": "Harappa", "signs": ["G240", "G233", "G0", "G804", "G400"]}
+{"id": "S1272", "site": "Harappa", "signs": ["G0", "G335", "G740", "G400"]}
+{"id": "S1273", "site": "Harappa", "signs": ["G798", "G240", "G233", "G320", "G920", "G740", "G400"]}
+{"id": "S1276", "site": "Harappa", "signs": ["G240", "G100", "G740", "G400"]}
+{"id": "S1277", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1278", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1279", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1280", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1281", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1282", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1283", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1284", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1285", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1286", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1287", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1288", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1289", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1290", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1293", "site": "Harappa", "signs": ["G920", "G455", "G220", "G2", "G803", "G706", "G33", "G17", "G585", "G740"]}
+{"id": "S1294", "site": "Harappa", "signs": ["G617", "G742", "G803", "G798", "G415", "G220", "G55", "G482", "G740"]}
+{"id": "S1295", "site": "Harappa", "signs": ["G745", "G717", "G420", "G595"]}
+{"id": "S1296", "site": "Harappa", "signs": ["G904", "G32", "G305", "G2", "G240", "G17", "G585", "G740"]}
+{"id": "S1298", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1299", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1300", "site": "Harappa", "signs": ["G803", "G415", "G220", "G318", "G920", "G255", "G436", "G690", "G590", "G407", "G740"]}
+{"id": "S1301", "site": "Harappa", "signs": ["G803", "G415", "G220", "G318", "G920", "G255", "G436", "G690", "G590", "G407", "G740"]}
+{"id": "S1302", "site": "Harappa", "signs": ["G803", "G415", "G220", "G318", "G920", "G255", "G436", "G690", "G590", "G407", "G740"]}
+{"id": "S1303", "site": "Harappa", "signs": ["G803", "G415", "G220", "G318", "G920", "G255", "G436", "G690", "G590", "G407", "G740"]}
+{"id": "S1304", "site": "Harappa", "signs": ["G803", "G415", "G220", "G318", "G920", "G255", "G436", "G690", "G590", "G407", "G740"]}
+{"id": "S1305", "site": "Harappa", "signs": ["G803", "G415", "G220", "G318", "G920", "G255", "G436", "G690", "G590", "G407", "G740"]}
+{"id": "S1306", "site": "Harappa", "signs": ["G803", "G415", "G220", "G318", "G920", "G255", "G436", "G690", "G590", "G407", "G740"]}
+{"id": "S1308", "site": "Harappa", "signs": ["G90", "G400"]}
+{"id": "S1309", "site": "Harappa", "signs": ["G400", "G740", "G760", "G605"]}
+{"id": "S1311", "site": "Harappa", "signs": ["G740", "G783", "G4"]}
+{"id": "S1312", "site": "Harappa", "signs": ["G740", "G783", "G4"]}
+{"id": "S1317", "site": "Harappa", "signs": ["G32", "G511"]}
+{"id": "S1318", "site": "Harappa", "signs": ["G920", "G17", "G575", "G740", "G400"]}
+{"id": "S1319", "site": "Harappa", "signs": ["G706", "G630", "G336", "G151", "G400"]}
+{"id": "S1320", "site": "Harappa", "signs": ["G240", "G636", "G740", "G400"]}
+{"id": "S1321", "site": "Harappa", "signs": ["G400", "G156", "G435", "G255"]}
+{"id": "S1322", "site": "Harappa", "signs": ["G495", "G776", "G740", "G400"]}
+{"id": "S1323", "site": "Harappa", "signs": ["G171", "G32", "G31", "G240", "G636", "G740", "G400"]}
+{"id": "S1324", "site": "Harappa", "signs": ["G416", "G220", "G740", "G760", "G400"]}
+{"id": "S1325", "site": "Harappa", "signs": ["G27", "G32", "G740", "G400"]}
+{"id": "S1326", "site": "Harappa", "signs": ["G59", "G32", "G740"]}
+{"id": "S1327", "site": "Harappa", "signs": ["G740", "G255", "G61"]}
+{"id": "S1329", "site": "Harappa", "signs": ["G900", "G368"]}
+{"id": "S1332", "site": "Harappa", "signs": ["G3", "G231", "G740"]}
+{"id": "S1333", "site": "Harappa", "signs": ["G178", "G740", "G400"]}
+{"id": "S1342", "site": "Harappa", "signs": ["G0", "G240", "G520"]}
+{"id": "S1343", "site": "Harappa", "signs": ["G240", "G630", "G690", "G740"]}
+{"id": "S1344", "site": "Harappa", "signs": ["G28", "G32", "G740", "G400"]}
+{"id": "S1345", "site": "Harappa", "signs": ["G240", "G100", "G740"]}
+{"id": "S1346", "site": "Harappa", "signs": ["G31", "G384", "G156", "G400"]}
+{"id": "S1349", "site": "Harappa", "signs": ["G0", "G0", "G156"]}
+{"id": "S1350", "site": "Harappa", "signs": ["G235", "G717", "G741", "G400"]}
+{"id": "S1353", "site": "Harappa", "signs": ["G829", "G892", "G400"]}
+{"id": "S1355", "site": "Harappa", "signs": ["G829", "G892", "G400"]}
+{"id": "S1356", "site": "Harappa", "signs": ["G34", "G390"]}
+{"id": "S1361", "site": "Harappa", "signs": ["G0", "G626", "G32", "G840", "G13"]}
+{"id": "S1362", "site": "Harappa", "signs": ["G176", "G336", "G740", "G400"]}
+{"id": "S1363", "site": "Harappa", "signs": ["G877", "G861", "G740"]}
+{"id": "S1364", "site": "Harappa", "signs": ["G220", "G550", "G526"]}
+{"id": "S1367", "site": "Harappa", "signs": ["G98", "G400"]}
+{"id": "S1369", "site": "Harappa", "signs": ["G240", "G639", "G690", "G740"]}
+{"id": "S1370", "site": "Harappa", "signs": ["G13", "G60", "G32", "G740", "G400"]}
+{"id": "S1378", "site": "Harappa", "signs": ["G220", "G550", "G526"]}
+{"id": "S1379", "site": "Harappa", "signs": ["G692", "G60", "G240", "G636", "G740"]}
+{"id": "S1380", "site": "Harappa", "signs": ["G0", "G0", "G0", "G740"]}
+{"id": "S1381", "site": "Harappa", "signs": ["G797", "G760", "G740"]}
+{"id": "S1382", "site": "Harappa", "signs": ["G263", "G741", "G565"]}
+{"id": "S1385", "site": "Harappa", "signs": ["G3", "G154"]}
+{"id": "S1387", "site": "Harappa", "signs": ["G31", "G384", "G156", "G400"]}
+{"id": "S1388", "site": "Harappa", "signs": ["G741", "G390", "G741", "G31", "G705", "G33", "G368"]}
+{"id": "S1390", "site": "Harappa", "signs": ["G700", "G36"]}
+{"id": "S1396", "site": "Harappa", "signs": ["G920", "G632", "G930"]}
+{"id": "S1397", "site": "Harappa", "signs": ["G632", "G930"]}
+{"id": "S1400", "site": "Harappa", "signs": ["G201", "G60", "G798", "G415", "G240", "G55", "G740", "G555", "G527"]}
+{"id": "S1401", "site": "Harappa", "signs": ["G817", "G2", "G806", "G231", "G706", "G33", "G520"]}
+{"id": "S1402", "site": "Harappa", "signs": ["G625", "G480", "G31", "G2", "G235", "G590", "G405", "G740"]}
+{"id": "S1404", "site": "Harappa", "signs": ["G920", "G60", "G235", "G504", "G31", "G740"]}
+{"id": "S1410", "site": "Harappa", "signs": ["G863", "G2", "G806", "G236"]}
+{"id": "S1413", "site": "Harappa", "signs": ["G503", "G702", "G2", "G240", "G176", "G740"]}
+{"id": "S1414", "site": "Harappa", "signs": ["G861", "G2", "G830", "G840", "G368"]}
+{"id": "S1415", "site": "Harappa", "signs": ["G820", "G1", "G240", "G440", "G740"]}
+{"id": "S1416", "site": "Harappa", "signs": ["G831", "G741", "G32", "G220", "G233", "G161"]}
+{"id": "S1422", "site": "Harappa", "signs": ["G140", "G388", "G443", "G740", "G1", "G4", "G407"]}
+{"id": "S1423", "site": "Harappa", "signs": ["G550", "G60", "G240", "G740", "G679"]}
+{"id": "S1430", "site": "Harappa", "signs": ["G31", "G240", "G740", "G90"]}
+{"id": "S1431", "site": "Harappa", "signs": ["G484", "G337", "G740"]}
+{"id": "S1434", "site": "Harappa", "signs": ["G861", "G2", "G32", "G220", "G241"]}
+{"id": "S1436", "site": "Harappa", "signs": ["G216", "G861", "G2", "G798", "G585", "G740"]}
+{"id": "S1439", "site": "Harappa", "signs": ["G728", "G390", "G741", "G240", "G590", "G390", "G740"]}
+{"id": "S1440", "site": "Harappa", "signs": ["G3", "G900", "G702", "G741", "G240", "G100", "G740"]}
+{"id": "S1442", "site": "Harappa", "signs": ["G266", "G740"]}
+{"id": "S1444", "site": "Harappa", "signs": ["G700", "G742", "G590", "G390", "G740"]}
+{"id": "S1445", "site": "Harappa", "signs": ["G32", "G172", "G2", "G705", "G33", "G520"]}
+{"id": "S1446", "site": "Harappa", "signs": ["G808", "G817", "G2", "G706", "G33", "G520"]}
+{"id": "S1447", "site": "Harappa", "signs": ["G416", "G2", "G3", "G798", "G740"]}
+{"id": "S1448", "site": "Harappa", "signs": ["G575", "G861", "G368"]}
+{"id": "S1449", "site": "Harappa", "signs": ["G817", "G2", "G231", "G555", "G527"]}
+{"id": "S1456", "site": "Harappa", "signs": ["G705", "G940", "G2", "G3", "G900", "G740"]}
+{"id": "S1457", "site": "Harappa", "signs": ["G13", "G840", "G760", "G740"]}
+{"id": "S1459", "site": "Harappa", "signs": ["G820", "G2", "G2", "G900", "G585", "G740"]}
+{"id": "S1460", "site": "Harappa", "signs": ["G545", "G576", "G861"]}
+{"id": "S1461", "site": "Harappa", "signs": ["G900", "G484", "G482", "G900", "G740"]}
+{"id": "S1465", "site": "Harappa", "signs": ["G455", "G752", "G595", "G1", "G138"]}
+{"id": "S1466", "site": "Harappa", "signs": ["G817", "G2", "G235", "G770", "G740"]}
+{"id": "S1467", "site": "Harappa", "signs": ["G790", "G590", "G405", "G740"]}
+{"id": "S1471", "site": "Harappa", "signs": ["G550", "G60", "G233", "G840", "G32", "G740"]}
+{"id": "S1480", "site": "Harappa", "signs": ["G32", "G220", "G740", "G90"]}
+{"id": "S1483", "site": "Harappa", "signs": ["G140", "G527"]}
+{"id": "S1484", "site": "Harappa", "signs": ["G820", "G2", "G820", "G595", "G350", "G294"]}
+{"id": "S1487", "site": "Harappa", "signs": ["G795", "G60", "G590", "G390", "G740"]}
+{"id": "S1488", "site": "Harappa", "signs": ["G871", "G390"]}
+{"id": "S1490", "site": "Harappa", "signs": ["G528", "G833", "G111"]}
+{"id": "S1491", "site": "Harappa", "signs": ["G820", "G2", "G16", "G220", "G151"]}
+{"id": "S1492", "site": "Harappa", "signs": ["G32", "G590", "G741", "G350", "G460", "G798", "G740"]}
+{"id": "S1495", "site": "Harappa", "signs": ["G4", "G407"]}
+{"id": "S1496", "site": "Harappa", "signs": ["G700", "G741", "G33", "G904", "G740"]}
+{"id": "S1501", "site": "Harappa", "signs": ["G31", "G350", "G400", "G520"]}
+{"id": "S1510", "site": "Harappa", "signs": ["G31", "G706", "G33", "G520"]}
+{"id": "S1530", "site": "Harappa", "signs": ["G690", "G60", "G511", "G269", "G740"]}
+{"id": "S1532", "site": "Harappa", "signs": ["G137", "G400"]}
+{"id": "S1533", "site": "Harappa", "signs": ["G32", "G877", "G740"]}
+{"id": "S1534", "site": "Harappa", "signs": ["G33", "G5", "G900", "G740"]}
+{"id": "S1535", "site": "Harappa", "signs": ["G741", "G31", "G221", "G400"]}
+{"id": "S1536", "site": "Harappa", "signs": ["G803", "G415", "G220", "G17", "G575", "G740"]}
+{"id": "S1539", "site": "Harappa", "signs": ["G390", "G3"]}
+{"id": "S1540", "site": "Harappa", "signs": ["G861", "G2", "G32", "G70", "G590", "G390", "G740"]}
+{"id": "S1543", "site": "Harappa", "signs": ["G260", "G368", "G2"]}
+{"id": "S1544", "site": "Harappa", "signs": ["G32", "G220", "G233", "G717", "G740"]}
+{"id": "S1548", "site": "Harappa", "signs": ["G220", "G140", "G0", "G530"]}
+{"id": "S1551", "site": "Harappa", "signs": ["G590", "G125", "G2", "G550", "G527"]}
+{"id": "S1552", "site": "Harappa", "signs": ["G615", "G1", "G893", "G590", "G892", "G740"]}
+{"id": "S1557", "site": "Harappa", "signs": ["G33", "G812", "G125", "G354", "G304", "G1"]}
+{"id": "S1560", "site": "Harappa", "signs": ["G550", "G740", "G632", "G595"]}
+{"id": "S1564", "site": "Harappa", "signs": ["G820", "G2", "G806", "G240", "G233", "G705", "G33", "G520"]}
+{"id": "S1569", "site": "Harappa", "signs": ["G806", "G740", "G61", "G405"]}
+{"id": "S1574", "site": "Harappa", "signs": ["G263", "G365", "G798", "G240", "G233", "G740", "G140", "G845", "G407"]}
+{"id": "S1575", "site": "Harappa", "signs": ["G798", "G240", "G706", "G33", "G95", "G520"]}
+{"id": "S1580", "site": "Harappa", "signs": ["G692", "G60", "G4", "G407"]}
+{"id": "S1581", "site": "Harappa", "signs": ["G484", "G626", "G503", "G7", "G740"]}
+{"id": "S1583", "site": "Harappa", "signs": ["G740", "G790"]}
+{"id": "S1584", "site": "Harappa", "signs": ["G32", "G220", "G740"]}
+{"id": "S1586", "site": "Harappa", "signs": ["G806", "G565"]}
+{"id": "S1587", "site": "Harappa", "signs": ["G104", "G554", "G527"]}
+{"id": "S1594", "site": "Harappa", "signs": ["G820", "G140"]}
+{"id": "S1599", "site": "Harappa", "signs": ["G806", "G368", "G235", "G590", "G390", "G740"]}
+{"id": "S1600", "site": "Harappa", "signs": ["G806", "G368", "G235", "G590", "G390", "G740"]}
+{"id": "S1602", "site": "Harappa", "signs": ["G817", "G2", "G240", "G904", "G740"]}
+{"id": "S1603", "site": "Harappa", "signs": ["G233", "G520", "G400"]}
+{"id": "S1604", "site": "Harappa", "signs": ["G231", "G798", "G176", "G740"]}
+{"id": "S1605", "site": "Harappa", "signs": ["G231", "G798", "G176", "G740"]}
+{"id": "S1607", "site": "Harappa", "signs": ["G820", "G2", "G137"]}
+{"id": "S1608", "site": "Harappa", "signs": ["G55", "G255", "G435"]}
+{"id": "S1610", "site": "Harappa", "signs": ["G440", "G740", "G400", "G840", "G712"]}
+{"id": "S1611", "site": "Harappa", "signs": ["G820", "G2", "G137", "G33", "G700"]}
+{"id": "S1614", "site": "Harappa", "signs": ["G503", "G16", "G740", "G400"]}
+{"id": "S1615", "site": "Harappa", "signs": ["G503", "G16", "G740", "G400"]}
+{"id": "S1619", "site": "Harappa", "signs": ["G820", "G60", "G550", "G526"]}
+{"id": "S1620", "site": "Harappa", "signs": ["G904", "G705"]}
+{"id": "S1621", "site": "Harappa", "signs": ["G900", "G165", "G480", "G1"]}
+{"id": "S1622", "site": "Harappa", "signs": ["G861", "G2", "G4", "G405"]}
+{"id": "S1623", "site": "Harappa", "signs": ["G794", "G740"]}
+{"id": "S1626", "site": "Harappa", "signs": ["G465", "G806", "G158"]}
+{"id": "S1628", "site": "Harappa", "signs": ["G465", "G806", "G158"]}
+{"id": "S1630", "site": "Harappa", "signs": ["G15", "G460", "G798", "G740"]}
+{"id": "S1631", "site": "Harappa", "signs": ["G354", "G460", "G798", "G740"]}
+{"id": "S1633", "site": "Harappa", "signs": ["G240", "G590", "G390", "G740"]}
+{"id": "S1636", "site": "Harappa", "signs": ["G175", "G176", "G100", "G740", "G400"]}
+{"id": "S1637", "site": "Harappa", "signs": ["G240", "G482", "G752", "G740"]}
+{"id": "S1639", "site": "Harappa", "signs": ["G240", "G482"]}
+{"id": "S1649", "site": "Harappa", "signs": ["G561", "G500", "G741", "G5", "G407"]}
+{"id": "S1650", "site": "Harappa", "signs": ["G440", "G100", "G740"]}
+{"id": "S1651", "site": "Harappa", "signs": ["G440", "G100", "G740"]}
+{"id": "S1653", "site": "Harappa", "signs": ["G220", "G440", "G154", "G400"]}
+{"id": "S1658", "site": "Harappa", "signs": ["G826", "G65"]}
+{"id": "S1660", "site": "Harappa", "signs": ["G0", "G235", "G233", "G705", "G33", "G740", "G400"]}
+{"id": "S1662", "site": "Harappa", "signs": ["G416", "G840", "G151"]}
+{"id": "S1663", "site": "Harappa", "signs": ["G840", "G257", "G32"]}
+{"id": "S1665", "site": "Harappa", "signs": ["G741", "G530", "G390", "G2", "G803", "G798", "G740"]}
+{"id": "S1666", "site": "Harappa", "signs": ["G413", "G575", "G335", "G711", "G33", "G700"]}
+{"id": "S1667", "site": "Harappa", "signs": ["G716", "G32", "G31", "G741", "G803", "G740"]}
+{"id": "S1668", "site": "Harappa", "signs": ["G104", "G4", "G390"]}
+{"id": "S1669", "site": "Harappa", "signs": ["G817", "G4", "G390"]}
+{"id": "S1670", "site": "Harappa", "signs": ["G240", "G233", "G740", "G0", "G0"]}
+{"id": "S1672", "site": "Harappa", "signs": ["G240", "G904", "G740"]}
+{"id": "S1674", "site": "Harappa", "signs": ["G0", "G690", "G740", "G400"]}
+{"id": "S1676", "site": "Harappa", "signs": ["G0", "G255", "G740"]}
+{"id": "S1678", "site": "Harappa", "signs": ["G400", "G740", "G176", "G700", "G33"]}
+{"id": "S1679", "site": "Harappa", "signs": ["G0", "G255", "G740"]}
+{"id": "S1680", "site": "Harappa", "signs": ["G16", "G220", "G520", "G400"]}
+{"id": "S1681", "site": "Harappa", "signs": ["G33", "G384", "G740", "G400"]}
+{"id": "S1683", "site": "Harappa", "signs": ["G896", "G154", "G400"]}
+{"id": "S1684", "site": "Harappa", "signs": ["G896", "G154", "G400"]}
+{"id": "S1685", "site": "Harappa", "signs": ["G235", "G232", "G400"]}
+{"id": "S1686", "site": "Harappa", "signs": ["G0", "G220", "G0", "G442"]}
+{"id": "S1687", "site": "Harappa", "signs": ["G370", "G455"]}
+{"id": "S1689", "site": "Harappa", "signs": ["G792", "G158"]}
+{"id": "S1690", "site": "Harappa", "signs": ["G415", "G100", "G820", "G32"]}
+{"id": "S1691", "site": "Harappa", "signs": ["G490", "G692", "G337", "G740"]}
+{"id": "S1692", "site": "Harappa", "signs": ["G171", "G35", "G415"]}
+{"id": "S1693", "site": "Harappa", "signs": ["G0", "G337", "G740", "G400"]}
+{"id": "S1695", "site": "Harappa", "signs": ["G235", "G220", "G176", "G740"]}
+{"id": "S1696", "site": "Harappa", "signs": ["G235", "G220", "G176", "G740"]}
+{"id": "S1697", "site": "Harappa", "signs": ["G235", "G220", "G176", "G740"]}
+{"id": "S1699", "site": "Harappa", "signs": ["G736", "G904", "G158", "G400"]}
+{"id": "S1700", "site": "Harappa", "signs": ["G491", "G920", "G2", "G176", "G740", "G335", "G740", "G317"]}
+{"id": "S1701", "site": "Harappa", "signs": ["G35", "G368"]}
+{"id": "S1702", "site": "Harappa", "signs": ["G0", "G892", "G400"]}
+{"id": "S1703", "site": "Harappa", "signs": ["G400", "G820", "G100", "G415"]}
+{"id": "S1704", "site": "Harappa", "signs": ["G219", "G72", "G520"]}
+{"id": "S1705", "site": "Harappa", "signs": ["G590", "G390", "G740", "G400"]}
+{"id": "S1706", "site": "Harappa", "signs": ["G18", "G336", "G740", "G400"]}
+{"id": "S1707", "site": "Harappa", "signs": ["G18", "G336", "G740"]}
+{"id": "S1710", "site": "Harappa", "signs": ["G740", "G636", "G240", "G1", "G692"]}
+{"id": "S1711", "site": "Harappa", "signs": ["G740", "G636", "G240", "G1", "G692"]}
+{"id": "S1712", "site": "Harappa", "signs": ["G692", "G60", "G240", "G636", "G740"]}
+{"id": "S1716", "site": "Harappa", "signs": ["G0", "G0", "G0"]}
+{"id": "S1717", "site": "Harappa", "signs": ["G137", "G2", "G820"]}
+{"id": "S1719", "site": "Harappa", "signs": ["G820", "G2", "G554", "G526"]}
+{"id": "S1720", "site": "Harappa", "signs": ["G255", "G436", "G690", "G740", "G400"]}
+{"id": "S1724", "site": "Harappa", "signs": ["G817", "G2", "G495", "G615", "G740"]}
+{"id": "S1725", "site": "Harappa", "signs": ["G140", "G400"]}
+{"id": "S1727", "site": "Harappa", "signs": ["G790", "G740", "G400"]}
+{"id": "S1728", "site": "Harappa", "signs": ["G861", "G740", "G400"]}
+{"id": "S1729", "site": "Harappa", "signs": ["G195", "G527", "G400"]}
+{"id": "S1732", "site": "Harappa", "signs": ["G705", "G31", "G100", "G740", "G400"]}
+{"id": "S1734", "site": "Harappa", "signs": ["G0", "G0", "G100", "G740"]}
+{"id": "S1735", "site": "Harappa", "signs": ["G617", "G892", "G740", "G400"]}
+{"id": "S1736", "site": "Harappa", "signs": ["G617", "G892", "G740", "G400"]}
+{"id": "S1738", "site": "Harappa", "signs": ["G220", "G233", "G268", "G760", "G740"]}
+{"id": "S1739", "site": "Harappa", "signs": ["G231", "G177", "G740"]}
+{"id": "S1740", "site": "Harappa", "signs": ["G400", "G740", "G335", "G3"]}
+{"id": "S1741", "site": "Harappa", "signs": ["G235", "G590", "G390", "G740"]}
+{"id": "S1742", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1743", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1744", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1745", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1746", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1747", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1748", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1749", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1750", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1751", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1752", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1753", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S1754", "site": "Harappa", "signs": ["G803", "G415", "G220", "G318", "G920", "G255", "G436", "G690", "G590", "G407", "G740"]}
+{"id": "S1755", "site": "Harappa", "signs": ["G803", "G415", "G220", "G318", "G920", "G255", "G436", "G690", "G590", "G407", "G740"]}
+{"id": "S1756", "site": "Harappa", "signs": ["G803", "G415", "G220", "G318", "G920", "G255", "G436", "G690", "G590", "G407", "G740"]}
+{"id": "S1758", "site": "Harappa", "signs": ["G13", "G840", "G740", "G400"]}
+{"id": "S1759", "site": "Harappa", "signs": ["G380", "G705", "G200"]}
+{"id": "S1762", "site": "Harappa", "signs": ["G400", "G740", "G760", "G605"]}
+{"id": "S1763", "site": "Harappa", "signs": ["G400", "G740", "G760", "G605"]}
+{"id": "S1764", "site": "Harappa", "signs": ["G400", "G740", "G760", "G605"]}
+{"id": "S1765", "site": "Harappa", "signs": ["G400", "G740", "G760", "G605"]}
+{"id": "S1770", "site": "Harappa", "signs": ["G234", "G400"]}
+{"id": "S1771", "site": "Harappa", "signs": ["G226", "G400"]}
+{"id": "S1772", "site": "Harappa", "signs": ["G413", "G575", "G335", "G711", "G0"]}
+{"id": "S1773", "site": "Harappa", "signs": ["G0", "G17", "G590", "G740", "G400"]}
+{"id": "S1774", "site": "Harappa", "signs": ["G176", "G336", "G740", "G400"]}
+{"id": "S1775", "site": "Harappa", "signs": ["G337", "G740", "G400"]}
+{"id": "S1776", "site": "Harappa", "signs": ["G125", "G700"]}
+{"id": "S1778", "site": "Harappa", "signs": ["G590", "G705", "G868"]}
+{"id": "S1779", "site": "Harappa", "signs": ["G590", "G706", "G868"]}
+{"id": "S1781", "site": "Harappa", "signs": ["G240", "G231", "G520", "G400"]}
+{"id": "S1782", "site": "Harappa", "signs": ["G491", "G817", "G740", "G400"]}
+{"id": "S1785", "site": "Harappa", "signs": ["G240", "G760", "G740"]}
+{"id": "S1786", "site": "Harappa", "signs": ["G2", "G840", "G32", "G740"]}
+{"id": "S1787", "site": "Harappa", "signs": ["G171", "G32", "G31", "G240", "G636", "G740", "G400"]}
+{"id": "S1788", "site": "Harappa", "signs": ["G229", "G151"]}
+{"id": "S1792", "site": "Harappa", "signs": ["G416", "G861", "G2"]}
+{"id": "S1793", "site": "Harappa", "signs": ["G416", "G220", "G760", "G740", "G400"]}
+{"id": "S1794", "site": "Harappa", "signs": ["G0", "G33", "G415"]}
+{"id": "S1796", "site": "Harappa", "signs": ["G59", "G32", "G740", "G400"]}
+{"id": "S1797", "site": "Harappa", "signs": ["G27", "G32", "G740", "G400"]}
+{"id": "S1798", "site": "Harappa", "signs": ["G0", "G32", "G740", "G400"]}
+{"id": "S1801", "site": "Harappa", "signs": ["G61", "G255", "G740"]}
+{"id": "S1806", "site": "Harappa", "signs": ["G220", "G0", "G840", "G740", "G400"]}
+{"id": "S1807", "site": "Harappa", "signs": ["G900", "G368"]}
+{"id": "S1808", "site": "Harappa", "signs": ["G900", "G368"]}
+{"id": "S1809", "site": "Harappa", "signs": ["G900", "G368"]}
+{"id": "S1810", "site": "Harappa", "signs": ["G4", "G900", "G740"]}
+{"id": "S1811", "site": "Harappa", "signs": ["G0", "G0", "G0"]}
+{"id": "S1813", "site": "Harappa", "signs": ["G400", "G740", "G176"]}
+{"id": "S1819", "site": "Harappa", "signs": ["G520", "G220", "G415"]}
+{"id": "S1822", "site": "Harappa", "signs": ["G520", "G220", "G16"]}
+{"id": "S1823", "site": "Harappa", "signs": ["G592", "G158", "G400"]}
+{"id": "S1824", "site": "Harappa", "signs": ["G592", "G158", "G400"]}
+{"id": "S1825", "site": "Harappa", "signs": ["G234", "G400"]}
+{"id": "S1826", "site": "Harappa", "signs": ["G234", "G400"]}
+{"id": "S1827", "site": "Harappa", "signs": ["G236", "G400"]}
+{"id": "S1829", "site": "Harappa", "signs": ["G229", "G151"]}
+{"id": "S1830", "site": "Harappa", "signs": ["G32", "G220", "G0", "G710"]}
+{"id": "S1832", "site": "Harappa", "signs": ["G564", "G740"]}
+{"id": "S1833", "site": "Harappa", "signs": ["G556", "G550", "G0"]}
+{"id": "S1834", "site": "Harappa", "signs": ["G240", "G235", "G740", "G90"]}
+{"id": "S1836", "site": "Harappa", "signs": ["G178", "G740", "G400"]}
+{"id": "S1838", "site": "Harappa", "signs": ["G176", "G740", "G0"]}
+{"id": "S1842", "site": "Harappa", "signs": ["G240", "G636", "G690", "G740"]}
+{"id": "S1843", "site": "Harappa", "signs": ["G240", "G636", "G690", "G740"]}
+{"id": "S1844", "site": "Harappa", "signs": ["G28", "G32", "G740", "G400"]}
+{"id": "S1845", "site": "Harappa", "signs": ["G526", "G550", "G233"]}
+{"id": "S1846", "site": "Harappa", "signs": ["G0", "G0", "G740"]}
+{"id": "S1852", "site": "Harappa", "signs": ["G382", "G760", "G740"]}
+{"id": "S1853", "site": "Harappa", "signs": ["G137", "G400"]}
+{"id": "S1858", "site": "Harappa", "signs": ["G31", "G388", "G740"]}
+{"id": "S1859", "site": "Harappa", "signs": ["G240", "G637", "G740", "G400"]}
+{"id": "S1864", "site": "Harappa", "signs": ["G171", "G32", "G31", "G240", "G636", "G740", "G400"]}
+{"id": "S3912", "site": "Harappa", "signs": ["G700", "G31"]}
+{"id": "S3915", "site": "Harappa", "signs": ["G368", "G572", "G741", "G235", "G740", "G90"]}
+{"id": "S3916", "site": "Harappa", "signs": ["G31", "G501", "G861", "G368"]}
+{"id": "S3918", "site": "Harappa", "signs": ["G231", "G388", "G443", "G740"]}
+{"id": "S3921", "site": "Harappa", "signs": ["G700", "G31", "G153"]}
+{"id": "S3924", "site": "Harappa", "signs": ["G590", "G390", "G151"]}
+{"id": "S3925", "site": "Harappa", "signs": ["G817", "G2", "G235", "G840", "G32", "G740"]}
+{"id": "S3926", "site": "Harappa", "signs": ["G933", "G2", "G4", "G405"]}
+{"id": "S3927", "site": "Harappa", "signs": ["G556", "G440", "G742"]}
+{"id": "S3930", "site": "Harappa", "signs": ["G820", "G2", "G706", "G611", "G740"]}
+{"id": "S3932", "site": "Harappa", "signs": ["G176", "G100", "G740"]}
+{"id": "S3934", "site": "Harappa", "signs": ["G32", "G32", "G34"]}
+{"id": "S3935", "site": "Harappa", "signs": ["G34", "G999", "G34"]}
+{"id": "S3949", "site": "Harappa", "signs": ["G850", "G740"]}
+{"id": "S3965", "site": "Harappa", "signs": ["G465", "G806", "G158"]}
+{"id": "S3966", "site": "Harappa", "signs": ["G465", "G806", "G158"]}
+{"id": "S3967", "site": "Harappa", "signs": ["G235", "G590", "G390", "G740"]}
+{"id": "S3970", "site": "Harappa", "signs": ["G235", "G220", "G176", "G740"]}
+{"id": "S3971", "site": "Harappa", "signs": ["G235", "G220", "G176", "G740"]}
+{"id": "S3975", "site": "Harappa", "signs": ["G692", "G60", "G240", "G603", "G740"]}
+{"id": "S3976", "site": "Harappa", "signs": ["G0", "G840", "G32", "G740"]}
+{"id": "S3978", "site": "Harappa", "signs": ["G352", "G615"]}
+{"id": "S3979", "site": "Harappa", "signs": ["G790", "G740", "G400"]}
+{"id": "S4031", "site": "Harappa", "signs": ["G125", "G700"]}
+{"id": "S4052", "site": "Harappa", "signs": ["G590", "G706", "G868"]}
+{"id": "S4056", "site": "Harappa", "signs": ["G4", "G700", "G220"]}
+{"id": "S4068", "site": "Harappa", "signs": ["G0"]}
+{"id": "S4069", "site": "Harappa", "signs": ["G700", "G34"]}
+{"id": "S4073", "site": "Harappa", "signs": ["G700", "G33"]}
+{"id": "S4074", "site": "Harappa", "signs": ["G0", "G0", "G0"]}
+{"id": "S4077", "site": "Harappa", "signs": ["G700", "G33"]}
+{"id": "S4082", "site": "Harappa", "signs": ["G98", "G400"]}
+{"id": "S4084", "site": "Harappa", "signs": ["G220", "G740", "G90"]}
+{"id": "S4090", "site": "Harappa", "signs": ["G32", "G226"]}
+{"id": "S4097", "site": "Harappa", "signs": ["G31", "G3", "G480"]}
+{"id": "S4124", "site": "Harappa", "signs": ["G33", "G482"]}
+{"id": "S4138", "site": "Harappa", "signs": ["G530", "G413"]}
+{"id": "S4139", "site": "Harappa", "signs": ["G554", "G740"]}
+{"id": "S4143", "site": "Harappa", "signs": ["G900", "G3", "G645"]}
+{"id": "S4580", "site": "Harappa", "signs": ["G501", "G405", "G2", "G240", "G520"]}
+{"id": "S4597", "site": "Harappa", "signs": ["G90", "G400"]}
+{"id": "S4676", "site": "Harappa", "signs": ["G33", "G66"]}
+{"id": "S4935", "site": "Harappa", "signs": ["G679", "G840", "G32", "G740"]}
+{"id": "S5389", "site": "Harappa", "signs": ["G32", "G740", "G400"]}
+{"id": "S5396", "site": "Harappa", "signs": ["G137", "G400"]}
+{"id": "S5462", "site": "Harappa", "signs": ["G472", "G806", "G158", "G400"]}

@@ -1,0 +1,17 @@
+id: L0-0001
+title: "joyboseroy cisi sequences reproduce mayig source JSONs 179/179 (derivation fidelity)"
+level: L0
+corpus_snapshot_sha256: "431b42a4b89ce0c06f3f52f6fc224a27f717ac6527b94d4f15a9d24d817429df (cisi_real_corpus.csv itself; CORRECTED post-review — first draft wrongly cited the indus_website file hash 72580755…)"
+mayig_pin: "mayig/indus-valley-script-corpus @ ad2f1e218a34b8c33c57de0d6cb8d99272765bbb (2025-04-16), MIT; clone: git clone --depth 1 <url> (179 JSONs under corpus/)"
+sign_scheme: "P-codes (Parpola-side); sequence-identity check only, no sign-meaning claim"
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/counts.json
+generator: how-we-built-it/
+preregistered_threshold: "Exact side-sequence agreement on all 179 inscriptions (match rate == 1.0). Match rule: joy sign_sequence equals some side's grapheme-id list in the corresponding mayig JSON (sides tried in file order). Fixed before the checker run was committed."
+result: "179/179 exact side-sequence matches — gate PASS; checker PASS 2026-10-15."
+skeptics: [skL0-A, skL0-B]
+status: verified  # 2/2 (hash citation corrected per skL0-B; info-loss inventory in README)
+limitations:
+  - "Sequence identity only: says nothing about transcription correctness vs CISI plates (that check needs copyrighted scans, not redistributable)."
+  - "Covers the 179-seal cisi subset, not the 2543-row indus_website corpus (different source chain: yajnadevam)."

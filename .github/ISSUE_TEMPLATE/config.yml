@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions & target ideas (Discussions)
+    url: https://github.com/apoorvsingh090/indus-script/discussions
+    about: Ask method questions in Q&A or propose targets in Ideas — please don't open blank issues for these.
+  - name: Before citing anything in this repo
+    url: https://github.com/apoorvsingh090/indus-script/blob/main/READ_BEFORE_CITING.md
+    about: Read the citation rules and claim ladder before reusing results.

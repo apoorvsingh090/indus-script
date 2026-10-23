@@ -39,4 +39,11 @@ direction-symmetric) — no direction assumption risk at this order.
 - `object/results.json` — real-corpus stats; `baseline_snapshot/nulls.json` — 200 shuffled C values + uniform control.
 - `how-we-built-it/`: `fetch_corpus.py` (pinned HF rev + sha), `run_replication.py`, `entropy_lib.py`.
 - `check.py` recomputes from the CSV and asserts the gate (currently PASS).
-- Status: `draft` until ≥2 independent skeptics file reports in `skeptics/`.
+- Status: `verified` (skeptic-task-01, skeptic-task-02 — the counted gate).
+  An unsolicited third replication arrived as PR #1 (branch
+  `skeptic/l1-0001-skeptic-task-03`, kept off the gate record): bit-identical
+  numbers with own seeds/estimators, and two real findings folded in here —
+  unquoted `": "` scalars broke YAML parsing repo-wide (fixed by quoting;
+  parsed strings verified byte-identical) and the σ figure is seed-dependent
+  informality, not a p-value. Note: that branch's quoting commit mojibakes the
+  em-dashes (`???`); main's fix preserves them — do not merge PR #1 as-is.

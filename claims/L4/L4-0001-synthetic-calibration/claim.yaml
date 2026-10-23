@@ -1,0 +1,18 @@
+id: L4-0001
+title: "L1/L2 methods show sensitivity at Indus scale on linguistic-like synthetic (N_min reported); emblem-like profile characterized"
+level: L4
+corpus_snapshot_sha256: "7258075509684e008aea3d9726417de86a135c1a4325e2e633e0cb98598392c8 (lengths source only; synthetic texts generated, not real)"
+synthetic_sources: "linguistic-like: contiguous word excerpts, Pride and Prejudice (Gutenberg pg1342.txt, sha256 7c13190c04773de0a919e38450ecaac1673fbd572a60bad784ff8421acdfec18, 128565 words); emblem-like: opener/core/closer template generator (8/40-Zipf-s1.0/6 + 5pct singletons); lengths resampled from Indus corrected-order distribution; GEN_SEED 260417834, nested sizes 250/500/1000/1948"
+sign_scheme: "SYNTHETIC (English words ~6729 types; emblem ~266 types) — alphabet mismatch accepted and documented; methods are alphabet-agnostic"
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/gates.json
+generator: how-we-built-it/
+preregistered_threshold: "At N=1948, linguistic-like passes ALL THREE frozen-method gates: (ENT) MM-C < shuffled-null min (B=100); (L2) bigram-minus-unigram paired-bootstrap CI lower > 0 (B=1000) and diff > 0.01 on random 60/20/20 split; (REP) rep3 and rep4 > null maxima (B=100). N_min per method = smallest passing grid size (report-only). Emblem-like profile fully REPORTED, not gated. Fixed before any synthetic number was computed."
+result: "ling@1948 passes ENT+L2+REP — gate PASS; checker PASS. N_min: ENT<=250, L2=500 fixed-split (fragile across split seeds — robust floor 1000), full-panel=1000. Emblem: ENT+REP pass, L2 never passes (diff negative) — L2 bar discriminates in this setup."
+skeptics: [skL4-A, skL4-B]
+status: verified  # 2/2 independent reproductions (verdict-level agreement; N_min-500 softened per review)
+limitations:
+  - "Transparent-box calibration (generator params committed), not hidden-key: planner hidden-key runs on real scripts (Linear B etc.) remain open future work."
+  - "Null/bootstrap budgets reduced (B=100/1000) vs production (200/2000) — compute tradeoff, stated."
+  - "Emblem generator is one Nair-style family, not the full non-linguistic space."

@@ -1,0 +1,19 @@
+id: L1-0002b
+title: Positional asymmetry in loader-corrected reading order (enders concentrated)
+level: L1
+corpus_snapshot_sha256: 7258075509684e008aea3d9726417de86a135c1a4325e2e633e0cb98598392c8
+corpus_source: joyboseroy/indus_decipher indus_website_real_corpus.csv @ HF rev 47e8616dff4d1ff62343bd74f3eeefc4afbfd4d8 (NOT vendored; fetch via ../L1-0001-rao-entropy-replication/how-we-built-it/fetch_corpus.py)
+sign_scheme: G-indus-website  # 592 signs; structural comparison to M77-EBUDS (82-vs-23) only
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/nulls.json
+generator: how-we-built-it/
+preregistered_threshold: 'n80_end < n80_begin AND n80_end < min over B=200 token shuffles (seed 260417832, fixed lengths). CORRECTED order: reverse sign_sequence where reading_direction == "L-R", keep as stored where "R-L" (per dataset card loader convention); exact-dedup AFTER orienting. Position convention: begin = index 0; end = index len-1 with len>1; middle = rest. Fixed 2026-10-14 before any corrected-order number was computed.'
+result: n80 begin/end = 107/32 corrected order (1948 texts post-orient dedup); null-min 67 → gate PASS; checker PASS 2026-10-14. V 0.156 (Nair 0.15); site-V M 0.168/H 0.132 (Nair 0.160/0.153); hapax 0.363 (0.33); zipf -1.42 (-1.49); mean-len 4.66 (4.42).
+skeptics: [sk2b-A, sk2b-B]
+status: verified  # 2/2 independent reproductions 2026-10-14
+supersedes_note: L1-0002 (as-stored order, gate not met due to loader-convention specification error)
+limitations:
+  - Sign IDs not comparable to M77 lists without a concordance — direction/count pattern only.
+  - Corrected means loader convention only, not a claim about the true reading direction.
+  - Rigidity/V, cross-site V, hapax, Zipf reported (not gated) for Nair-2026 comparison.

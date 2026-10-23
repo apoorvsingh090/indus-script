@@ -1,0 +1,9 @@
+{
+  "zipf_s_ols": 1.4236038930919426,
+  "synth": {
+    "H1n": 0.4815856712657066,
+    "C": 0.41888598706146707
+  },
+  "d": 0.274553692876097,
+  "verdict": "distinguishable-supports-Rao-reply"
+}

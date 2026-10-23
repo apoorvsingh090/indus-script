@@ -1,5 +1,9 @@
 # Indus Script — Verification-First Repo
 
+[![ci](https://img.shields.io/github/actions/workflow/status/apoorvsingh090/indus-script/ci.yml?branch=main)](https://github.com/apoorvsingh090/indus-script/actions/workflows/ci.yml)
+[![verify-claim](https://img.shields.io/github/actions/workflow/status/apoorvsingh090/indus-script/verify-claim.yml?branch=main)](https://github.com/apoorvsingh090/indus-script/actions/workflows/verify-claim.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 > Nothing counts until independent skeptics reproduce it.
 > Modeled on the discipline of elder-plinius/V3R1T4S and the "Daily Oracle" thread, not on its targets.
 
@@ -66,15 +70,24 @@ No corpus files are vendored yet. See `data/raw/README.md` + `data/raw/provenanc
 
 ## Contributing
 
-1. Read `READ_BEFORE_CITING.md` and `agents/skeptic-protocol.md`.
-2. Pin one sign scheme per experiment (`ICIT` / `M77` / `P82`); never compare counts across schemes without a concordance.
-3. Fix thresholds/splits *before* running; log timestamps/hashes.
-4. File negatives and partials — they go in `TROPHY_CASE.md` too.
+Open to all via fork + PR — see [`CONTRIBUTING.md`](CONTRIBUTING.md) for the
+full rules (read `READ_BEFORE_CITING.md` and `agents/skeptic-protocol.md`
+first; pin one sign scheme per experiment; fix thresholds/splits *before*
+running with timestamp/hash proof; file negatives and partials — they go in
+`TROPHY_CASE.md` too). No invite needed.
 
-## Contributing
+Use [Discussions](https://github.com/apoorvsingh090/indus-script/discussions)
+for Q&A and target ideas, and the `claim` / `skeptic` issue templates for
+reviews. Epigraphers and linguists especially welcome as external reviewers
+(planner Phase 0). By participating you agree to the
+[Code of Conduct](CODE_OF_CONDUCT.md).
 
-Open to all via fork + PR — see `CONTRIBUTING.md`. No invite needed.
-Use [Discussions](https://github.com/apoorvsingh090/indus-script/discussions) for Q&A and target ideas, and the `claim` / `skeptic-report` issue templates for reviews. Epigraphers and linguists especially welcome as external reviewers (planner Phase 0).
+## Security
+
+Report vulnerabilities (checker short-circuits, sealed-envelope leaks, CI
+bypass) privately via
+[GitHub Security Advisories](https://github.com/apoorvsingh090/indus-script/security/advisories);
+see [SECURITY.md](SECURITY.md).
 
 ## License
 

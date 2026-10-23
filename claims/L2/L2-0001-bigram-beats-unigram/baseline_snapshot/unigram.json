@@ -1,0 +1,5 @@
+{
+  "model": "unigram",
+  "test_acc": 0.1161764705882353,
+  "test_logloss_bits": 7.119251847255061
+}
