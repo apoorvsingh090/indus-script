@@ -1,9 +1,10 @@
-# L4-0003 — Bigram-assisted hidden-key recovery: CONFIRMED NEGATIVE (3/3 keys)
+# L4-0003 — Bigram-assisted hidden-key recovery: CONFIRMED NEGATIVE (2/2 skeptics, qualifications folded)
 
 Follow-up to [L4-0002](../L4-0002-sumerian-hidden-key/README.md), which named
 bigram-assisted recovery as the L4-0003 candidate after exact-rank mapping
 managed only 5/10 (bar ≥ 7/10) and skeptic-B showed ±2-rank tolerance is
-seed-fragile (2/3 seeds).
+seed-fragile (2/3 seeds). Reproduced by sk3-A and sk3-B (own code, own
+implementations; checker blind-run `recompute=match`).
 
 ## Setup (frozen inputs, bit-identical to the L4-0002 key arm)
 
@@ -46,12 +47,40 @@ baseline it was meant to fix*.
 ## What this means for the ladder
 
 At Indus scale (~9k tokens, V≈370, mean window 4.6), substitution-key
-recovery now fails by three independent routes: exact rank (5/10, L4-0002),
-±2-rank tolerance (seed-fragile, 2/3), bigram hill-climb (4/10, all keys).
-The L4 hidden-key arm remains uncleared — which keeps the L3 gate shut for
-methods of this class, exactly as the ladder intends. Escaping local optima
-(e.g. restarts/annealing/EM with unigram anchoring) is future work; any
-such method must preregister afresh.
+recovery fails by three routes **as configured here** — exact rank (5/10,
+L4-0002), ±2-rank tolerance (seed-fragile, 2/3), bigram hill-climb at
+α=0.001 (4/10, all keys) — so the L4 hidden-key arm remains uncleared by
+this claim and the L3 gate stays shut for it. This is a statement about the
+preregistered configuration, **not** about hill-climbs as a class (see
+skeptic qualifications below). Escaping the failure (α-calibrated rerun,
+restarts/annealing with the right smoothing, more reference data) requires
+a fresh preregistration.
+
+## Skeptic qualifications (2/2 reproduced; folded in, gate unaffected)
+
+- **α-fragility (sk3-B, material).** With everything else frozen, the same
+  climb clears the bar at α ≥ 0.2 — α=1.0 gives 10/10 on all three keys
+  (full-key 0.26–0.29). α=0.001 was inherited from L4-0002's L2 accuracy
+  context, not calibrated for the recovery objective. The negative is
+  therefore about the preregistered configuration; an α-calibrated rerun
+  must preregister afresh before the hidden-key arm is declared cleared
+  or uncleared for hill-climbs generally.
+- **Reference scope (sk3-A, sk3-B).** Using the full ~9k-token corpus as
+  reference (an oracle bound — illegitimate as decipherment, since it
+  includes the target's plaintext), the frozen climb recovers 10/10 top-10
+  and ~77% of the full key. The honest scenario — equal-size reference
+  half — is the one that fails. Cite the negative with this condition.
+- **Cross-implementation portability.** Report-only fields (final LL,
+  swap counts, full-key accuracy) differ across implementations by float
+  tie-noise on near-tied swaps (84/326 accepted steps have gap < 1e-9);
+  quote them as bands (LL −19966…−19995, swaps 309–328). Gated cells are
+  stable; the checker compares only those.
+- **Adversarial variants (sk3-A).** α 0.01/0.1, first-improvement, 10
+  random restarts, 3 annealings, 6 targeted restarts — all ≤ 5/10, none
+  clear 7/10 within the preregistered smoothing family.
+- **Cosmetic.** `results.json:n_texts` is the number of windows (1948),
+  not underlying texts (1456); checker exit 1 means "gate FAIL" (negative
+  by design), not "recompute mismatch" (the printed line disambiguates).
 
 ## Evidentiary notes
 

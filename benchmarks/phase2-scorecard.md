@@ -33,6 +33,7 @@ Adhikari et al. n-gram paper (M77-EBUDS), Nair 2026 arXiv:2604.17828
 | 23 | Sealed substitution-key recovery | rank mapping 5/10 < 7 | hidden key (sha-committed) | SUMER signs | CONFIRMED NEGATIVE (L4-0002); tolerance alone insufficient |
 | 24 | Fuls books as data source | reference-only | ICIT 4660/5644/17957 + concordances Ch.2.4/2.5 | ICIT/M77/P82 | blocked (© + ICIT deferred); facts banked in provenance |
 | 25 | HimanshuAttri PNGs / Berkmen PDF | n/a | glyph images / reading claims | n/a | rejected (no license; unfalsifiable) |
+| 26 | Bigram hill-climb key recovery (L4-0003) | 4/10 @α=0.001 (3/3 keys) < 7; rank-only 5/10 | Jakobsen-1995-style cryptanalysis | SUMER windows (L4-0002 pipeline) | verified-negative 2/2 — CONFIG-SCOPED: α≥0.2 → 10/10 (sk3-B); full-corpus ref → 10/10 (sk3-A); α-calibrated rerun = fresh prereg |
 
 ## Loader-convention finding (cross-cutting)
 

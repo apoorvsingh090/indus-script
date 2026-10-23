@@ -37,6 +37,10 @@ until the first tag is cut.
   (partial negative) skeptic-confirmed (2/2 each)
 - 2026-10-15: splits v2 frozen (test = Mohenjo-daro); audit scorecard
   extended to L0/L2/L4 (all checkers recomputed green)
+- 2026-10-23: L4-0003 (new claim) — bigram-assisted hidden-key recovery
+  CONFIRMED NEGATIVE 2/2 skeptics (4/10 vs bar 7 on 3/3 keys, under
+  rank-only 5/10); qualifications folded: negative is config-scoped
+  (α≥0.2 clears 10/10; full-corpus reference recovers 10/10)
 
 ### Known gaps
 

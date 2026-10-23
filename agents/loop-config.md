@@ -22,6 +22,7 @@
 - [x] L1: synthetic-baseline scorecard (arXiv 2604.17828) → metrics compared (Nair 2026), generators cannot-rerun (code upon-request); see `benchmarks/phase2-scorecard.md`
 - [x] L2: fixed site/object splits + unigram/n-gram/positional baselines + power analysis → splits v1 frozen; L2-0001 bigram-beats-unigram (verified)
 - [x] L4: synthetic + hidden-key calibration harness → L4-0001 (verified): sensitivity floors + emblem profile; hidden-key on real scripts still open
+- [x] L4: bigram-assisted hidden-key recovery (L4-0003 candidate from L4-0002 review) → L4-0003 verified-negative 2/2 @α=0.001; CONFIG-SCOPED: α-calibrated rerun (fresh prereg) is the open follow-up
 
 ## Open decisions (planner §10)
 - [ ] Compute + token budget per daily run
