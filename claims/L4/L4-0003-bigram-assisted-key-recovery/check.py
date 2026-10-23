@@ -61,11 +61,10 @@ def main() -> int:
         and sum(1 for h in hits.values() if h >= 7) == o["recovery"]["keys_ge7"]
     n_pass = sum(1 for h in hits.values() if h >= 7)
     gate = hits["committed"] >= 7 and n_pass >= 2
-    gate_same = gate == o["gate"]["pass"]
     print(f"KEY committed {hits['committed']}/10 alt1 {hits['alt1']}/10 alt2 {hits['alt2']}/10 "
-          f"(ge7: {n_pass}) recompute={'match' if same else 'DIFF'} gate={gate}")
-    print("PASS" if same and gate_same else "FAIL")
-    return 0 if same and gate_same else 1
+          f"(ge7: {n_pass}) recompute={'match' if same else 'DIFF'} gate={'PASS' if gate else 'FAIL'}")
+    print("PASS" if same and gate else "FAIL")
+    return 0 if same and gate else 1
 
 
 if __name__ == "__main__":

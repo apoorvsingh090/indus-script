@@ -1,0 +1,29 @@
+{
+  "n_texts": 1948,
+  "vocab": 370,
+  "wrap_rate": 0.0728952772073922,
+  "committed_key_sha256": "3b6a6c1daccd40ee02ea76b03e9338924fb1b0edf47ea5c6e52403d9b263c517",
+  "recovery": {
+    "committed": {
+      "top10_hits": 4,
+      "full_key_acc": 0.051351351351351354,
+      "accepted_swaps": 326
+    },
+    "alt1": {
+      "top10_hits": 4,
+      "full_key_acc": 0.051351351351351354,
+      "accepted_swaps": 318
+    },
+    "alt2": {
+      "top10_hits": 4,
+      "full_key_acc": 0.04594594594594595,
+      "accepted_swaps": 303
+    },
+    "keys_ge7": 0
+  },
+  "gate": {
+    "bar": ">=7/10 top-10 exact on committed AND >=2 of 3 keys >=7",
+    "pass": false
+  },
+  "l4_0002_baseline_top10_hits": 5
+}

@@ -77,6 +77,8 @@ def main() -> int:
                  "pass": bool(gate_pass)},
         "l4_0002_baseline_top10_hits": 5,
     }
+    (claim / "object").mkdir(exist_ok=True)
+    (claim / "baseline_snapshot").mkdir(exist_ok=True)
     (claim / "object" / "results.json").write_text(json.dumps(out, indent=2))
     (claim / "baseline_snapshot" / "l40003.json").write_text(json.dumps(
         {"key_sha256": KEY_SHA256, "n": N_WINDOWS, "l4_0002_rank_only_top10_hits": 5}, indent=2))
