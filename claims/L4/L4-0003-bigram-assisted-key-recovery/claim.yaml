@@ -1,0 +1,19 @@
+id: L4-0003
+title: "Bigram-assisted recovery (Jakobsen-style hill-climb) clears the L4-0002 hidden-key bar (>=7/10 top-10) at Indus scale"
+level: L4
+corpus_snapshot_sha256: "ETCSRI bulk zip (fetch-at-build from http://oracc.museum.upenn.edu/json/etcsri.zip, 13197377 bytes, sha256 66991601df193a5cb93bccf92e9051e86a98fbb668a9dd343477d14f0c9d54d6 as fetched 2026-10-23; 1456 nonempty texts; per-file header CC0; attribute ORACC/ETCSRI; never vendored) — identical pipeline and seed to L4-0002, whose checker was re-run green (recompute=match) on this exact zip before prereg"
+key_commitment_sha256: "3b6a6c1daccd40ee02ea76b03e9338924fb1b0edf47ea5c6e52403d9b263c517 — SAME committed key as L4-0002 (public since its reveal; sha asserted by checker). Alternate robustness keys are deterministic, NOT sha-committed: alt1 = Random(260417835+9000+370), alt2 = Random(260417835+9001+370) permutations of range(370)"
+sign_scheme: "Sumerian cuneiform gdl_sign stream (V=370 windowed types), windows protocol identical to L4-0002 (N=1948, token-weighted text choice, modular wrap, lengths from Indus splits/v1 corrected-order pool, seed 260417835)"
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/l40003.json
+generator: how-we-built-it/
+preregistered_threshold: "Frozen inputs = L4-0002 key arm bit-exactly (974/974 halves, cipher = second half under committed key, V=370 asserted). Recovery method (frozen): init = unigram rank match with canonical sort (count desc, sign asc); objective = sum over adjacent within-window pairs of the cipher half of ln P_ref(m(c_i)->m(c_{i+1})) with P_ref=(ref_bigram+0.001)/(ref_unigram+0.001*370); search = deterministic steepest-ascent pairwise swaps, full sweep per step, first row-major maximum on ties, accept iff delta>1e-12, cap 2000 accepted swaps; no randomness. GATE (both required): (a) >=7 of the 10 most frequent cipher-half types (Counter.most_common(10), same convention as L4-0002) map exactly to true plaintext under the committed key; (b) >=2 of the 3 keys {committed, alt1, alt2} each reach >=7/10. Report-only (not gated): full-key exact accuracy, accepted-swap counts. Fixed 2026-10-23 before any L4-0003 gated number was computed; method prototyped only on an unrelated synthetic toy corpus, never on the Sumerian windows."
+result: "TBD — pipeline not yet run at preregistration commit"
+skeptics: []
+status: draft
+limitations:
+  - "Transparent-box: the committed key is public since the L4-0002 reveal; recovery validity does not depend on builder blindness (same disclosure as L4-0002), and the sha assertion pins input identity."
+  - "Single-script calibration cell (Sumerian royal-inscription genre); passing here licenses the method for L4 credit on this cell only, not a general decipherment capability claim."
+  - "Hill-climb reaches a local optimum of a sparse-data objective; full-key exactness is explicitly NOT claimed — only the preregistered top-10 bar."
+  - "CC0 claim is per-file-header; eme-gir analysis argues CC BY-SA for ORACC data — attribute + link, never vendor, revisit if counsel needed."
