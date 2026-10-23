@@ -30,6 +30,9 @@ until the first tag is cut.
 
 - 2026-10-14: L1-0001, L1-0002 (negative), L1-0002b, L1-0003, L1-0004
   skeptic-confirmed (2/2 each)
+- 2026-10-23: L1-0001 third independent reproduction (skeptic-task-03,
+  stdlib-only reimplementation, own seeds; C bit-identical to shipped object) —
+  now 3/3 skeptics (PR #1)
 - 2026-10-15: L0-0001, L0-0002, L2-0001, L4-0001, L2-0003, L4-0002
   (partial negative) skeptic-confirmed (2/2 each)
 - 2026-10-15: splits v2 frozen (test = Mohenjo-daro); audit scorecard
