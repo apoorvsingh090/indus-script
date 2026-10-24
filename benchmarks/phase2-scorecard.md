@@ -35,6 +35,7 @@ Adhikari et al. n-gram paper (M77-EBUDS), Nair 2026 arXiv:2604.17828
 | 25 | HimanshuAttri PNGs / Berkmen PDF | n/a | glyph images / reading claims | n/a | rejected (no license; unfalsifiable) |
 | 26 | Bigram hill-climb key recovery (L4-0003) | 4/10 @α=0.001 (3/3 keys) < 7; rank-only 5/10 | Jakobsen-1995-style cryptanalysis | SUMER windows (L4-0002 pipeline) | verified-negative 2/2 — CONFIG-SCOPED: α≥0.2 → 10/10 (sk3-B); full-corpus ref → 10/10 (sk3-A); α-calibrated rerun = fresh prereg |
 | 27 | α-calibrated recovery, disjoint pools + N_ref grid (L4-0004) | reaches bar @974 (7/7/7, zero slack); 2-4/10 @≤250; α*=0.2 dev rule | same method class | SUMER disjoint pools (V_U=368) | verified-pass 2/2 (bounded: top-10 bar passes 17% of structureless controls; joint pattern carries it; L3 needs strengthened gate) |
+| 28 | G↔P concordance via shared-text alignment (L0-0003) | 22 clean bijective (stable core 16), 19 contested, 151 unmapped; holdout 0.980; perm floor 0/200 | scheme bridge (provisional) | mayig × indus_website (161 shared M-daro unicorns) | verified 2/2; composes with pwm-v01 → 15 G→P→M chains; P stored reversed vs G corrected order |
 
 ## Loader-convention finding (cross-cutting)
 
@@ -45,7 +46,9 @@ shift) are robust; positional metrics are not. L1-0002 is the standing warning.
 
 ## Scheme-debt list (blocks numeric comparison)
 
-- P/W/M/V v0.1 exists (L0-0002) but is type-level and provisional; G-scheme and
-  the authoritative Fuls concordances remain unbridged (Phase 1 item still open).
+- P/W/M/V v0.1 exists (L0-0002) and G is now bridged for high-frequency
+  signs (L0-0003: 22 clean G→P, stable core 16; composes to 15 G→P→M
+  chains) — but both maps are type-level/provisional, and the tail plus
+  the authoritative Fuls concordances remain open (Phase 1 continues).
 - Estimators differ per study (NSB vs MM vs ML vs Chao-Shen) — absolute values
   compared only within-study; cross-study verdicts are pattern-level.

@@ -49,6 +49,12 @@ until the first tag is cut.
   behind a strengthened key-recovery design
 - 2026-10-24: agents/outreach-template.md — external-reviewer outreach
   draft (planner Phase 0)
+- 2026-10-24: L0-0003 (new claim) — G↔P concordance v0.1 via structural
+  alignment on 161 shared M-numbered Mohenjo-daro unicorn texts, verified
+  2/2 skeptics: 22 clean bijective pairs (stable core 16), 19 contested,
+  151 unmapped; holdout 0.980, permutation floor 0/200; P stored reversed
+  vs G corrected order; composes with pwm-v01 → 15 clean G→P→M chains;
+  gp-v01.csv ships (scheme-debt: G now bridged for high-frequency signs)
 
 ### Known gaps
 

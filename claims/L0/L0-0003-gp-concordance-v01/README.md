@@ -1,10 +1,12 @@
-# L0-0003 — G↔P concordance v0.1: 22 clean bijective pairs from 161 shared texts
+# L0-0003 — G↔P concordance v0.1: 22 clean bijective pairs from 161 shared texts (2/2 skeptics)
 
 Closes the biggest piece of the Phase-1 scheme debt: the G-592 scheme
 (indus_website, all L1/L2 claims) had **no bridge at all** to the
 P/W/M/V world (L0-0002's pwm-v01). This claim derives one structurally:
 mayig's 179 P-coded Mohenjo-daro unicorn seals joined to the G corpus by
 M-number (161 shared), aligned positionally on equal-length texts.
+Reproduced by skL0-C and skL0-D (own code, blind checker runs
+`recompute=match gate=PASS`).
 
 ## How (preregistered, deterministic)
 
@@ -43,14 +45,37 @@ scheme-debt list shrinks from "G unbridged" to "G bridged for 15-22 clean
 ## Limits
 
 - Type-level and provisional — frequency/position evidence, not glyph
-  identity proof; the contested clusters are exactly where the two
-  transcriptions split signs differently.
+  identity proof; the contested clusters are where the two transcriptions
+  split signs differently (complementary text distributions per skL0-D).
 - Evidence base is 161 unicorn seals (~768 positions): only frequent signs
   can clear support ≥ 5. Extending the bridge needs more shared texts
   (ICIT/M77 index remains the blocked path).
 - Same-object guarantee rests on M-number equality across two independent
-  digitizations; exclusions counted (18 mayig-only, 1027 G M-daro rows
-  without an M-number join).
+  digitizations; exclusions: 18 mayig-only M-numbers, 1027 M-daro G rows
+  whose M-numbers have no mayig counterpart, and 14 M-daro G rows with no
+  M-form cisi_number at all.
+
+## Skeptic qualifications (2/2 reproduced; folded in, gate unaffected)
+
+- **Threshold-stable core is 16 pairs** (skL0-C, skL0-D): 6 of the 22
+  clean pairs sit exactly at support 5 and drop under support ≥ 6 or
+  consistency ≥ 0.95. Compose downstream claims on the stable core or
+  re-justify thresholds.
+- **Coincidental floor ≈ 0** (skL0-D): random equal-length pairing yields
+  0/200 clean pairs (max top-pair count 11 vs the real 75) — the mapping
+  is positional evidence, not a numbering artifact.
+- **No duplicate inflation** (skL0-D): 161/161 shared G sequences are
+  distinct; dedup rerun is a no-op despite the formulaic genre.
+- Contested *reason labels* are underdetermined by the prereg (skL0-D's
+  ordering: 17 reverse-conflict / 2 low-consistency vs shipped 15/4) —
+  classes and evidence counts are identical.
+- Equal-length-only alignment discards 21 shared texts (no indel
+  modeling) — conservative; edit-distance variant is v0.2 future work.
+- Provenance caveat: indus_website `cisi_number` values may derive from
+  concordance cross-referencing; the permutation control shows the bridge
+  does not depend on it.
+- CSV amendment post-review: unmapped rows now ship top-pair + true
+  evidence counts (skL0-C objection; classification unchanged).
 
 ## Reproduce
 

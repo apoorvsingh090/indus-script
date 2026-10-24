@@ -194,15 +194,22 @@ def main() -> int:
         {"shared_m_numbers": len(shared), "g_signs_observed": len(ng),
          "clean": n_clean, "contested": n_contested, "unmapped": n_unmapped}, indent=2))
 
-    # concordance CSV (repo-wide artifact, pwm-v01 format + evidence)
+    # concordance CSV (repo-wide artifact, pwm-v01 format + evidence).
+    # Amendment post-skeptic-review (skL0-C objection 1): unmapped rows now
+    # ship their top pair and TRUE evidence counts (classification unchanged).
     conc = repo_root / "data" / "concordance" / "gp-v01.csv"
     with conc.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["g", "p", "class", "c_g_p", "n_g", "support_texts", "reason"])
         for g in sorted(cls):
             v = cls[g]
-            w.writerow([g, v[1] if v[0] != "unmapped" else "", v[0],
-                        v[2], v[3], v[4], v[5] if len(v) > 5 else ""])
+            if v[0] == "unmapped" and C.get(g):
+                ranked = sorted(C[g].items(), key=lambda kv: (-kv[1], kv[0]))
+                p1, c1 = ranked[0]
+                w.writerow([g, p1, v[0], c1, ng[g], len(support.get((g, p1), ())), "insufficient-evidence"])
+            else:
+                w.writerow([g, v[1] if v[0] != "unmapped" else "", v[0],
+                            v[2], v[3], v[4], v[5] if len(v) > 5 else ""])
     print(f"shared={len(shared)} pairs={pairs} p_reverse={p_reverse} "
           f"clean={n_clean} contested={n_contested} unmapped={n_unmapped} "
           f"bij_viol={len(bijection_violations)} holdout_acc={holdout_acc} "

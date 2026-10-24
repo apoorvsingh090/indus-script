@@ -62,7 +62,7 @@ Plus `claim.yaml` (see `claims/_template/claim.yaml`). Skeptics rebuild from raw
 
 ## Status
 
-Phases 1–4 in progress. See `planner.md` §5 for milestones, `TROPHY_CASE.md` for verified results — 13 skeptic-confirmed entries so far (incl. 1 negative, 1 partial negative, 1 bounded pass on the L4 key-recovery arm) across L0/L1/L2/L4; L3 stays gated behind a strengthened L4 key-recovery design (see L4-0004 qualifications).
+Phases 1–4 in progress. See `planner.md` §5 for milestones, `TROPHY_CASE.md` for verified results — 14 skeptic-confirmed entries so far (incl. 1 negative, 1 partial negative, 1 bounded L4 key-recovery pass, and the G↔P scheme bridge) across L0/L1/L2/L4; L3 stays gated behind a strengthened L4 key-recovery design (see L4-0004 qualifications).
 
 ## Data access
 
