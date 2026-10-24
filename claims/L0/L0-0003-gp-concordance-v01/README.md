@@ -1,0 +1,61 @@
+# L0-0003 — G↔P concordance v0.1: 22 clean bijective pairs from 161 shared texts
+
+Closes the biggest piece of the Phase-1 scheme debt: the G-592 scheme
+(indus_website, all L1/L2 claims) had **no bridge at all** to the
+P/W/M/V world (L0-0002's pwm-v01). This claim derives one structurally:
+mayig's 179 P-coded Mohenjo-daro unicorn seals joined to the G corpus by
+M-number (161 shared), aligned positionally on equal-length texts.
+
+## How (preregistered, deterministic)
+
+- Join: `cisi_number` M-form on Mohenjo-daro G rows ↔ mayig `M-###X` ids →
+  161 shared texts (design input, disclosed at prereg).
+- G side in corrected order (`reading_direction == "L-R"` reversed — the
+  repo-wide convention since L1-0002b). P orientation chosen by rule:
+  aggregate top-pair count **741 reversed vs 267 as-stored** → reversed.
+  This is itself a convention finding: mayig side sequences are stored
+  opposite to the G corrected order.
+- 140 equal-length (G-row, P-side) pairs → 768 aligned positions over 192
+  G-signs / 164 P-signs.
+- clean = support ≥ 5 texts, two-way consistency ≥ 0.9, top-source both
+  directions; contested carries a reason; unmapped = tail (n_g < 5).
+
+## Result — GATE PASS
+
+| Class | Count | Notes |
+|---|---|---|
+| clean | 22 | bijective; top supports G2→P122 60/63, G740→P324 75/76, G220→P050 27/29 |
+| contested | 19 | split-convention clusters: G861/G817→P385, G803/G806→P364, G900/G920→P154, G550/G798→P230; rest low-consistency |
+| unmapped | 151 | n_g < 5 in the shared unicorns — evidence ceiling by design |
+
+Reconciles 22+19+151 = 192 G-signs observed; no silent drops. **Holdout
+(report-only):** mapping inferred without every 5th shared text predicts
+held-out positions at clean-mapped signs with **0.980 accuracy (48/49)**.
+
+## Composition with pwm-v01 (report-only)
+
+All 22 clean P codes appear in pwm-v01; **15 chain clean-1:1 through to
+M-codes** (e.g., G220→P050→M059, G233→P058→M072, G235→P060→M065). The
+G→P→W/M/V bridge now exists for the most frequent signs; the scorecard's
+scheme-debt list shrinks from "G unbridged" to "G bridged for 15-22 clean
++ 19 contested high-frequency signs, tail open."
+
+## Limits
+
+- Type-level and provisional — frequency/position evidence, not glyph
+  identity proof; the contested clusters are exactly where the two
+  transcriptions split signs differently.
+- Evidence base is 161 unicorn seals (~768 positions): only frequent signs
+  can clear support ≥ 5. Extending the bridge needs more shared texts
+  (ICIT/M77 index remains the blocked path).
+- Same-object guarantee rests on M-number equality across two independent
+  digitizations; exclusions counted (18 mayig-only, 1027 G M-daro rows
+  without an M-number join).
+
+## Reproduce
+
+```
+python how-we-built-it/build_gp.py <mayig_repo@ad2f1e2> <indus_website_real_corpus.csv@47e8616d> <claim_dir> <repo_root>
+python check.py --mayig <dir> --corpus <csv> --object object/results.json \
+  --baseline baseline_snapshot/counts.json --concordance ../../../../data/concordance/gp-v01.csv
+```

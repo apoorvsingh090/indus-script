@@ -1,0 +1,33 @@
+{
+  "join": {
+    "shared_m_numbers": 161,
+    "mayig_sides": 179,
+    "g_mdaro_rows_with_mnum": 1188
+  },
+  "orientation": {
+    "selected_p_reversed": true,
+    "top_sum_as_stored": 267,
+    "top_sum_reversed": 741
+  },
+  "alignment": {
+    "equal_length_pairs": 140,
+    "aligned_positions": 768,
+    "g_signs_observed": 192,
+    "p_signs_observed": 164
+  },
+  "classes": {
+    "clean": 22,
+    "contested": 19,
+    "unmapped": 151,
+    "bijection_violations": []
+  },
+  "holdout_report_only": {
+    "texts": 33,
+    "positions_scored": 49,
+    "accuracy_at_clean_mapped": 0.9795918367346939
+  },
+  "gate": {
+    "bar": ">=20 clean bijective; classes reconcile to g_signs_observed; shared==161",
+    "pass": true
+  }
+}
