@@ -1,0 +1,46 @@
+{
+  "cell": {
+    "v_union": 372,
+    "wrap_ref": 0.09034907597535935,
+    "wrap_cyp": 0.06776180698151951
+  },
+  "dev": {
+    "table": {
+      "0.001": {
+        "top10_hits": 2,
+        "full": 0.03225806451612903,
+        "start": 0
+      },
+      "0.01": {
+        "top10_hits": 3,
+        "full": 0.04032258064516129,
+        "start": 0
+      },
+      "0.1": {
+        "top10_hits": 4,
+        "full": 0.09408602150537634,
+        "start": 0
+      },
+      "0.2": {
+        "top10_hits": 4,
+        "full": 0.09946236559139784,
+        "start": 0
+      },
+      "0.5": {
+        "top10_hits": 4,
+        "full": 0.08333333333333333,
+        "start": 0
+      },
+      "1.0": {
+        "top10_hits": 4,
+        "full": 0.10752688172043011,
+        "start": 0
+      }
+    },
+    "alpha_star": null
+  },
+  "gate": {
+    "pass": false,
+    "reason": "no alpha reaches 7/10 on the dev cell"
+  }
+}
