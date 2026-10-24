@@ -17,6 +17,7 @@
 | [L2-0003](claims/L2/L2-0003-bigram-beats-unigram-rotated/claim.yaml) | L2 | bigram 0.1979 beats unigram 0.1086 on Mohenjo-daro held-out (diff 0.0892, CI95 [0.0805, 0.0978]); log-loss disagrees as found | splits v2 (`6996368c…`) | G-592 | skR-A, skR-B | 2026-10-15 |
 | [L4-0002](claims/L4/L4-0002-sumerian-hidden-key/claim.yaml) | L4 | NEGATIVE (partial): Sumerian gates pass, exact-rank key recovery 5/10 < 7 (mid-rank shuffling; tolerance alone insufficient per review) | ETCSRI Sumerian windows | SUMER | skS-A, skS-B | 2026-10-15 |
 | [L4-0003](claims/L4/L4-0003-bigram-assisted-key-recovery/claim.yaml) | L4 | NEGATIVE: bigram hill-climb @α=0.001 4/10 < 7 on 3/3 keys, under rank-only 5/10; LL gap closes ~77% yet top-10 degrades — NEGATIVE IS CONFIG-SCOPED (α≥0.2 clears 10/10 per sk3-B; full-corpus reference recovers 10/10 per sk3-A; α-calibrated rerun needs fresh prereg) | ETCSRI Sumerian windows (same frozen pipeline as L4-0002) | SUMER | sk3-A, sk3-B | 2026-10-23 |
+| [L4-0004](claims/L4/L4-0004-key-recovery-nmin/claim.yaml) | L4 | PASS (bounded): α*=0.2 by dev rule, disjoint-pool cell; committed 2/4/6/7 top-10 across N_ref 100/250/500/974, reaches bar at 974 with 3/3 keys (zero slack); top-10 bar weakly separated from structureless controls (17% pass) — claim carried by joint pattern; L3 needs strengthened gate | ETCSRI Sumerian, disjoint text pools (V_U=368) | SUMER | sk4-A, sk4-B | 2026-10-24 |
 
 ## How entries get added
 

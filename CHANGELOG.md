@@ -41,6 +41,14 @@ until the first tag is cut.
   CONFIRMED NEGATIVE 2/2 skeptics (4/10 vs bar 7 on 3/3 keys, under
   rank-only 5/10); qualifications folded: negative is config-scoped
   (α≥0.2 clears 10/10; full-corpus reference recovers 10/10)
+- 2026-10-24: L4-0004 (new claim) — α-calibrated recovery on a disjoint-pool
+  cell GATE PASS 2/2 skeptics: α*=0.2 by dev rule, reaches the bar at
+  N_ref=974 (7/7/7, zero slack), collapses below ~250; qualifications
+  folded: top-10 bar passes 17% of structureless controls (joint pattern
+  carries the claim), 3-key conjunct = relabeling robustness, L3 gated
+  behind a strengthened key-recovery design
+- 2026-10-24: agents/outreach-template.md — external-reviewer outreach
+  draft (planner Phase 0)
 
 ### Known gaps
 

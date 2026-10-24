@@ -1,11 +1,12 @@
-# L4-0004 — α-calibrated key recovery PASSES at Indus scale: N_min = the whole corpus
+# L4-0004 — α-calibrated key recovery reaches the bar at Indus scale (2/2 skeptics, qualifications folded)
 
 Follow-up to [L4-0003](../L4-0003-bigram-assisted-key-recovery/README.md),
 whose skeptics showed the negative was config-scoped (α≥0.2 clears; more
 reference data clears). This claim measures the honest version of that
 question: **with α fixed by a dev rule and a genuinely disjoint reference
-(different underlying texts), how much plaintext does substitution-key
-recovery need at Indus scale?**
+(different underlying texts), does substitution-key recovery reach the bar
+at Indus scale, and where?** Reproduced by sk4-A and sk4-B (own code, blind
+checker runs `recompute=match gate=PASS`).
 
 ## Cell design (new, never measured before prereg)
 
@@ -22,7 +23,7 @@ recovery need at Indus scale?**
 - Gate (preregistered): α\* exists AND committed@974 ≥7/10 AND ≥2 of 3
   keys ≥7/10 at N_ref=974 AND N_min exists.
 
-## Gated result — PASS
+## Gated result — PASS (reaches the bar at 974; zero slack)
 
 | N_ref | committed | alt1 | alt2 |
 |---|---|---|---|
@@ -31,38 +32,62 @@ recovery need at Indus scale?**
 | 500 | 6/10 | 5/10 | 4/10 |
 | 974 | **7/10** | **7/10** | **7/10** |
 
-**N_min = 974** (the full Indus-scale reference); keys_ge7 at 974 = 3/3;
-committed full-key accuracy 0.114 (alt1 0.120, alt2 0.098).
+All three keys **reach the bar** at N_ref=974 (never 8 — zero slack);
+committed full-key accuracy 0.114 (alt1 0.120, alt2 0.098; skeptic bands
+±2–3/368).
 
 ## Reading
 
-- Recovery **succeeds exactly at the edge of the corpus**: below ~1000
-  reference windows it collapses (2–4/10), at the full 974 it clears the
-  bar on every key. The N_min=974 boundary — the entire corpus is needed —
-  is the quantitative answer to "is Indus-scale data big enough for
-  substitution recovery": *just barely, for the top-10 bar, with calibrated
-  smoothing, from disjoint same-genre text*.
+- Recovery **reaches the bar only at the edge of the corpus**: below ~1000
+  disjoint reference windows it collapses (2–4/10). "N_min=974" is a
+  one-key zero-slack boundary (committed's final 6→7 step sits inside
+  structureless-control noise; rank-10/11 gap one token) — the honest
+  statement is *reaches the bar at the full corpus*, with the collapse
+  below ~250 robust.
 - The L4-0003 negative and this pass are consistent: same method, α=0.001
   vs dev-calibrated α=0.2, and here the reference never overlaps the
-  enciphered texts. Smoothing, not search, was the binding constraint
-  (L4-0003's skeptics suspected exactly this).
-- Honest limits: full-key accuracy stays ~0.10 (top-10 bar only — exactly
-  what was gated); alt1's curve is non-monotonic (8/10 at N_ref=250 →
-  5/10 at 500) — per-key variance at small N_ref is real; genre-level
-  leakage (one corpus, royal inscriptions) is inherent to the cell and
-  disclosed.
+  enciphered texts. Smoothing, not search, was the binding constraint.
+- Honest limits: full-key accuracy stays ~0.10 (top-10 bar only); alt1's
+  curve is non-monotonic (8/10 at 250 — real variance, not tie-noise, per
+  sk4-A); pool disjointness holds at object level with 6 duplicate-text
+  groups (~0.33% tokens) straddling; genre leakage inherent, disclosed.
+
+## Skeptic qualifications (2/2 reproduced; folded in, gate outcome unchanged)
+
+- **Top-10 bar alone is weakly separated from structureless noise
+  (sk4-B, material).** Under within-window-permuted references
+  (unigram marginals preserved), the full preregistered gate still passes
+  5/30 ≈ 17% of draws. What carries the claim is the joint pattern:
+  7/7/7 across keys, full-key 0.095–0.120 vs control max 0.071, and
+  committed's 6/10 at N_ref=500 above the entire control band. Future
+  key-recovery gates should add a structureless-null arm, gate on
+  full-key accuracy, or raise the bar — that is the design note L4-0005+
+  must implement.
+- **3 keys = relabeling robustness, not sampling robustness (sk4-B).**
+  All keys share identical top-10 cipher counts and the same hit pattern
+  (ranks 1–7 hit, 8–10 miss). The conjunct rules out key-specific luck,
+  not corpus-sampling luck.
+- **Zero slack (sk4-A, sk4-B).** All keys sit at exactly 7/10 at 974;
+  cells are stable under reversed tie-break and α perturbation, but the
+  margin is one hit.
+- **α-grid peek-inheritance (sk4-A).** Disclosed at prereg; mitigated by
+  the smallest-sufficient rule, dev-key separation, the never-measured
+  cell, and α-insensitivity of the gate across 0.2–1.0.
+- **Report-only fields not cross-implementation portable** (float
+  tie-noise; L4-0003 precedent). Gated cells exact in both audits.
 
 ## What this means for the ladder
 
 The hidden-key arm of L4 calibration is now **cleared on this cell** by a
 preregistered, dev-calibrated configuration — the first L4 key-recovery
-pass (after rank 5/10, tolerance seed-fragile, α=0.001 hill-climb 4/10).
-Per the ladder rule, an L3 (reading) claim remains gated on *the specific
-method passing L4* — this licenses the calibrated hill-climb configuration
-(α=0.2, disjoint-reference protocol) for L3 consideration on the Indus
-corpus, subject to skeptics. It does **not** license reading claims by
-other configurations, nor does top-10 recovery of a synthetic key on
-Sumerian imply any Indus sign value is known.
+pass (after rank 5/10, tolerance seed-fragile, α=0.001 hill-climb 4/10),
+confirmed 2/2. Per the ladder rule, an L3 (reading) claim remains gated on
+*the specific method passing L4* — but given the folded qualifications
+(top-10 bar weakly separated; zero slack), any L3 attempt from this method
+must first clear a **strengthened** key-recovery gate (structureless-null
+arm, full-key accuracy, or a raised bar). No Indus sign value is known:
+top-10 recovery of a synthetic key on Sumerian transfers nothing to Indus
+readings by itself.
 
 ## Evidentiary notes
 

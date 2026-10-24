@@ -23,6 +23,7 @@
 - [x] L2: fixed site/object splits + unigram/n-gram/positional baselines + power analysis → splits v1 frozen; L2-0001 bigram-beats-unigram (verified)
 - [x] L4: synthetic + hidden-key calibration harness → L4-0001 (verified): sensitivity floors + emblem profile; hidden-key on real scripts still open
 - [x] L4: bigram-assisted hidden-key recovery (L4-0003 candidate from L4-0002 review) → L4-0003 verified-negative 2/2 @α=0.001; CONFIG-SCOPED: α-calibrated rerun (fresh prereg) is the open follow-up
+- [x] L4: α-calibrated rerun on disjoint pools + N_ref grid (L4-0004) → verified-pass 2/2 (bounded): reaches bar at 974, collapses ≤250; top-10 bar weakly separated — any L3 attempt needs a STRENGTHENED key gate (structureless-null arm / full-key bar / higher bar) as its L4 prerequisite
 
 ## Open decisions (planner §10)
 - [ ] Compute + token budget per daily run
