@@ -1,0 +1,19 @@
+id: L0-0003
+title: "G<->P type-level concordance v0.1 derived from 161 shared M-numbered Mohenjo-daro unicorn texts (structural alignment; evidence + contested listed)"
+level: L0
+corpus_snapshot_sha256: "mayig/indus-valley-script-corpus @ad2f1e218a34b8c33c57de0d6cb8d99272765bbb (MIT, 179 side-sequences, P-codes; clone verified at pin) + joyboseroy/indus_decipher indus_website_real_corpus.csv @47e8616d sha256 72580755..98392c8 (G-codes, 2543 rows; NOT vendored, link+hash only)"
+sign_scheme: "bridge G-592 (indus_website) <-> P-codes (mayig/Parpola side); type-level, evidence-based, provisional — same class as pwm-v01"
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/counts.json
+generator: how-we-built-it/build_gp.py
+preregistered_threshold: "Frozen method: join on M-number (G rows: site==Mohenjo-daro, cisi_number ^M-?\\d+[A-Z]?$; mayig ids ^M-?(\\d+)); G orientation = corrected order (reverse when reading_direction=='L-R'); P orientation = BOTH global variants scored, select higher sum of per-G-sign top-pair counts (both totals reported); align every equal-length (G-row, P-side) pair positionally; classify per G-sign g with n_g aligned occurrences: clean iff n_g>=5 AND support(g,p1)>=5 texts AND C[g][p1]>=0.9*n_g AND g is p1's top source AND C[g][p1]>=0.9*n_p1; contested iff n_g>=5 with reason (near-tie C[g][p2]>=0.8*C[g][p1] / reverse-conflict / low-consistency); unmapped iff n_g<5. GATE: >=20 clean pairs, bijective over clean, clean+contested+unmapped == distinct G-signs observed at aligned positions (no silent drops), every sign listed in data/concordance/gp-v01.csv with evidence counts, and join reproduces the pre-measured design inputs shared==161 M-numbers / equal-length pairs>0. Holdout (every 5th sorted shared M-number; infer on rest) REPORT-ONLY. Design inputs measured pre-prereg and disclosed: shared=161, equal-length-candidate texts=140/161, G motif on shared rows all Bull1:*. No mapping/classification computed before this commit."
+result: "TBD — pipeline not yet run at preregistration commit"
+skeptics: []
+status: draft
+limitations:
+  - "Type-level and provisional: clean pairs are frequency-and-position evidence, NOT glyph identity proof; editorial convention differences (sign splits, numerals, damaged signs) will surface as contested/unmapped rather than resolved."
+  - "Evidence base is 161 Mohenjo-daro unicorn-seal texts (~700 aligned positions) — only frequent G-signs can clear support>=5; the tail stays unmapped by design."
+  - "P orientation is selected by an aggregate rule from the data (both variants reported); a wrong convention would depress consistency and show up as contested, not silent error."
+  - "mayig MIT allows redistribution; the joy CSV remains fetch-at-build (yajnadevam transcription terms) — the concordance CSV ships codes+counts only, no corpus text."
+  - "Same-object guarantee rests on M-number equality across two independent digitizations; the 18 unshared mayig numbers and any M-daro G rows without M-numbers are excluded and counted."
