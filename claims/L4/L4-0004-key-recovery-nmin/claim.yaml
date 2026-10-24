@@ -1,0 +1,20 @@
+id: L4-0004
+title: "Smoothing-calibrated bigram hill-climb recovers a hidden substitution key at Indus scale from a DISJOINT equal-size reference; N_min measured (L4-0003 follow-up)"
+level: L4
+corpus_snapshot_sha256: "ETCSRI bulk zip (fetch-at-build from http://oracc.museum.upenn.edu/json/etcsri.zip, 13197377 bytes, sha256 66991601df193a5cb93bccf92e9051e86a98fbb668a9dd343477d14f0c9d54d6, 1456 nonempty texts; same artifact whose full L4-0002 checker chain was re-verified green 2026-10-23; per-file header CC0; attribute ORACC/ETCSRI; never vendored)"
+key_commitment_sha256: "committed over V_U=368 union vocab: gate_committed make_key(368, 260417835) = 73d42c4b9d2fde2cc999c7e3cf2c842a4222d5c4df3f2b094cc35b82cb309da3; alt1 (+9000) = a50b4c8271c8971ec10f4e200a5a79ca05334ab3e1189aa09e276d15cbfbc249; alt2 (+9001) = d704e187974531bb21fe110a1182a06e38d0049276e1c23bcabb928a3f1abf5e; dev (+9002) = 733cebcc478939bfeb0289e8bfa41237ef95c1bc69351a84a6d661021471b614 (all deterministic from committed constants; shas pin them)"
+sign_scheme: "Sumerian cuneiform gdl_sign stream, NEW disjoint-pool cell: texts shuffled Random(260417835+5555), pool A = first 728 texts (reference), pool B = rest (cipher); 974 windows each (seeds +6100/+6000), lengths from Indus splits/v1 corrected-order pool; V_U=368 union windowed types; cipher arm enciphered under the gate keys"
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/nmin.json
+generator: how-we-built-it/
+preregistered_threshold: "Frozen design: (1) dev rule — reference = first 500 pool-A windows, cipher = 974 pool-B windows under the dev key; sweep alpha in [0.001, 0.01, 0.1, 0.2, 0.5, 1.0]; alpha* = SMALLEST alpha with dev top-10 exact hits >= 7/10 (top-10 = Counter.most_common(10) of cipher-half types, L4-0002 convention); if none, claim files negative. (2) gated grid at frozen alpha* — top-10 hits for keys {committed, alt1, alt2} at N_ref in {100, 250, 500, 974} (prefixes of pool-A windows in generation order). GATE (all required): alpha* exists AND committed@974 >= 7/10 AND >= 2 of 3 keys >= 7/10 at N_ref=974 AND N_min (smallest N_ref with committed >= 7/10) exists. Recovery method identical to L4-0003 except alpha: unigram-rank init (count desc, sign asc), steepest-ascent pairwise swaps on bigram log-likelihood ln P_ref(q|p)=(ref_bigram+alpha*)/(ref_unigram+alpha* x 368), full sweep per step, first row-major max, accept iff delta>1e-12, cap 2000 swaps. DISCLOSED: the alpha grid is informed by sk3-B's L4-0003 peek (alpha>=0.2 cleared the old cell); this evaluation cell (disjoint pools, new windows, V_U=368 key basis) has never been measured — design inputs (pool split, windows, V_U, key shas) measured before prereg per the L4-0002 'V as design input' precedent; NO recovery or alpha sweep run on this cell before this commit."
+result: "TBD — pipeline not yet run at preregistration commit"
+skeptics: []
+status: draft
+limitations:
+  - "Alpha grid is post-peek-informed (sk3-B, L4-0003); mitigated by the smallest-sufficient rule, the dev/gated key separation, and a never-measured evaluation cell — but the alpha* value itself is not a novel prediction."
+  - "Transparent-box: all keys deterministic from committed constants (disclosed); recovery validity does not depend on builder blindness, shas pin input identity."
+  - "Single-script calibration cell (Sumerian royal genre), synthetic-length windows; an L4 pass here credits the method on this cell only — no Indus reading claim follows."
+  - "Reference and cipher windows share no underlying texts, but pools are drawn from one corpus/genre — genre-level signal leakage is possible and is part of what the cell measures."
+  - "CC0 per-file-header; eme-gir analysis argues CC BY-SA for ORACC data — attribute + link, never vendor, revisit if counsel needed."
