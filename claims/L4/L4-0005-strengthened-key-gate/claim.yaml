@@ -1,0 +1,20 @@
+id: L4-0005
+title: "Positional-augmented multi-start hill-climb vs the STRENGTHENED key-recovery gate (8/10 bar, full-key >=1.5x structureless max, cipher-half sampling arm) on a fresh disjoint-pool cell"
+level: L4
+corpus_snapshot_sha256: "ETCSRI bulk zip (fetch-at-build from http://oracc.museum.upenn.edu/json/etcsri.zip, 13197377 bytes, sha256 66991601df193a5cb93bccf92e9051e86a98fbb668a9dd343477d14f0c9d54d6, 1456 nonempty texts; same artifact as L4-0002/0003/0004; per-file header CC0; attribute ORACC/ETCSRI; never vendored)"
+key_commitment_sha256: "committed over V_U5=372 union vocab of the FRESH cell (pools Random(260417835+7000)): gate_committed make_key(372, 260417835) = aa85534978da75c5b9aa4fe04acfd9bba0ff41d8cad05a48b31b8998a34425d8; alt1 (+9000) = 5e17e7bac36e0087b39bac38f3c7a98e2301c2ecd7f559a1f1bbd66e9d8a0fe8; alt2 (+9001) = 56ac6216a82d3882b7dd65ce2c80f09caefea95c3d7351719ced9cc3158ca01b; dev (+9002) = d0d781003f6395112e732eca6a7f7bc7d09c28ec9945c1b69a45ea4b5a72ae3e (deterministic from committed constants)"
+sign_scheme: "Sumerian cuneiform gdl_sign stream, FRESH disjoint-pool cell: texts shuffled Random(260417835+7000), pool A = first 728 (reference), pool B = rest (cipher); 974 windows each (seeds +7100/+7200), splits/v1 lengths; V_U5=372 union types"
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/gate5.json
+generator: how-we-built-it/
+preregistered_threshold: "Frozen method: joint objective = bigram LL (ln P_ref(q|p)=(ref_bigram+a)/(ref_unigram+a*372), within-window adjacent cipher pairs) + positional LL (ln P_ref(cls|p)=(ref_pos[p][cls]+a)/(ref_unigram[p]+3a), cls = begin/middle/end per the L1-0002b convention, len-1 = begin only; no free weight); search = steepest-ascent pairwise swaps (full sweep, first row-major max, accept iff delta>1e-12, cap 2000) with swap delta = bigram + positional parts; multi-start best-of-3 (rank-init count-desc/sign-asc + Random(42000001/+2) permutations, best exact total objective, ties to earlier start); a* by the L4-0004 dev rule = smallest a in [0.001,0.01,0.1,0.2,0.5,1.0] with >=7/10 top-10 on the dev key at N_ref=500 (Counter.most_common(10)). STRENGTHENED GATE (all required): (a) a* exists; (b) committed key top-10 >= 8/10 at N_ref=974; (c) >= 2 of 3 gate keys >= 8/10 at 974; (d) committed full-key accuracy at 974 > null_max AND >= 1.5*null_max, null_max = max full-key over K=12 structureless controls (within-window permutation of the reference, seeds 777000000+i, rank-init single-start climb — method asymmetry disclosed, margin covers it; 2 controls at full best-of-3 report-only); (e) sampling arm: the two disjoint 487-window halves of the cipher corpus (committed key) each reach top-10 >= 6/10. DISCLOSED: the strengthened-gate design is the L4-0004 skeptics' specification (sk4-A/sk4-B) — this claim implements their review; the FRESH cell (new pool/window/key seeds, never measured) keeps the outcome open; method additions (positional term, multi-start) answer the diagnosed failure modes (local optima; zero slack at 7/10). Design inputs (pools, windows, V_U5=372, key shas) measured pre-prereg per L4-0002 precedent; NO recovery, dev sweep, or null run on this cell before this commit."
+result: "TBD — pipeline not yet run at preregistration commit"
+skeptics: []
+status: draft
+limitations:
+  - "Gate thresholds (8/10, 1.5x, 6/10 sub-arm, K=12) are designed from L4-0004 skeptic measurements on a different cell — they are review-motivated, not novel predictions; the fresh cell is the openness guarantee."
+  - "Nulls run rank-init single-start (disclosed asymmetry; 1.5x margin covers it); 2 best-of-3 nulls are report-only."
+  - "Transparent-box: keys deterministic from committed constants; shas pin input identity."
+  - "Single-script calibration cell (Sumerian royal genre); passing licenses this method configuration for L3 consideration only — no Indus reading claim follows."
+  - "CC0 per-file-header; eme-gir analysis argues CC BY-SA for ORACC data — attribute + link, never vendor."
