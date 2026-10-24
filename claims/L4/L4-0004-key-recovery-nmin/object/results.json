@@ -1,0 +1,121 @@
+{
+  "cell": {
+    "pool_texts": [
+      728,
+      728
+    ],
+    "n_windows": 974,
+    "v_union": 368,
+    "wrap_ref": 0.057494866529774126,
+    "wrap_cyp": 0.08624229979466119,
+    "mean_len_ref": 4.5041067761806985,
+    "mean_len_cyp": 4.614989733059549
+  },
+  "dev": {
+    "rule": "smallest alpha in grid with >=7/10 on dev key at N_ref=500",
+    "grid": [
+      0.001,
+      0.01,
+      0.1,
+      0.2,
+      0.5,
+      1.0
+    ],
+    "table": {
+      "0.001": {
+        "top10_hits": 4,
+        "accepted_swaps": 248
+      },
+      "0.01": {
+        "top10_hits": 4,
+        "accepted_swaps": 247
+      },
+      "0.1": {
+        "top10_hits": 4,
+        "accepted_swaps": 230
+      },
+      "0.2": {
+        "top10_hits": 7,
+        "accepted_swaps": 240
+      },
+      "0.5": {
+        "top10_hits": 7,
+        "accepted_swaps": 252
+      },
+      "1.0": {
+        "top10_hits": 7,
+        "accepted_swaps": 240
+      }
+    },
+    "alpha_star": 0.2
+  },
+  "grid": {
+    "committed@100": {
+      "top10_hits": 2,
+      "full_key_acc": 0.03260869565217391,
+      "accepted_swaps": 112
+    },
+    "committed@250": {
+      "top10_hits": 4,
+      "full_key_acc": 0.04891304347826087,
+      "accepted_swaps": 174
+    },
+    "committed@500": {
+      "top10_hits": 6,
+      "full_key_acc": 0.09782608695652174,
+      "accepted_swaps": 239
+    },
+    "committed@974": {
+      "top10_hits": 7,
+      "full_key_acc": 0.11413043478260869,
+      "accepted_swaps": 295
+    },
+    "alt1@100": {
+      "top10_hits": 2,
+      "full_key_acc": 0.016304347826086956,
+      "accepted_swaps": 121
+    },
+    "alt1@250": {
+      "top10_hits": 8,
+      "full_key_acc": 0.09239130434782608,
+      "accepted_swaps": 193
+    },
+    "alt1@500": {
+      "top10_hits": 5,
+      "full_key_acc": 0.10326086956521739,
+      "accepted_swaps": 278
+    },
+    "alt1@974": {
+      "top10_hits": 7,
+      "full_key_acc": 0.11956521739130435,
+      "accepted_swaps": 285
+    },
+    "alt2@100": {
+      "top10_hits": 2,
+      "full_key_acc": 0.010869565217391304,
+      "accepted_swaps": 113
+    },
+    "alt2@250": {
+      "top10_hits": 4,
+      "full_key_acc": 0.043478260869565216,
+      "accepted_swaps": 172
+    },
+    "alt2@500": {
+      "top10_hits": 4,
+      "full_key_acc": 0.10869565217391304,
+      "accepted_swaps": 242
+    },
+    "alt2@974": {
+      "top10_hits": 7,
+      "full_key_acc": 0.09782608695652174,
+      "accepted_swaps": 273
+    }
+  },
+  "gate": {
+    "bar": "alpha* exists AND committed@974 >=7 AND >=2/3 keys >=7 at N_ref=974 AND N_min exists",
+    "committed_at_974": 7,
+    "keys_ge7_at_974": 3,
+    "n_min": 974,
+    "pass": true
+  }
+}
