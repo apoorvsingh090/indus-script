@@ -1,0 +1,20 @@
+id: L4-0006
+title: "Position-resolved positional term (strongest known formulation per L4-0005 review) vs the full strengthened key gate on fresh cell #3"
+level: L4
+corpus_snapshot_sha256: "ETCSRI bulk zip (fetch-at-build from http://oracc.museum.upenn.edu/json/etcsri.zip, 13197377 bytes, sha256 66991601df193a5cb93bccf92e9051e86a98fbb668a9dd343477d14f0c9d54d6, 1456 nonempty texts; same artifact as L4-0002..0005; per-file header CC0; attribute ORACC/ETCSRI; never vendored)"
+key_commitment_sha256: "committed over V_U6=372 union vocab of fresh cell #3 (pools Random(260417835+8000)); NOTE V_U6 equals L4-0005's V_U5 by chance, so the make_key(372, seed) shas coincide with L4-0005's — the CELLS differ by pools/windows: gate_committed (260417835) = aa85534978da75c5b9aa4fe04acfd9bba0ff41d8cad05a48b31b8998a34425d8; alt1 (+9000) = 5e17e7bac36e0087b39bac38f3c7a98e2301c2ecd7f559a1f1bbd66e9d8a0fe8; alt2 (+9001) = 56ac6216a82d3882b7dd65ce2c80f09caefea95c3d7351719ced9cc3158ca01b; dev (+9002) = d0d781003f6395112e732eca6a7f7bc7d09c28ec9945c1b69a45ea4b5a72ae3e"
+sign_scheme: "Sumerian cuneiform gdl_sign stream, fresh cell #3: texts shuffled Random(260417835+8000), pool A = first 728 (reference), pool B = rest (cipher); 974 windows each (seeds +8100/+8200), splits/v1 lengths; V_U6=372 union types (wrap ref 0.0595 / cyp 0.1037, meanlen 4.58/4.63, positions >=8 = 8.9% of tokens)"
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/gate6.json
+generator: how-we-built-it/
+preregistered_threshold: "Frozen method: joint objective = bigram LL (ln P_ref(q|p)=(ref_bigram+a)/(ref_unigram+a*372), within-window adjacent cipher pairs) + POSITION-RESOLVED positional LL: sum over cipher tokens of ln P(m(tok)|pos) with pos = min(index_within_window, 7) (positions >=8 pooled), P(t|pos)=(R[t][pos]+a)/(T[pos]+a*372) (R = ref type-at-pos counts, T = ref totals per pos); search = steepest-ascent pairwise swaps (full sweep, first row-major max, accept iff delta>1e-12, cap 2000), delta = bigram + positional parts; multi-start best-of-3 (rank-init count-desc/sign-asc + Random(42000001/+2) permutations, best exact total objective, ties to earlier start); a* by the L4-0004 dev rule = smallest a in [0.001,0.01,0.1,0.2,0.5,1.0] with >=7/10 top-10 (Counter.most_common(10)) on the dev key at N_ref=500. STRENGTHENED GATE (identical to L4-0005, all required): (a) a* exists; (b) committed top-10 >= 8/10 at N_ref=974; (c) >= 2 of 3 gate keys >= 8/10 at 974; (d) committed full-key at 974 > null_max AND >= 1.5*null_max (K=12 within-window permuted references seeds 777000000+i, rank-init single-start, asymmetry disclosed, margin covers it; 2 best-of-3 nulls report-only); (e) both disjoint 487-window cipher halves (committed key) >= 6/10. DISCLOSED LINEAGE: this formulation is the strongest known from the L4-0005 review — sk5-A's position-resolved variant (cleared that cell's dev bar 8-10/10 at a>=0.5 with restarts; their @974 probes suggested 5-6/10 vs the 8/10 bar) and sk5-B's npos K=8 variant (best 6/10) — scouted ONLY on the L4-0005 cell at dev-500; this cell #3 has never been measured and the full gated grid has never been run under any position-resolved reading. Design inputs (pools, windows, V_U6, key shas, pos-tail 8.9%) measured pre-prereg; NO recovery/dev-sweep/null run on this cell before this commit."
+result: "TBD — pipeline not yet run at preregistration commit"
+skeptics: []
+status: draft
+limitations:
+  - "Method lineage is post-review (L4-0005 skeptics) and variant-scouted on the prior cell — the fresh cell is the openness guarantee; the gate bar is unchanged from L4-0005."
+  - "Nulls run rank-init single-start (disclosed asymmetry; 1.5x margin covers it); 2 best-of-3 nulls report-only."
+  - "Transparent-box: keys deterministic from committed constants; shas pin input identity."
+  - "Single-script calibration cell (Sumerian royal genre); passing licenses this method configuration for L3 consideration only — no Indus reading claim follows."
+  - "CC0 per-file-header; eme-gir analysis argues CC BY-SA for ORACC data — attribute + link, never vendor."
