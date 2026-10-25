@@ -55,6 +55,12 @@ until the first tag is cut.
   151 unmapped; holdout 0.980, permutation floor 0/200; P stored reversed
   vs G corrected order; composes with pwm-v01 → 15 clean G→P→M chains;
   gp-v01.csv ships (scheme-debt: G now bridged for high-frequency signs)
+- 2026-10-25: L4-0005 (new claim) — strengthened key gate (sk4-A/sk4-B
+  spec) on a fresh cell, verified-negative 2/2: frozen reading misses the
+  7/10 dev bar at every α; gate fails under every reading tried (best
+  6/10 @974); S_true>S_best everywhere (search/data-size failure);
+  L4-0004 pass bracketed as a boundary draw; L3 stays shut; two filed
+  readings withdrawn as over-strong per review
 
 ### Known gaps
 
