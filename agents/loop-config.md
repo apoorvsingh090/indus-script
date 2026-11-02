@@ -26,6 +26,8 @@
 - [x] L4: α-calibrated rerun on disjoint pools + N_ref grid (L4-0004) → verified-pass 2/2 (bounded): reaches bar at 974, collapses ≤250; top-10 bar weakly separated — any L3 attempt needs a STRENGTHENED key gate (structureless-null arm / full-key bar / higher bar) as its L4 prerequisite
 - [x] L0: G-scheme bridge (Phase-1 scheme debt) → L0-0003 verified 2/2: gp-v01.csv (22 clean G→P, stable core 16; 15 G→P→M chains via pwm-v01); open: tail signs need more shared texts (ICIT/M77 index blocked); v0.2 edit-distance alignment candidate
 - [x] L4: strengthened key gate on a fresh cell (sk4 spec, L4-0005) → verified-negative 2/2: dev bar missed at every α (frozen reading); gate fails under every reading tried; L4-0004 pass = boundary draw; L3 SHUT — named follow-up: preregistered normalized-position positional term (dev bar near-reachable 6/10)
+- [x] Candidate (ported 2026-11-02 from the Oct-18 branch): rank-init on a fresh sealed key → L4-0007 verified NEGATIVE 2/2: 5/10 top-10, key-invariant by construction
+- [x] Candidate (ported 2026-11-02 from the Oct-18 branch): positional-gate extension (L1-0002b machinery on Sumerian windows) → L4-0008 verified NEGATIVE 2/2: gap 5 inside null band; Indus beginner/ender effect is corpus-specific
 
 ## Open decisions (planner §10)
 - [ ] Compute + token budget per daily run

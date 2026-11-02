@@ -1,0 +1,18 @@
+id: L4-0007
+title: "Fresh-sealed-key exact-rank recovery of a Sumerian substitution key scored 5/10 (bar 7/10) - rank-init is key-invariant by construction, nowhere near claimable"
+level: L4
+corpus_snapshot_sha256: "ETCSRI bulk zip fetch-at-build (same window protocol as L4-0002: N=1948 windows, window seed 260417835, V=370 asserted in-checker; CC0-per-file + attribution; never vendored)"
+key_commitment_sha256: "3492a0775fed6bd6cddc120dc33e64fb454fb90ecc7aedde4c60b4bb96d5027d (fresh permutation of range(370) via Random(260417839 + 370); seed base 260417839 unused by any prior artifact; stored builder-local pre-reveal, revealed in object/key3.json at results)"
+sign_scheme: "Sumerian cuneiform gdl_sign stream (same windows/halves as L4-0002)"
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/recovery.json
+generator: how-we-built-it/
+preregistered_threshold: "Exact-rank top-10 recovery >= 7/10 on THIS sealed key. Windows identical to L4-0002 (1948 windows from ETCSRI gdl_sign streams with Indus-splits-v1 lengths, token-weighted text choice, modular wrap, window seed 260417835; V==370 asserted in checker); halves 974/974 in generation order, reference = first half plaintext, cipher = second half enciphered with the key via sumer_lib.encipher. Mapping = rank_init exactly as shipped in how-we-built-it/rank_lib.py (imported verbatim from the audited 2026-10-18 L4-0003 lineage's keyrec_lib; i-th most frequent cipher type -> i-th most frequent reference type, Counter.most_common insertion order for ties; cipher types absent from the cipher half take leftover plain ranks in sorted order). NOTE: this repo's current L4-0003 is a different cell and ships a different rank_init (canonical count-desc/sign-asc sort), which is not the function measured here. Hits = top-10-by-frequency cipher types whose decoded plain symbol equals the true underlying plain symbol per the sealed key; full-alphabet exact hits reported. Fixed before any number on this key was computed."
+result: "NEGATIVE - rank-init top10 5/10 (full 8/370) < 7; auditors proved the metric is key-invariant (a substitution key is a frequency-preserving relabeling; 0/14 and 0/24 fresh key draws all give exactly 5/10). The draft's 'key-draw luck' reading of the Oct-18 lineage's 8/10 was an errant narrative: that lineage's L4-0003 stored full-alphabet hits under rank_init_top10 (8/370, not top-10; erratum filed in that lineage). Cross-cell variance is window-build variance (auditor band 1-7/10, 1/20 builds >= 7). Checker FAIL as designed; key reveal sha-verified."
+skeptics: [skR4-A, skR4-B]
+status: verified  # negative confirmed 2/2 - with mechanism correction: key-invariance
+limitations:
+  - "Same transparent-box-adjacent key model as L4-0002 (procedural commitment, disclosed); recovery validity does not depend on builder blindness."
+  - "Rank-init only: no hill-climb, no second method; the outcome bounds exactly this cheap baseline on one fresh key draw, not key recovery in general."
+  - "Ported 2026-11-02 from the divergent 2026-10-18 local branch (original ID L4-0004) after the canonical line advanced to L4-0006. Object, checker, and both skeptic reports carried over; the checker was re-run in the new location and matched the object. The original L4-0003 erratum belongs to that lineage, not to this repo's L4-0003."

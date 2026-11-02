@@ -1,0 +1,18 @@
+id: L4-0008
+title: "Positional token-concentration asymmetry on Sumerian windows at Indus scale (ETCSRI gate extension; direction not preregistered)"
+level: L4
+corpus_snapshot_sha256: "ETCSRI bulk zip fetch-at-build (identical window protocol as L4-0002: N=1948 windows, window seed 260417835; no key involved in this cell; CC0-per-file + attribution; never vendored)"
+sign_scheme: "Sumerian cuneiform gdl_sign stream (line document order; no reading-direction correction concept applies)"
+object: object/results.json
+checker: check.py
+baseline_snapshot: baseline_snapshot/nulls.json
+generator: how-we-built-it/
+preregistered_threshold: "PRIMARY GATE: |n80_begin - n80_end| strictly greater than the maximum over B=200 token-shuffle draws (fixed window lengths; pool-shuffle construction mirrors claims/L1/L1-0002b-positional-corrected-order/how-we-built-it/pos_lib.py null_n80_end exactly, but computing begin- and end-counters per draw; seed 260417840). n80 definitions identical to L1-0002b pos_lib.n80: with begin = window index 0, end = last index of windows with len>1, n80 = number of top types whose cumulative tokens cover 80% of that position class. Direction is not preregistered: whichever side concentrates is reported. Windows identical to L4-0002 (seed 260417835, V asserted in checker; both halves pooled, no key, no halves split for this cell). Fixed before any Sumerian positional number was computed."
+result: "NEGATIVE - n80_begin 72 / n80_end 67 (n80_all 72), asymmetry gap 5 sits INSIDE the B=200 null band (seed 260417840: gap max 12, ~85th percentile; auditor seed sweep max 9-14; within-window composition-preserving shuffle null max 11). No positional asymmetry beyond shuffle noise at this scale/protocol; the Indus L1-0002b effect (107/32, end < null-min) is corpus-specific, not generic. Design sensitivity: reliably detects gap >= ~20 (Indus gap 75 clears trivially). Checker FAIL as designed."
+skeptics: [skP5-A, skP5-B]
+status: verified  # negative confirmed 2/2 - no signal under prereg'd or alternative nulls; metric-variant and power sweeps negative
+limitations:
+  - "Royal-inscription genre only; windows are contiguous excerpts with modular wrap, not native originals."
+  - "Line-level document order from gdl l-nodes; no known reading-direction correction notion exists for this corpus."
+  - "Stress-test of the L1-0002b positional machinery on a real known-language script at Indus scale; calibration value either way (pass or fail)."
+  - "Ported 2026-11-02 from the divergent 2026-10-18 local branch (original ID L4-0005) after the canonical line advanced to L4-0006. Object, checker, generator, and both skeptic reports carried over; the checker was re-run in the new location and matched the object. The L4-0002 and L1-0002b machinery it imports is unchanged here."

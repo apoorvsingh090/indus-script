@@ -37,6 +37,8 @@ Adhikari et al. n-gram paper (M77-EBUDS), Nair 2026 arXiv:2604.17828
 | 27 | α-calibrated recovery, disjoint pools + N_ref grid (L4-0004) | reaches bar @974 (7/7/7, zero slack); 2-4/10 @≤250; α*=0.2 dev rule | same method class | SUMER disjoint pools (V_U=368) | verified-pass 2/2 (bounded: top-10 bar passes 17% of structureless controls; joint pattern carries it; L3 needs strengthened gate) |
 | 28 | G↔P concordance via shared-text alignment (L0-0003) | 22 clean bijective (stable core 16), 19 contested, 151 unmapped; holdout 0.980; perm floor 0/200 | scheme bridge (provisional) | mayig × indus_website (161 shared M-daro unicorns) | verified 2/2; composes with pwm-v01 → 15 G→P→M chains; P stored reversed vs G corrected order |
 | 29 | Strengthened key gate, fresh cell (L4-0005) | dev 2/3/4/4/4/4 across α; gate fails every reading (best 6/10 @974); S_true>S_best +209..+1011 nats | sk4-A/sk4-B gate spec | SUMER fresh disjoint pools (V_U5=372) | verified-negative 2/2 — L4-0004 pass bracketed as boundary draw; L3 shut; named follow-up: normalized-position positional term |
+| 30 | Rank-init on a fresh sealed key (L4-0007, ported) | 5/10 top-10, 8/370 full; key-invariant (0/24 fresh draws differ) | exact-rank frequency mapping | SUMER windows (L4-0002 pipeline) | verified-negative 2/2 - exact-rank recovery nowhere near claimable at this scale |
+| 31 | Positional asymmetry on Sumerian windows (L4-0008, ported) | n80 begin 72 / end 67, gap 5 inside B=200 null band (max 12) | L1-0002b n80 machinery | SUMER windows (L4-0002 pipeline) | verified-negative 2/2 - Indus beginner/ender effect is corpus-specific; detects gap >= ~20 |
 
 ## Loader-convention finding (cross-cutting)
 

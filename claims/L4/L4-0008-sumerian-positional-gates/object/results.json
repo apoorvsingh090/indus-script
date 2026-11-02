@@ -1,0 +1,63 @@
+{
+  "n_texts": 1948,
+  "vocab": 370,
+  "n_tokens": 8985,
+  "n80_all": 72,
+  "n80_begin": 72,
+  "n80_end": 67,
+  "asym_gap": 5,
+  "null_D_max": 12,
+  "null_D_min": 0,
+  "null_begin_min": 64,
+  "null_begin_max": 77,
+  "null_end_min": 62,
+  "null_end_max": 76,
+  "top_begin": [
+    [
+      "AN",
+      126
+    ],
+    [
+      "LUGAL",
+      84
+    ],
+    [
+      "A",
+      76
+    ],
+    [
+      "KI",
+      69
+    ],
+    [
+      "NA",
+      69
+    ]
+  ],
+  "top_end": [
+    [
+      "AN",
+      148
+    ],
+    [
+      "KI",
+      76
+    ],
+    [
+      "A",
+      67
+    ],
+    [
+      "NI",
+      64
+    ],
+    [
+      "MU",
+      61
+    ]
+  ],
+  "null_seed": 260417840,
+  "window_seed": 260417835,
+  "b": 200,
+  "pass": false
+}

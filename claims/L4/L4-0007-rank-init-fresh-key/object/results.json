@@ -1,0 +1,11 @@
+{
+  "vocab": 370,
+  "rank_top10": 5,
+  "rank_full": 8,
+  "key_seed_base": 260417839,
+  "window_seed": 260417835,
+  "n_windows": 1948,
+  "n_ref": 974,
+  "n_cipher": 974,
+  "pass": false
+}

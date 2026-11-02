@@ -62,6 +62,14 @@ until the first tag is cut.
   L4-0004 pass bracketed as a boundary draw; L3 stays shut; two filed
   readings withdrawn as over-strong per review
 
+- 2026-11-02: L4-0007 (ported; original ID L4-0004) - rank-init on a fresh
+  sealed key CONFIRMED NEGATIVE 2/2 skeptics: 5/10 top-10 (8/370 full)
+  < 7; metric key-invariant by construction (0/24 fresh draws differ).
+- 2026-11-02: L4-0008 (ported; original ID L4-0005) - positional
+  token-concentration asymmetry on Sumerian windows CONFIRMED NEGATIVE
+  2/2: n80 begin 72 / end 67, gap 5 inside B=200 null band (max 12);
+  the Indus L1-0002b effect is corpus-specific, not generic.
+
 ### Known gaps
 
 - No corpus files vendored yet (`data/raw/` provenance + license TODOs open)
