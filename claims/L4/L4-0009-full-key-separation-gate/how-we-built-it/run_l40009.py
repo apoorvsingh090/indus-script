@@ -18,6 +18,7 @@ CLAIM = HERE.parent
 ROOT = CLAIM.parents[2]
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(ROOT / "claims" / "L4" / "L4-0002-sumerian-hidden-key" / "how-we-built-it"))
+sys.path.insert(0, str(ROOT / "claims" / "L4" / "L4-0003-bigram-assisted-key-recovery" / "how-we-built-it"))
 
 from sumer_lib import encipher, fetch_zip, indus_lengths, make_key, sign_texts, windows  # noqa: E402
 from recover_lib import top10_hits  # noqa: E402
