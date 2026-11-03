@@ -74,6 +74,12 @@ until the first tag is cut.
   and a from-prose independent rebuild. NOT the skeptic gate: subagent
   backends were unreachable, so status stays draft; named follow-up
   (full-key-separation gate) queued for prereg.
+- 2026-11-03: L4-0009 (new claim, prereg `a511cb0`) — full-key-separation
+  gate on fresh cell #4, alpha frozen 0.5: committed full 0.1725 (64/371)
+  vs null_max 0.0674 (2.56x), all 3 keys replicate, top-10 10/10/10/7 —
+  but cipher half B falls to 1.00x null_max, so the gate FAILS at the
+  half-replication condition; a large multi-key separation that is not
+  uniform across halves. Checker recompute=match; L3 stays shut.
 
 ### Known gaps
 

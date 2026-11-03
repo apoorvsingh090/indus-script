@@ -29,7 +29,7 @@
 - [x] Candidate (ported 2026-11-02 from the Oct-18 branch): rank-init on a fresh sealed key → L4-0007 verified NEGATIVE 2/2: 5/10 top-10, key-invariant by construction
 - [x] Candidate (ported 2026-11-02 from the Oct-18 branch): positional-gate extension (L1-0002b machinery on Sumerian windows) → L4-0008 verified NEGATIVE 2/2: gap 5 inside null band; Indus beginner/ender effect is corpus-specific
 - [ ] L4-0006 (draft): position-resolved method vs strengthened gate → object is CONFIRMED NEGATIVE; shipped checker + independent rebuild match field-for-field (2026-11-03); BLOCKED on the ≥2 fresh-context skeptic gate (subagent backend down)
-- [ ] L4-0009 (preregistered 2026-11-03): full-key-separation gate on fresh cell #4 (V_U9=371; seeds +10000/+11000), alpha frozen at 0.5; thresholds 1.5x / 1.25x / 0.060 frozen before any recovery — results TBD
+- [ ] L4-0009 (preregistered 2026-11-03): full-key-separation gate on fresh cell #4 (V_U9=371; seeds +10000/+11000), alpha frozen at 0.5; thresholds 1.5x / 1.25x / 0.060 frozen before any recovery — RESULT: gate FAILS at half-replication (B = 1.00x null_max) despite committed 0.1725 vs null_max 0.0674 (2.56x) and all 3 keys replicating; next question is the A/B half asymmetry
 
 ## Open decisions (planner §10)
 - [ ] Compute + token budget per daily run

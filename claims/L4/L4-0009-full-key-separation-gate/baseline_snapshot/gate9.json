@@ -1,0 +1,11 @@
+{
+  "key_shas": {
+    "committed": "d602af01cbaa8680363c211e60fab0af1484610799ad27d4c3c6051374bc50c3",
+    "alt1": "c3d4afee57f4d378896368499bd07bf671fbfd4ec281ce2eeefb076a63f4c670",
+    "alt2": "2690391603c3b7e8df04f920e030fe517d121e92c5aabede953455823839d88d",
+    "dev": "31355b77a67beb466bd6ffac6416c9a021f05479bed02c73a9cc63308b797a57"
+  },
+  "v_union": 371,
+  "alpha": 0.5,
+  "k_nulls": 12
+}

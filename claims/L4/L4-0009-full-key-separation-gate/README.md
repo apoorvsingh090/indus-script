@@ -42,11 +42,24 @@ draft separation (0.075 vs 0.038); 1.25× is a weaker replication margin
 for the other keys and the halves. Top-10 hits are computed and shipped
 report-only.
 
-## Result
+## Result — FAIL at condition (c)
 
-TBD. The generator (`how-we-built-it/run_l40009.py`) writes
-`object/results.json` and `baseline_snapshot/gate9.json`; `check.py`
-recomputes the full grid (~68 min, 36 climbs) and must print `PASS`.
+| Arm | Result | Check |
+|---|---|---|
+| committed full @974 | **0.1725** (64/371) vs null_max 0.0674 | (a) PASS — 2.56×, > floor |
+| gate keys full @974 | 0.1725 / 0.1429 / 0.1536 | (b) PASS — 3/3 ≥ 1.25× |
+| halves A / B full | 0.1294 / **0.0674** | (c) **FAIL** — B = 1.00× null_max |
+| committed full floor | 0.1725 ≥ 0.060 | (d) PASS |
+| report-only top-10 | committed 10/10, alt1 10/10, alt2 7/10 | not gated |
+| dev (report-only) | top-10 9/10, full 0.1590 | not gated |
+
+The gate fails **only** on the half-replication condition: cipher half A
+keeps 1.92× the null max, while half B lands exactly on it. This is the
+first cell with a large multi-key full-key separation and a top-10
+performance that would clear the old 8/10 bar on two of three keys — but
+the advantage is not uniform across the corpus halves, so the frozen
+gate fails and L3 stays shut. The next question is the half asymmetry
+(window/order composition), not another threshold adjustment.
 
 ## Evidentiary notes
 

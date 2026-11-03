@@ -1,0 +1,87 @@
+{
+  "cell": {
+    "pool_texts": [
+      728,
+      728
+    ],
+    "v_union": 371,
+    "wrap_ref": 0.07392197125256673,
+    "wrap_cyp": 0.06776180698151951
+  },
+  "method": {
+    "alpha": 0.5,
+    "alpha_policy": "frozen from prior cells; no dev sweep on this cell",
+    "restarts": 3,
+    "objective": "bigram LL + position-resolved positional LL (pos 0..7)"
+  },
+  "dev_report_only": {
+    "key": "dev",
+    "n_ref": 500,
+    "top10_hits": 9,
+    "full": 0.15902964959568733
+  },
+  "main": {
+    "committed": {
+      "top10_hits": 10,
+      "full": 0.1725067385444744,
+      "start": 0,
+      "swaps": 268
+    },
+    "alt1": {
+      "top10_hits": 10,
+      "full": 0.14285714285714285,
+      "start": 1,
+      "swaps": 337
+    },
+    "alt2": {
+      "top10_hits": 7,
+      "full": 0.15363881401617252,
+      "start": 0,
+      "swaps": 258
+    }
+  },
+  "sampling_arm": {
+    "A": {
+      "top10_hits": 8,
+      "full": 0.1293800539083558
+    },
+    "B": {
+      "top10_hits": 5,
+      "full": 0.0673854447439353
+    }
+  },
+  "nulls": {
+    "full_accuracies": [
+      0.04582210242587601,
+      0.05929919137466307,
+      0.03773584905660377,
+      0.03773584905660377,
+      0.03773584905660377,
+      0.018867924528301886,
+      0.04582210242587601,
+      0.03234501347708895,
+      0.04582210242587601,
+      0.04851752021563342,
+      0.0673854447439353,
+      0.0215633423180593
+    ],
+    "null_max": 0.0673854447439353,
+    "multistart_spot_check": [
+      0.04582210242587601,
+      0.05929919137466307
+    ]
+  },
+  "gate": {
+    "bar": "committed>null_max & >=1.5x & >=0.060 AND >=2/3 keys>=1.25x AND both halves>=1.25x",
+    "checks": {
+      "committed_gt_null_max": true,
+      "committed_ge_1.5x": true,
+      "committed_ge_abs_floor": true,
+      "keys_replicated_ge_2": true,
+      "halves_both_ge_1.25x": false
+    },
+    "keys_replicated": 3,
+    "null_max": 0.0673854447439353,
+    "pass": false
+  }
+}
