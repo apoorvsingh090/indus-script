@@ -41,6 +41,15 @@ the former; the latter is variance-dominated). Any future L4 gate should
 be built on full-key separation vs a structureless null — sk4-B's
 original recommendation, now empirically grounded.
 
+## Recompute (2026-11-03)
+
+The shipped checker (`recompute=match`, gate FAIL) and a from-prose
+independent rebuild (sharing only the frozen `sumer_lib` input pipeline)
+reproduce the object field-for-field, including all start indices and swap
+counts. This is **not** the skeptic gate: the subagent backend was
+unreachable, so no fresh-context skeptics ran and the claim stays `draft`.
+Details: [skeptics/RECOMPUTE-2026-11-03.md](skeptics/RECOMPUTE-2026-11-03.md).
+
 ## Evidentiary notes
 
 - Prereg `8c88ee5` pushed before any recovery ran on this cell; design

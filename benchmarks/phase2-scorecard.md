@@ -39,6 +39,7 @@ Adhikari et al. n-gram paper (M77-EBUDS), Nair 2026 arXiv:2604.17828
 | 29 | Strengthened key gate, fresh cell (L4-0005) | dev 2/3/4/4/4/4 across α; gate fails every reading (best 6/10 @974); S_true>S_best +209..+1011 nats | sk4-A/sk4-B gate spec | SUMER fresh disjoint pools (V_U5=372) | verified-negative 2/2 — L4-0004 pass bracketed as boundary draw; L3 shut; named follow-up: normalized-position positional term |
 | 30 | Rank-init on a fresh sealed key (L4-0007, ported) | 5/10 top-10, 8/370 full; key-invariant (0/24 fresh draws differ) | exact-rank frequency mapping | SUMER windows (L4-0002 pipeline) | verified-negative 2/2 - exact-rank recovery nowhere near claimable at this scale |
 | 31 | Positional asymmetry on Sumerian windows (L4-0008, ported) | n80 begin 72 / end 67, gap 5 inside B=200 null band (max 12) | L1-0002b n80 machinery | SUMER windows (L4-0002 pipeline) | verified-negative 2/2 - Indus beginner/ender effect is corpus-specific; detects gap >= ~20 |
+| 32 | Position-resolved term vs strengthened gate, fresh cell #3 (L4-0006) | dev 9/10 @α*=0.5; gate keys 2/3/5 (keys_ge8=0); full-key 0.075 vs null-max 0.038 (~2x); halves 6/3 | joint bigram + ln P(t|pos) term, best-of-3 | SUMER fresh cell #3 (V_U6=372) | DRAFT — recompute match 2/2 (shipped + independent, non-fresh); skeptic gate pending; informative metric = full-key separation |
 
 ## Loader-convention finding (cross-cutting)
 

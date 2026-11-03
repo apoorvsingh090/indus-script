@@ -69,6 +69,11 @@ until the first tag is cut.
   token-concentration asymmetry on Sumerian windows CONFIRMED NEGATIVE
   2/2: n80 begin 72 / end 67, gap 5 inside B=200 null band (max 12);
   the Indus L1-0002b effect is corpus-specific, not generic.
+- 2026-11-03: L4-0006 (draft) — two recomputes of the frozen grid match the
+  object field-for-field: the shipped checker (`recompute=match`, gate FAIL)
+  and a from-prose independent rebuild. NOT the skeptic gate: subagent
+  backends were unreachable, so status stays draft; named follow-up
+  (full-key-separation gate) queued for prereg.
 
 ### Known gaps
 

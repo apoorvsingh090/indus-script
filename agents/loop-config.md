@@ -28,6 +28,8 @@
 - [x] L4: strengthened key gate on a fresh cell (sk4 spec, L4-0005) → verified-negative 2/2: dev bar missed at every α (frozen reading); gate fails under every reading tried; L4-0004 pass = boundary draw; L3 SHUT — named follow-up: preregistered normalized-position positional term (dev bar near-reachable 6/10)
 - [x] Candidate (ported 2026-11-02 from the Oct-18 branch): rank-init on a fresh sealed key → L4-0007 verified NEGATIVE 2/2: 5/10 top-10, key-invariant by construction
 - [x] Candidate (ported 2026-11-02 from the Oct-18 branch): positional-gate extension (L1-0002b machinery on Sumerian windows) → L4-0008 verified NEGATIVE 2/2: gap 5 inside null band; Indus beginner/ender effect is corpus-specific
+- [ ] L4-0006 (draft): position-resolved method vs strengthened gate → object is CONFIRMED NEGATIVE; shipped checker + independent rebuild match field-for-field (2026-11-03); BLOCKED on the ≥2 fresh-context skeptic gate (subagent backend down)
+- [ ] Proposed L4-0009: gate built on full-key separation vs a structureless null (the informative metric, per L4-0006) on fresh cell #4 — prereg next
 
 ## Open decisions (planner §10)
 - [ ] Compute + token budget per daily run
