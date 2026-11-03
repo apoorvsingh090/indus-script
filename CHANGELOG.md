@@ -74,6 +74,12 @@ until the first tag is cut.
   and a from-prose independent rebuild. NOT the skeptic gate: subagent
   backends were unreachable, so status stays draft; named follow-up
   (full-key-separation gate) queued for prereg.
+- 2026-11-03: L4-0006 (new claim) — CONFIRMED NEGATIVE 2/2 skeptics
+  (sk6-C, sk6-D): dev 9/10 @α*=0.5 but gate keys 2/3/5 (keys_ge8=0),
+  halves 6/3; full-key 0.075 vs null_max 0.038. Qualifications folded:
+  the ~2x separation is unweighted-only (token-weighted 1.27x), bucket-edge
+  choice moves it 18-30/372, and the prereg's "8.9% of tokens" is 8.9% of
+  windows; top-10 negative robust to tie/bucket variants.
 - 2026-11-03: L4-0009 (new claim, prereg `a511cb0`) — full-key-separation
   gate on fresh cell #4, alpha frozen 0.5: committed full 0.1725 (64/371)
   vs null_max 0.0674 (2.56x), all 3 keys replicate, top-10 10/10/10/7 —
