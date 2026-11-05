@@ -1,7 +1,7 @@
-# L4-0009 — Full-key-separation gate on fresh cell #4 (PREREGISTERED)
+# L4-0009 — Full-key-separation gate on fresh cell #4: CONFIRMED NEGATIVE at condition (c)
 
-Status: **preregistered, results TBD.** This file and `claim.yaml` were
-committed before any recovery, dev sweep, or null ran on cell #4.
+Status: **verified negative 2/2** (sk9-A, sk9-B). Preregistered before
+any recovery on the cell.
 
 ## Why this claim exists
 
@@ -54,12 +54,35 @@ report-only.
 | dev (report-only) | top-10 9/10, full 0.1590 | not gated |
 
 The gate fails **only** on the half-replication condition: cipher half A
-keeps 1.92× the null max, while half B lands exactly on it. This is the
-first cell with a large multi-key full-key separation and a top-10
-performance that would clear the old 8/10 bar on two of three keys — but
-the advantage is not uniform across the corpus halves, so the frozen
-gate fails and L3 stays shut. The next question is the half asymmetry
-(window/order composition), not another threshold adjustment.
+keeps 1.92× the null max, while half B lands at ~1.0×. This is the first
+cell with a large multi-key full-key separation and a top-10 performance
+that would clear the old 8/10 bar on two of three keys — but the
+advantage does not replicate on half B, so the frozen gate fails and L3
+stays shut.
+
+## Skeptic gate (2/2)
+
+Both skeptics rebuilt the frozen grid from the prereg prose with their
+own method code (shared: the audited `sumer_lib` input pipeline).
+
+- **Reproduced**: verdict FAIL at (c); sk9-B got committed/alt1/alt2 and
+  null_max **bit-exact** (64/53/57 and 25 of 371), all other arms within
+  the ±1–3/371 cross-implementation float band; a float-faithful re-run
+  then reproduced every shipped field, including swap counts.
+- **Prereg ambiguity resolved**: restart seeds are 42000001/42000002.
+- **Calibration caveat (sk9-B)**: (c) compares 487-window halves against
+  a 974-window null. Half-specific nulls (K=12) max at 19/371 on *both*
+  halves — under half-scale calibration half B would be 1.32× and clear
+  the 1.25× margin. The frozen verdict stands as written, but successor
+  half-split gates must preregister half-scale nulls.
+- **Half B is a composition outlier** (2–3 pp lower reference-bigram
+  coherence), not a generic small-sample effect: alternate 487-window
+  splits recover 46/47/52/58 of 371.
+- **Token-weighted**: half B (0.293) sits below the largest null (0.445);
+  committed (0.645) far above.
+- The ±1–3/371 float-path band now touches gate-bearing numbers; current
+  margins absorb it — a future gate passing by <3/371 would not be
+  cross-implementation reproducible.
 
 ## Evidentiary notes
 

@@ -86,6 +86,15 @@ until the first tag is cut.
   but cipher half B falls to 1.00x null_max, so the gate FAILS at the
   half-replication condition; a large multi-key separation that is not
   uniform across halves. Checker recompute=match; L3 stays shut.
+- 2026-11-04: L4-0009 - CONFIRMED NEGATIVE 2/2 skeptics (sk9-A, sk9-B):
+  verdict and every gate condition reproduce (sk9-B bit-exact on the
+  three gate arms + null_max). Qualifications folded: restart seeds
+  42000001/42000002 (prereg ambiguity); condition (c) compares 487-window
+  halves against a 974-window null - half-scale null_max is 19/371 on
+  both halves, under which half B = 1.32x would clear 1.25x; half B is a
+  composition outlier (lower ref-bigram coherence), not a small-sample
+  effect; token-weighted half B below the null band. Successor half-split
+  gates must preregister half-scale nulls.
 
 ### Known gaps
 

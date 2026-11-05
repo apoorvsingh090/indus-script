@@ -62,7 +62,7 @@ Plus `claim.yaml` (see `claims/_template/claim.yaml`). Skeptics rebuild from raw
 
 ## Status
 
-Phases 1–4 in progress. See `planner.md` §5 for milestones, `TROPHY_CASE.md` for verified results — 18 skeptic-confirmed entries so far (incl. 2 negatives, 1 partial negative, 1 bounded L4 key-recovery pass now bracketed by a fresh-cell failure) across L0/L1/L2/L4; L3 stays shut pending a method that clears the strengthened key gate (L4-0005) on a fresh cell.
+Phases 1–4 in progress. See `planner.md` §5 for milestones, `TROPHY_CASE.md` for verified results — 19 skeptic-confirmed entries so far (incl. 2 negatives, 1 partial negative, 1 bounded L4 key-recovery pass now bracketed by a fresh-cell failure) across L0/L1/L2/L4; L3 stays shut pending a method that clears the strengthened key gate (L4-0005) on a fresh cell.
 
 ## Data access
 

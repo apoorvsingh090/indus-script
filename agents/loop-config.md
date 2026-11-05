@@ -29,7 +29,7 @@
 - [x] Candidate (ported 2026-11-02 from the Oct-18 branch): rank-init on a fresh sealed key → L4-0007 verified NEGATIVE 2/2: 5/10 top-10, key-invariant by construction
 - [x] Candidate (ported 2026-11-02 from the Oct-18 branch): positional-gate extension (L1-0002b machinery on Sumerian windows) → L4-0008 verified NEGATIVE 2/2: gap 5 inside null band; Indus beginner/ender effect is corpus-specific
 - [x] L4-0006 verified NEGATIVE 2/2 (sk6-C, sk6-D): top-10 gate fails on fresh cell #3 (2/3/5, keys_ge8=0) despite dev 9/10; full-key ~2x null but unweighted-only (token-weighted 1.27x) and bucket-edge-sensitive; dev-rule calibration unreliable
-- [ ] L4-0009 (preregistered 2026-11-03): full-key-separation gate on fresh cell #4 (V_U9=371; seeds +10000/+11000), alpha frozen at 0.5; thresholds 1.5x / 1.25x / 0.060 frozen before any recovery — RESULT: gate FAILS at half-replication (B = 1.00x null_max) despite committed 0.1725 vs null_max 0.0674 (2.56x) and all 3 keys replicating; next question is the A/B half asymmetry
+- [x] L4-0009 verified NEGATIVE 2/2 (sk9-A, sk9-B): full-key-separation gate on fresh cell #4 (alpha frozen 0.5) - committed 0.1725 vs null 0.0674 (2.56x), all 3 keys replicate, top-10 would clear the old bar, but half B = 1.00x null_max; (c) is calibration-sensitive (half-scale null 19/371 -> B 1.32x); successor half-split gates must preregister half-scale nulls; next question: half-B composition (ref-bigram coherence)
 
 ## Open decisions (planner §10)
 - [ ] Compute + token budget per daily run
