@@ -84,6 +84,38 @@ own method code (shared: the audited `sumer_lib` input pipeline).
   margins absorb it — a future gate passing by <3/371 would not be
   cross-implementation reproducible.
 
+## Post-hoc composition diagnostic (archivist, 2026-11-05 — `object/diag_half_b.json`)
+
+Exploratory addendum following sk9-A/sk9-B; the frozen verdict above is
+unchanged. Cell #4 rebuilt exactly (mirror of `windows()` asserted), all
+cipher-arm metrics taken on the ENCRYPTED windows decoded by the
+committed key, within-window adjacency as in the recovery objective.
+
+| metric (per half, cipher side, decoded) | A | B | full |
+|---|---|---|---|
+| wrapped windows | 34 | 32 | 66 |
+| decoded bigram coherence | 0.5718 | **0.5488** | 0.5603 |
+| coherence, unwrapped only | 0.5541 | 0.5349 | 0.5444 |
+| ref token-mass per token | 77.3 | 77.6 | 77.4 |
+| distinct decoded types | 244 | 249 | 306 |
+| per-window coherence mean/median | 0.569/0.60 | 0.550/0.50 | 0.559/0.586 |
+
+Reading:
+- **Wrap is excluded**: wrap counts are symmetric (34/32); un/wrapped
+  coherence gap is roughly the same (2.3 pp vs 1.9 pp). The L4-0006-era
+  "wrapped windows break bigrams" hypothesis does not explain B.
+- **Unigram support is symmetric**: reference token-mass per token
+  77.3 vs 77.6, decoded-type coverage similar (195 vs 203 of ~250).
+- **The deficit is bigram-support only**: half B's decoded *pairs* are
+  rarer in the reference bigram inventory than half A's (0.549 vs
+  0.572), which directly weakens the bigram-LL term of the frozen
+  objective, alpha-independent, for ANY key searched on B.
+- This is a sampling-composition property of which windows the shared
+  RNG stream drew in its second half; alternate window-order splits
+  (sk9-B: 46/47/52/58 of 371) show the recovery spread is genuine
+  cell-level sampling luck, not an inherent flaw of splitting or of the
+  gate.
+
 ## Evidentiary notes
 
 - Preregistered before any recovery on this cell; design inputs (V, wrap,

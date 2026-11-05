@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "post_hoc": true,
+    "purpose": "composition addendum; frozen verdict unchanged",
+    "cell": "4 (V_U9=371)",
+    "key": "committed",
+    "decoded_pairs_checked": "within-window adjacency, as in the recovery objective",
+    "ref_bigram_inventory": 1375,
+    "note": "cipher arms measured on ENCRYPTED windows decoded by the committed key",
+    "wrap_rates_ref_cyp": [
+      0.0739,
+      0.0678
+    ]
+  },
+  "arms": [
+    {
+      "arm": "A",
+      "windows": 487,
+      "wrapped_windows": 34,
+      "mean_len": 4.54,
+      "tokens": 2213,
+      "distinct_decoded_types": 244,
+      "decoded_types_covered_ge1": 195,
+      "decoded_types_covered_ge5": 126,
+      "bigram_coherence": 0.5718,
+      "bigram_coherence_unwrapped": 0.5541,
+      "per_window_mean": 0.5686,
+      "per_window_median": 0.6,
+      "per_window_q1": 0.25,
+      "per_window_q3": 1.0,
+      "per_window_mean_unwrapped": 0.5562,
+      "tail_share_ge7": 0.0402,
+      "ref_token_mass_per_token": 77.3
+    },
+    {
+      "arm": "B",
+      "windows": 487,
+      "wrapped_windows": 32,
+      "mean_len": 4.58,
+      "tokens": 2229,
+      "distinct_decoded_types": 249,
+      "decoded_types_covered_ge1": 203,
+      "decoded_types_covered_ge5": 123,
+      "bigram_coherence": 0.5488,
+      "bigram_coherence_unwrapped": 0.5349,
+      "per_window_mean": 0.5496,
+      "per_window_median": 0.5,
+      "per_window_q1": 0.2,
+      "per_window_q3": 1.0,
+      "per_window_mean_unwrapped": 0.537,
+      "tail_share_ge7": 0.0431,
+      "ref_token_mass_per_token": 77.56
+    },
+    {
+      "arm": "full",
+      "windows": 974,
+      "wrapped_windows": 66,
+      "mean_len": 4.56,
+      "tokens": 4442,
+      "distinct_decoded_types": 306,
+      "decoded_types_covered_ge1": 228,
+      "decoded_types_covered_ge5": 130,
+      "bigram_coherence": 0.5603,
+      "bigram_coherence_unwrapped": 0.5444,
+      "per_window_mean": 0.5591,
+      "per_window_median": 0.5857,
+      "per_window_q1": 0.2431,
+      "per_window_q3": 1.0,
+      "per_window_mean_unwrapped": 0.5466,
+      "tail_share_ge7": 0.0416,
+      "ref_token_mass_per_token": 77.43
+    }
+  ],
+  "ref_arm": {
+    "windows": 974,
+    "wrapped_windows": 72
+  }
+}
