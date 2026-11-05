@@ -95,6 +95,15 @@ until the first tag is cut.
   composition outlier (lower ref-bigram coherence), not a small-sample
   effect; token-weighted half B below the null band. Successor half-split
   gates must preregister half-scale nulls.
+- 2026-11-05: L4-0010 (new claim, preregistered) - full-key-separation
+  gate v2 on fresh cell #5 (never measured before prereg): method byte-
+  for-byte L4-0009 (alpha frozen 0.5); gate adds matched-scale half
+  nulls (c1/c2), keeps the original full-scale half reading (c3), and
+  adds a token-weighted guard (d) - folding the sk9-B calibration
+  finding and the sk6-D/sk9-B metric-specificity finding. Dry-run of
+  the half-B composition diagnostic (post-hoc addendum to L4-0009):
+  B's deficit is bigram-support only (coherence 0.549 vs 0.572), wraps
+  and unigram support symmetric.
 
 ### Known gaps
 
