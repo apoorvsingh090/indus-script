@@ -75,7 +75,7 @@ def main() -> int:
         return 1
     ref = ref_all[:NREF]
     committed_key = make_key(V_U10, GATE_KEYS["committed"])
-    _, mp_committed = encipher(cyp_seqs, vocab, committed_key)
+    enc_full, mp_committed = encipher(cyp_seqs, vocab, committed_key)
     inv_committed = {v: k for k, v in mp_committed.items()}
     ref_bi = ref_bigrams(ref)
 
@@ -108,7 +108,9 @@ def main() -> int:
         main_full, sub_full, null_max_full, null_half_max, main_tw["committed"], tw_null_max)
 
     coherence = {}
-    for name, arm_seqs in (("A", cyp_seqs[:487]), ("B", cyp_seqs[487:]), ("full", cyp_seqs)):
+    for name, arm_seqs in (("A", enc_full[:487]), ("B", enc_full[487:]), ("full", enc_full)):
+        # ENCRYPTED arms decoded with the committed key (cipher side), as in
+        # the recovery: see L4-0009 diag_half_b convention.
         coherence[name] = round(bigram_coherence(arm_seqs, inv_committed, ref_bi), 4)
 
     same = (

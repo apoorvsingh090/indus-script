@@ -89,12 +89,15 @@ def main() -> int:
     flagsA, flagsB = my_f[:487], my_f[487:]
 
     committed_key = make_key(V_U10, GATE_KEYS["committed"])
-    _, mp_committed = encipher(cyp_seqs, vocab, committed_key)
+    enc_full, mp_committed = encipher(cyp_seqs, vocab, committed_key)
     inv_committed = {v: k for k, v in mp_committed.items()}
 
-    def coherence(name, cyp_arm, flags):
+    def coherence(name, cyp_arm_enc, flags):
+        # cyp_arm_enc MUST be the ENCRYPTED window sequence (cipher-side):
+        # decoded via the committed key's inverse, matched against the
+        # reference bigram inventory (L4-0009 diag_half_b convention).
         pairs, hits, unw_pairs, unw_hits = 0, 0, 0, 0
-        for s, wr in zip(cyp_arm, flags):
+        for s, wr in zip(cyp_arm_enc, flags):
             arm_pairs = list(zip(s, s[1:]))
             pairs += len(arm_pairs)
             hits += sum(1 for p, q in arm_pairs if (inv_committed[p], inv_committed[q]) in ref_bi)
@@ -102,8 +105,8 @@ def main() -> int:
                 unw_pairs += len(arm_pairs)
                 unw_hits += sum(1 for p, q in arm_pairs
                                 if (inv_committed[p], inv_committed[q]) in ref_bi)
-        return {"arm": name, "windows": len(cyp_arm), "wrapped_windows": sum(1 for f in flags if f),
-                "tokens": sum(len(s) for s in cyp_arm),
+        return {"arm": name, "windows": len(cyp_arm_enc), "wrapped_windows": sum(1 for f in flags if f),
+                "tokens": sum(len(s) for s in cyp_arm_enc),
                 "bigram_coherence_decoded_committed": round(hits / pairs, 4),
                 "bigram_coherence_unwrapped": round(unw_hits / unw_pairs, 4)}
 
@@ -179,9 +182,9 @@ def main() -> int:
                   "null_max_half": null_half_max,
                   "half_token_weighted": {"A": tw_half_nulls["A"], "B": tw_half_nulls["B"]}},
         "diagnostics": {"committed_key_decode": [
-            coherence("A", cyp_seqs[:487], flagsA),
-            coherence("B", cyp_seqs[487:], flagsB),
-            coherence("full", cyp_seqs, my_f)],
+            coherence("A", enc_full[:487], flagsA),
+            coherence("B", enc_full[487:], flagsB),
+            coherence("full", enc_full, my_f)],
             "note": "report-only; coherence decoded with committed key; wrap flags RNG-mirrored"},
         "band_margins": band,
         "band_flags": band_flags,

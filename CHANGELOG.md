@@ -104,6 +104,17 @@ until the first tag is cut.
   the half-B composition diagnostic (post-hoc addendum to L4-0009):
   B's deficit is bigram-support only (coherence 0.549 vs 0.572), wraps
   and unigram support symmetric.
+- 2026-11-05: L4-0010 results (draft) - gate v2 FAILS only at (c3),
+  the legacy un-calibrated full-scale half reading: committed 30/353
+  (0.0850) vs null_max_full 16/353 (1.88x), 3/3 keys replicate, token-
+  weighted guard passes 1.65x, and BOTH halves clear their matched-
+  scale nulls (A 10/353 exactly at the 1.25x margin vs its 8/353 null
+  - band-adjacent integer luck; B 39/353 decisively) - but half A
+  collapses under the legacy reading (0.625x). The weak half flips
+  vs cell #4 (B there, A here); decoded-bigram-coherence tracks
+  recovery direction per cell. Generator diag bug fixed post-run
+  (plaintext-arm coherence; report-only fields only, recovery data
+  untouched). Checker + skeptics pending.
 
 ### Known gaps
 

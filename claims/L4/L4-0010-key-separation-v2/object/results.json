@@ -1,0 +1,229 @@
+{
+  "cell": {
+    "pool_texts": [
+      728,
+      728
+    ],
+    "v_union": 353,
+    "wrap_ref": 0.060574948665297744,
+    "wrap_cyp": 0.09958932238193019
+  },
+  "method": {
+    "alpha": 0.5,
+    "alpha_policy": "frozen from prior cells; no dev sweep on this cell",
+    "restarts": 3,
+    "objective": "bigram LL + position-resolved positional LL (L4-0006 objective, unchanged)"
+  },
+  "dev_report_only": {
+    "key": "dev",
+    "n_ref": 500,
+    "top10_hits": 4,
+    "full": 0.06515580736543909,
+    "token_weighted": 0.04506534474988734
+  },
+  "main": {
+    "committed": {
+      "top10_hits": 6,
+      "full": 0.08498583569405099,
+      "token_weighted": 0.08562415502478594,
+      "start_used": 0,
+      "score": -37768.95149852951,
+      "accepted_swaps": 242
+    },
+    "alt1": {
+      "top10_hits": 4,
+      "full": 0.07932011331444759,
+      "token_weighted": 0.083596214511041,
+      "start_used": 1,
+      "score": -37979.28093774575,
+      "accepted_swaps": 315
+    },
+    "alt2": {
+      "top10_hits": 7,
+      "full": 0.1813031161473088,
+      "token_weighted": 0.1333934204596665,
+      "start_used": 1,
+      "score": -36543.63726257201,
+      "accepted_swaps": 337
+    }
+  },
+  "sampling_arm": {
+    "A": {
+      "top10_hits": 2,
+      "full": 0.028328611898016998,
+      "token_weighted": 0.02728085867620751,
+      "start_used": 0,
+      "score": -18992.40111446288,
+      "accepted_swaps": 225
+    },
+    "B": {
+      "top10_hits": 8,
+      "full": 0.11048158640226628,
+      "token_weighted": 0.09309718437783833,
+      "start_used": 0,
+      "score": -18097.372346721037,
+      "accepted_swaps": 232
+    }
+  },
+  "nulls": {
+    "full_accuracies": [
+      0.0453257790368272,
+      0.031161473087818695,
+      0.0226628895184136,
+      0.039660056657223795,
+      0.0169971671388102,
+      0.0339943342776204,
+      0.014164305949008499,
+      0.0169971671388102,
+      0.0339943342776204,
+      0.028328611898016998,
+      0.036827195467422094,
+      0.025495750708215296
+    ],
+    "full_token_weighted": [
+      0.031095087877422264,
+      0.018702118071203245,
+      0.014646237043713385,
+      0.03267237494366832,
+      0.02794051374493015,
+      0.052050473186119876,
+      0.015547543938711132,
+      0.030193780982424517,
+      0.033123028391167195,
+      0.03537629562866156,
+      0.03244704821991888,
+      0.027039206849932402
+    ],
+    "null_max_full": 0.0453257790368272,
+    "tw_null_max": 0.052050473186119876,
+    "half_accuracies_A": [
+      0.019830028328611898,
+      0.0226628895184136,
+      0.0169971671388102,
+      0.0169971671388102,
+      0.0113314447592068,
+      0.0169971671388102,
+      0.0113314447592068,
+      0.0113314447592068,
+      0.014164305949008499,
+      0.0226628895184136,
+      0.0169971671388102,
+      0.0169971671388102
+    ],
+    "half_accuracies_B": [
+      0.019830028328611898,
+      0.0113314447592068,
+      0.014164305949008499,
+      0.014164305949008499,
+      0.0226628895184136,
+      0.031161473087818695,
+      0.0226628895184136,
+      0.0226628895184136,
+      0.0169971671388102,
+      0.0113314447592068,
+      0.014164305949008499,
+      0.028328611898016998
+    ],
+    "null_max_half": {
+      "A": 0.0226628895184136,
+      "B": 0.031161473087818695
+    },
+    "half_token_weighted": {
+      "A": [
+        0.026386404293381037,
+        0.0259391771019678,
+        0.018336314847942754,
+        0.019230769230769232,
+        0.022808586762075134,
+        0.02101967799642218,
+        0.016547406082289804,
+        0.029069767441860465,
+        0.022361359570661897,
+        0.042486583184257604,
+        0.019230769230769232,
+        0.01699463327370304
+      ],
+      "B": [
+        0.019981834695731154,
+        0.018165304268846504,
+        0.035876475930971846,
+        0.011353315168029064,
+        0.09536784741144415,
+        0.02089009990917348,
+        0.01044504995458674,
+        0.014986376021798364,
+        0.021798365122615803,
+        0.016802906448683014,
+        0.010899182561307902,
+        0.03633060853769301
+      ]
+    }
+  },
+  "diagnostics": {
+    "committed_key_decode": [
+      {
+        "arm": "A",
+        "windows": 487,
+        "wrapped_windows": 49,
+        "tokens": 2236,
+        "bigram_coherence_decoded_committed": 0.6627,
+        "bigram_coherence_unwrapped": 0.6526
+      },
+      {
+        "arm": "B",
+        "windows": 487,
+        "wrapped_windows": 48,
+        "tokens": 2202,
+        "bigram_coherence_decoded_committed": 0.6741,
+        "bigram_coherence_unwrapped": 0.6753
+      },
+      {
+        "arm": "full",
+        "windows": 974,
+        "wrapped_windows": 97,
+        "tokens": 4438,
+        "bigram_coherence_decoded_committed": 0.6683,
+        "bigram_coherence_unwrapped": 0.6639
+      }
+    ],
+    "note": "report-only; coherence decoded with the committed key ON THE ENCRYPTED windows (bug fixed post-run: first shipped values were computed on plaintext arms); wrap flags RNG-mirrored"
+  },
+  "band_margins": {
+    "committed_vs_1.5x_full_counts": 6.0,
+    "weakest_key_vs_1.25x_counts": 8.0,
+    "halfA_vs_half_null_counts": 0.0,
+    "halfB_vs_half_null_counts": 25.25,
+    "weakest_half_vs_full_null_counts": -10.0,
+    "tw_committed_vs_1.25x_null_counts": 7.26
+  },
+  "band_flags": {
+    "committed_vs_1.5x_full_counts": false,
+    "weakest_key_vs_1.25x_counts": false,
+    "halfA_vs_half_null_counts": true,
+    "halfB_vs_half_null_counts": false,
+    "weakest_half_vs_full_null_counts": true,
+    "tw_committed_vs_1.25x_null_counts": false
+  },
+  "gate": {
+    "bar": "(a) committed>null_max_full & >=1.5x & >=0.060; (b) >=2/3 keys >=1.25x null_max_full; (c1) halfA >= 1.25x half-null; (c2) halfB >= 1.25x half-null; (c3) both halves >= 1.25x null_max_full; (d) token-weighted >= 1.25x null TW",
+    "checks": {
+      "committed_gt_null_max_full": true,
+      "committed_ge_1.5x_full": true,
+      "committed_ge_abs_floor": true,
+      "keys_replicated_ge_2": true,
+      "halfA_ge_1.25x_half_null": true,
+      "halfB_ge_1.25x_half_null": true,
+      "halves_both_ge_1.25x_full_null": false,
+      "token_weighted_ge_1.25x_null_tw": true
+    },
+    "keys_replicated": 3,
+    "null_max_full": 0.0453257790368272,
+    "null_max_half": {
+      "A": 0.0226628895184136,
+      "B": 0.031161473087818695
+    },
+    "tw_committed": 0.08562415502478594,
+    "tw_null_max": 0.052050473186119876,
+    "pass": false
+  }
+}
