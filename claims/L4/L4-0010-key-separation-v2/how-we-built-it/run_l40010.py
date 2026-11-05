@@ -23,8 +23,8 @@ sys.path.insert(0, str(ROOT / "claims" / "L4" / "L4-0003-bigram-assisted-key-rec
 
 from sumer_lib import encipher, fetch_zip, indus_lengths, make_key, sign_texts, windows  # noqa: E402
 from recover_lib import top10_hits  # noqa: E402
-from l40010_lib import (ALPHA, DEV_KEY_SEED, DEV_NREF, GATE_KEYS, K_NULLS, NREF,  # noqa: E402
-                        N_WINDOWS, RATIO_COMMITTED, RATIO_KEY, RATIO_TW, V_U10,
+from l40010_lib import (ALPHA, DEV_KEY_SEED, DEV_NREF, GATE_KEYS, KEY_SHAS, K_NULLS,  # noqa: E402
+                        NREF, N_WINDOWS, RATIO_COMMITTED, RATIO_KEY, RATIO_TW, V_U10,
                         WIN_CYP10, WIN_REF10, gate_verdict_v2, null_reference,
                         pools, recover_best, ref_bigrams, token_weighted)
 

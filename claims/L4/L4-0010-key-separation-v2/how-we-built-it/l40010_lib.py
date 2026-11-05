@@ -1,4 +1,4 @@
-"""L4-0010 — full-key-separation gate v2 on fresh cell #5.
+﻿"""L4-0010 â€” full-key-separation gate v2 on fresh cell #5.
 
 Successor to the verified-negative L4-0009, preregistered before any
 recovery on cell #5. Two skeptic-findings-driven design changes, each
@@ -8,24 +8,24 @@ best-of-3, same restart seeds) so results stay comparable.
 
 Cell: 1456 ETCSRI sign_texts shuffled Random(KEY_SEED+12000); pool A =
 first 728 (reference), pool B = rest (cipher); 974 windows each (seeds
-+12100/+12200), splits/v1 lengths; V_U10=377 union types. Keys:
++12100/+12200), splits/v1 lengths; V_U10=353 union types. Keys:
 committed=KEY_SEED+13000, alt1=+13001, alt2=+13002, dev=+13003 (shas in
 claim.yaml). Fresh against every prior cell (pool bases +7000/+8000/
 +10000, window bases +7100..+8200/+10100/+10200, key bases <= +11003).
 
-GATE v2 — full-key separation (all required):
+GATE v2 â€” full-key separation (all required):
   (a) committed full-key @974 > null_max_full AND >= 1.5*null_max_full
       AND >= 0.060 absolute floor (unchanged from L4-0009);
   (b) at least 2 of 3 gate keys @974 >= 1.25*null_max_full (unchanged);
   (c1) half A >= 1.25*null_max_half_A   [MATCHED-SCALE nulls: within-
        window permuted FULL 974 reference + the 487-window cipher
        subset, K=12, seeds 777000000+0..11 (same permutations as the
-       full battery), committed key, rank-init single-start — this is
+       full battery), committed key, rank-init single-start â€” this is
        the apples-to-apples control for the half arms, fixing the
        calibration flaw sk9-B exposed: L4-0009 compared 487-window arms
        against a 974-window null];
   (c2) half B >= 1.25*null_max_half_B (same construction, other half);
-  (c3) both halves >= 1.25*null_max_full — the L4-0009-as-filed reading,
+  (c3) both halves >= 1.25*null_max_full â€” the L4-0009-as-filed reading,
        kept as a REQUIRED condition so any PASS is robust under BOTH
        calibrations (disclosed: this condition is already known fragile
        on cell #4); and
@@ -36,7 +36,7 @@ GATE v2 — full-key separation (all required):
       1.45x, margin 1.25 disclosed round-below).
 null_max_full = max unweighted full-key over the K=12 full-scale nulls
 (as L4-0009). Top-10, dev arm, per-half wrap/coherence/mass diagnostics
-and cross-check margins are shipped report-only. The ±1-3/371 float
+and cross-check margins are shipped report-only. The Â±1-3/371 float
 band is tracked: every gated comparison is also shipped as a margin in
 type-count terms and flagged band-adjacent when < 3.
 """
@@ -58,7 +58,7 @@ from nmin_lib import build_stats  # noqa: E402
 POOL10 = KEY_SEED + 12000
 WIN_REF10 = KEY_SEED + 12100
 WIN_CYP10 = KEY_SEED + 12200
-V_U10 = 377
+V_U10 = 353
 N_WINDOWS = 974
 NREF = 974
 DEV_NREF = 500
@@ -67,10 +67,10 @@ HALF = 487
 GATE_KEYS = {"committed": KEY_SEED + 13000, "alt1": KEY_SEED + 13001, "alt2": KEY_SEED + 13002}
 DEV_KEY_SEED = KEY_SEED + 13003
 KEY_SHAS = {
-    "committed": "866846b5fb3b06c02242b435f45f4f519d1317d3747474854aa492a0397404a2",
-    "alt1": "f331716506844926bf45da511df589a4e440b70c555c2113aa9f3be5d306a602",
-    "alt2": "05130ed7f01621b9ed0254b49e67fcf5685cd367e934588421c28f8b9054eef0",
-    "dev": "5853b4374858d2d7c42aa83748e3734521b748100672949b5466af8830230946",
+    "committed": "56404ae87e7d6d7d9f6d41584a903525344598419cbf03fda7c730540e6d5605",
+    "alt1": "29dd1dfe13012a3603c3c88745ef8e8c765c0e7dc20a68d5626a2474441e3784",
+    "alt2": "b63bdb3b98a3b303f2b92bc1f2427870e21ac9e510749a0543eb307c7c7ef8ba",
+    "dev": "2745446506bae03bd5a512cc6d852c9913f0521ea64ce35b68cfa810c49eec3c",
 }
 NPOS = 8
 K_NULLS = 12
